@@ -1,0 +1,239 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+:root {
+  --color-bg: #eeeeee;
+  --color-bg-cards: #f5f5f5;
+  --color-text: #686868;
+  --color-text-button: #ffffff;
+
+  --color-green: #a1c049;
+  --color-orange: #d87e32;
+  --color-blue: #586eb0;
+  --color-darkblue: #394770;
+  --color-pink: #cc3577;
+  --color-pink-dark: #a32655; /* für button:hover etwas dunkleres Pink */
+
+  --font-body: "Source Sans 3", sans-serif;
+  --font-heading: "Source Sans 3", sans-serif;
+
+  --border-radius-btn: 5rem;
+  --border-radius-default: 1rem;
+  --box-shadow: 0px 1px 12px rgba(3, 7, 18, 0.1);
+
+  --padding: 2rem;
+  --section-gap: 6rem;
+  --max-width: 1200px;
+  --half-max-width: 600px;
+  --min-width: 300px;
+}
+
+html {
+  scroll-behavior: smooth; /* Sanftes Scrollen für Ankerlinks */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.outter-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  max-width: var(--max-width);
+  padding: var(--padding);
+}
+
+.outter-wrapper.section-gap {
+  gap: var(--section-gap);
+}
+
+/* INTRO SECTION: Mütter brauchen Energie. Viel Energie!
+======================================================================= */
+
+.intro-section-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.intro-section-container--text,
+.intro-section-container--image {
+  flex: 1;
+  min-width: var(--min-width);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.intro-section-container--image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: var(--border-radius-default);
+}
+
+/* KURKLINIKEN SECTION: Unsere Evangelischen Kurkliniken
+======================================================================= */
+
+#kurkliniken-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.kurkliniken-section-grid-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.kurkliniken-section-grid-container--element {
+  flex: 1;
+  min-width: var(--min-width);
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 0.75rem;
+  border-radius: var(--border-radius-default);
+  transition: transform 300ms ease;
+}
+
+.kurkliniken-section-grid-container--element:hover {
+  transform: scale(1.02);
+  transition: all 300ms ease-in;
+}
+
+.kurkliniken-section-grid-container--element a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  flex: 1;
+}
+
+.kurkliniken-section-grid-container--element--img {
+  aspect-ratio: 1/1;
+  border-radius: var(--border-radius-default);
+  display: flex;
+  flex-direction: column;
+}
+
+.kurkliniken-section-grid-container--element--text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+.mutter-kind-icons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  margin-top: auto;
+}
+
+.mutter-kind-icons-container--element {
+  background-color: white;
+  padding: 0.25rem;
+  border-radius: 100%;
+}
+
+/* USP SECTION: Das Besondere an unseren Kuren für Sie auf einen Blick
+======================================================================= */
+
+#usp-section {
+  margin-top: var(--section-gap);
+  background-image: url("/assets/images/hintergrundbild_usp.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.usp-section-content {
+  /* + outter-wrapper für Ausrichtung und Abstand*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.usp-section-content--button,
+.usp-section-content--container {
+  flex: 1;
+}
+
+.spenden-button-headline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.usp-section-content--button a {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 0.5rem;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  padding: 2rem;
+  width: 200px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  background-color: var(--color-pink);
+}
+
+.usp-section-content--button span {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.usp-section-content--container {
+  background-color: white;
+  border-radius: var(--border-radius-default);
+  box-shadow: 0px 1px 12px rgba(3, 7, 18, 0.1);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-width: var(--half-max-width);
+}
+
+.usp-section-content--container-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+/*.usp-section-content--container-grid > * 
+<= das heißt alle direkten Kinder von der Eltern-Klasse */
+.usp-section-content--container-grid--element {
+  flex: 1;
+  min-width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

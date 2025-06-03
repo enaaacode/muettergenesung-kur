@@ -1,0 +1,33 @@
+/* 
+Loßburg => color-green: #a1c049;
+Bad Wurzach => color-orange: #d87e32;
+Scheidegg => color-blue: #586eb0;
+*/
+
+/* diese Klasse füllt die img-container unter
+"Unsere Evangelischen Kurkliniken" auf der Startseite */
+.lossburg,
+.scheidegg,
+.bad-wurzach {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.lossburg {
+  color: var(--color-green);
+  background-image: url(/assets/images/titelbild_lossburg.png);
+}
+
+.lossburg-farbe {
+  color: var(--color-green);
+}
+
+.scheidegg {
+  color: var(--color-blue);
+  background-image: url(/assets/images/titelbild_scheidegg.png);
+}
+
+.bad-wurzach {
+  color: var(--color-orange);
+  background-image: url(/assets/images/titelbild_badwurzach.png);
+}

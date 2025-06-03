@@ -1,0 +1,118 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+  display: block; /* entfernt weißen Leerraum unter dem Bild */
+}
+
+/* NAVIGATION 
+======================================================================= */
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  list-style: none;
+  align-items: center;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 500;
+}
+
+.main-nav li a:hover {
+  transition: text-underline-offset 0.5s;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-color: var(--color-pink);
+  text-decoration-thickness: 0.25rem;
+}
+
+/* MOBIL NAVIGATION 
+======================================================================= */
+.burger-menue {
+  display: none;
+}
+
+/* Grundposition für Toggle und Icons */
+.nav-toggle {
+  display: none;
+}
+
+.burger-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 2000;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+/* Icons */
+.burger-toggle .burger-icon {
+  display: block;
+}
+.burger-toggle .close-icon {
+  display: none;
+}
+
+.close-icon {
+  color: white;
+}
+/* Umschalten via :checked */
+.nav-toggle:checked + .burger-toggle .burger-icon {
+  display: none;
+}
+.nav-toggle:checked + .burger-toggle .close-icon {
+  display: block;
+}
+/* Wenn toggle aktiv ist → Overlay zeigen */
+.nav-toggle:checked ~ .mobile-overlay {
+  display: block;
+}
+
+body:has(#nav-toggle:checked) {
+  overflow: hidden;
+}
+
+.mobile-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1500;
+  padding: 2rem;
+}
+
+/* Mobile Navigation */
+.mobile-nav ul {
+  margin-top: 1.5rem;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.mobile-nav a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}

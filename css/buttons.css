@@ -1,0 +1,69 @@
+button,
+.button {
+  all: unset;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.button.primary,
+.button.ghost {
+  border-radius: var(--border-radius-btn);
+  padding: 1rem 1.5rem;
+  color: white;
+  transition: all 300ms ease-out;
+}
+
+.button.primary {
+  background-color: var(--color-pink);
+}
+
+.button.ghost {
+  border: 1px solid white;
+}
+
+.button.ghost.blur {
+  backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.button.text {
+  color: var(--color-pink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* :HOOVER
+======================================================================= */
+
+.button.primary:hover,
+.usp-section-content--button a:hover {
+  background-color: var(--color-pink-dark);
+}
+
+.button.ghost:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.button.primary:hover,
+.button.ghost:hover,
+.usp-section-content--button a:hover {
+  transform: scale(1.02);
+  transition: all 300ms ease-in;
+}
+
+.button.text:hover {
+  color: var(--color-pink-dark);
+  text-decoration-color: var(--color-pink-dark);
+  text-decoration-style: dashed;
+}
+/* FOKUS-STYLING FÜR BARRIEREFREIHEIT 
+======================================================================= */
+
+a:focus,
+button:focus {
+  outline: 2px dashed var(--color-pink);
+  outline-offset: 4px;
+}

@@ -1,0 +1,51 @@
+/* FAQ SECTION + FOOTER
+======================================================================= */
+
+#faq-section {
+  background-color: var(--color-darkblue);
+  color: white;
+}
+
+footer {
+  background-color: rgb(29, 29, 29);
+}
+.faq-section--content {
+  gap: 1.5rem;
+}
+
+.footer-content {
+  gap: 1rem;
+}
+
+.faq-section--content,
+.footer-content {
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.faq-section--content p,
+.footer-content span {
+  max-width: 800px;
+}
+
+footer span {
+  color: rgb(185, 185, 185);
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer-nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-nav li a:hover {
+  text-decoration: underline;
+}

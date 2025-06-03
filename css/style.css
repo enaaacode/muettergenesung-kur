@@ -162,7 +162,7 @@ body {
 
 #usp-section {
   margin-top: var(--section-gap);
-  background-image: url("/assets/images/hintergrundbild_usp.png");
+  background-image: url("assets/images/hintergrundbild_usp.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

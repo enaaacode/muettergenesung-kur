@@ -15,7 +15,7 @@ Scheidegg => color-blue: #586eb0;
 }
 .lossburg {
   color: var(--color-green);
-  background-image: url("../images/titelbild_lossburg.png");
+  background-image: url("../assets/images/titelbild_lossburg.png");
 }
 
 .lossburg-farbe {
@@ -24,10 +24,10 @@ Scheidegg => color-blue: #586eb0;
 
 .scheidegg {
   color: var(--color-blue);
-  background-image: url("../images/titelbild_scheidegg.png");
+  background-image: url("../assets/images/titelbild_scheidegg.png");
 }
 
 .bad-wurzach {
   color: var(--color-orange);
-  background-image: url("../images/titelbild_badwurzach.png");
+  background-image: url("../assets/images/titelbild_badwurzach.png");
 }

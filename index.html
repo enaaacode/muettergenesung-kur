@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="css/typography.css" />
 
-    <script src="js/login.js"></script>
+    <!-- <script src="js/login.js"></script> -->
     <script src="js/script.js" defer></script>
   </head>
 
@@ -36,7 +36,7 @@
           />
         </div>
 
-        <nav class="desktop-nav" aria-label="Hauptnavigation (Desktop)">
+        <nav id="desktop-nav" aria-label="Hauptnavigation (Desktop)">
           <ul class="main-nav">
             <li><a href="index.html" aria-current="page">Startseite</a></li>
             <li><a href="kliniken.html">Unsere Kurkliniken</a></li>
@@ -47,19 +47,9 @@
           </ul>
         </nav>
 
-        <nav class="burger-menue">
-          <!-- Versteckte Checkbox als Toggle -->
-          <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
-
-          <!-- Burger-Button (Label für die Checkbox) -->
-          <label
-            for="nav-toggle"
-            class="burger-toggle"
-            aria-label="Menü öffnen/schließen"
-          >
-            <!-- Burger-Icon -->
+        <nav class="mobile-nav" aria-label="Hauptnavigation (Mobil)">
+          <button id="burger-icon" aria-label="Menü öffnen" class="icon-button">
             <svg
-              class="burger-icon"
               xmlns="http://www.w3.org/2000/svg"
               width="25"
               height="25"
@@ -69,46 +59,45 @@
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
-              aria-hidden="true"
             >
               <line x1="3" y1="6" x2="21" y2="6" />
               <line x1="3" y1="12" x2="21" y2="12" />
               <line x1="3" y1="18" x2="21" y2="18" />
             </svg>
+          </button>
 
-            <!-- X-Icon -->
-            <svg
-              class="close-icon"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              aria-hidden="true"
-            >
-              <line x1="18" y1="6" x2="6" y2="18" />
-              <line x1="6" y1="6" x2="18" y2="18" />
-            </svg>
-          </label>
-
-          <!-- Overlay-Menü -->
-          <div class="mobile-overlay">
-            <div class="outter-wrapper">
-              <nav class="mobile-nav" aria-label="Hauptnavigation (Mobil)">
-                <ul>
-                  <li><a href="index.html">Startseite</a></li>
-                  <li><a href="kliniken.html">Unsere Kurkliniken</a></li>
-                  <li><a href="weg-zur-kur.html">Ihr Weg zur Kur</a></li>
-                  <li><a href="ueber-uns.html">Über uns</a></li>
-                  <li><a href="gaestebuch.html">Gästebuch</a></li>
-                  <li><a href="kontakt.html">Kontakt</a></li>
-                </ul>
-              </nav>
+          <div id="mobile-overlay" class="outter-wrapper">
+            <div class="button-wrapper">
+              <button
+                id="close-icon"
+                aria-label="Menü schließen"
+                class="icon-button"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+              </button>
             </div>
+
+            <ul>
+              <li><a href="index.html">Startseite</a></li>
+              <li><a href="kliniken.html">Unsere Kurkliniken</a></li>
+              <li><a href="weg-zur-kur.html">Ihr Weg zur Kur</a></li>
+              <li><a href="ueber-uns.html">Über uns</a></li>
+              <li><a href="gaestebuch.html">Gästebuch</a></li>
+              <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
           </div>
         </nav>
       </header>

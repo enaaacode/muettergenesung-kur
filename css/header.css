@@ -43,68 +43,29 @@ header {
 
 /* MOBIL NAVIGATION 
 ======================================================================= */
-.burger-menue {
+.mobile-nav {
   display: none;
 }
 
-/* Grundposition für Toggle und Icons */
-.nav-toggle {
+#close-icon {
   display: none;
 }
 
-.burger-toggle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: none;
-  border: none;
-  cursor: pointer;
-  z-index: 2000;
-  position: relative;
-  width: 40px;
-  height: 40px;
-}
-
-/* Icons */
-.burger-toggle .burger-icon {
-  display: block;
-}
-.burger-toggle .close-icon {
-  display: none;
-}
-
-.close-icon {
-  color: white;
-}
-/* Umschalten via :checked */
-.nav-toggle:checked + .burger-toggle .burger-icon {
-  display: none;
-}
-.nav-toggle:checked + .burger-toggle .close-icon {
-  display: block;
-}
-/* Wenn toggle aktiv ist → Overlay zeigen */
-.nav-toggle:checked ~ .mobile-overlay {
-  display: block;
-}
-
-/* FIXME Das funktioniert noch nicht. Wenn ich das Overlay mit Esc schließe bleibt alles ausgeblendet  */
-body.menu-open main,
-body.menu-open footer,
-body.menu-open .logo {
-  display: none;
-}
-
-.mobile-overlay {
+#mobile-overlay {
   display: none;
   position: fixed;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.9);
-  z-index: 1500;
+  z-index: 5;
   padding: 2rem;
 }
 
-/* Mobile Navigation */
+#close-icon {
+  margin-top: 1rem;
+  color: white;
+  margin-left: auto;
+}
+
 .mobile-nav ul {
   margin-top: 1.5rem;
   list-style: none;

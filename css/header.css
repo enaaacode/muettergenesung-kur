@@ -88,8 +88,11 @@ header {
   display: block;
 }
 
-body:has(#nav-toggle:checked) {
-  overflow: hidden;
+/* FIXME Das funktioniert noch nicht. Wenn ich das Overlay mit Esc schließe bleibt alles ausgeblendet  */
+body.menu-open main,
+body.menu-open footer,
+body.menu-open .logo {
+  display: none;
 }
 
 .mobile-overlay {

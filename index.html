@@ -22,7 +22,8 @@
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="css/typography.css" />
 
-    <script src="js/script.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/script.js" defer></script>
   </head>
 
   <body>
@@ -35,7 +36,7 @@
           />
         </div>
 
-        <nav class="desktop-nav" aria-label="Hauptnavigation">
+        <nav class="desktop-nav" aria-label="Hauptnavigation (Desktop)">
           <ul class="main-nav">
             <li><a href="index.html" aria-current="page">Startseite</a></li>
             <li><a href="kliniken.html">Unsere Kurkliniken</a></li>
@@ -97,7 +98,7 @@
           <!-- Overlay-Menü -->
           <div class="mobile-overlay">
             <div class="outter-wrapper">
-              <nav class="mobile-nav">
+              <nav class="mobile-nav" aria-label="Hauptnavigation (Mobil)">
                 <ul>
                   <li><a href="index.html">Startseite</a></li>
                   <li><a href="kliniken.html">Unsere Kurkliniken</a></li>
@@ -117,7 +118,11 @@
       <section id="hero-section">
         <div class="hero-section-container fadein-animation">
           <div class="hero-section-container--text">
-            <img src="assets/icons/herz-hand.svg" alt="" width="100px" />
+            <img
+              src="assets/icons/herz-hand.svg"
+              alt="Symbol: Eine Hand hält ein Herz"
+              width="100px"
+            />
             <h1>
               <span>Herzlich Willkommen bei der</span>
               <br />Evangelischen Müttergenesung <br />in Württemberg
@@ -168,7 +173,10 @@
               </div>
             </div>
             <div class="intro-section-container--image">
-              <img src="assets/images/illustration_superkraft.svg" alt="" />
+              <img
+                src="assets/images/illustration_superkraft.svg"
+                alt="Illustration: Eine Frau mit Cape, Symbol für die Stärke von Müttern"
+              />
             </div>
           </div>
         </section>
@@ -354,7 +362,11 @@
       <section id="faq-section">
         <div class="faq-section--content outter-wrapper">
           <div>
-            <img src="assets/icons/flaticon/faq.png" alt="" width="80px" />
+            <img
+              src="assets/icons/flaticon/faq.png"
+              alt="Symbol: Fragezeichen"
+              width="80px"
+            />
             <h2>Häufig gestellte Fragen</h2>
           </div>
 
@@ -380,8 +392,15 @@
           <li><a href="datenschutz.html">Barrierefreiheit</a></li>
           <li><a href="datenschutz.html">Stellenanzeigen</a></li>
           <li>
-            <a href="datenschutz.html"
-              >Instagram
+            <a
+              href="https://example.com"
+              target="_blank"
+              title="Öffnet in neuem Tab"
+              rel="noopener noreferrer"
+              aria-label="Zur externen Seite – öffnet in neuem Tab"
+              class="instagram-link"
+            >
+              Instagram
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -402,6 +421,7 @@
             </a>
           </li>
         </ul>
+
         <span>
           Diese Seite wurde mit HTML, CSS und JavaScript gemacht. Ganz ohne
           unnötigen Schnickschnack. Einfach, funktional und umweltfreundlich.

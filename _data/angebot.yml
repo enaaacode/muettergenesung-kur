@@ -1,19 +1,19 @@
 - titel: "Ganzheitliche Behandlung"
-  bild: "{{'assets/images/angebot_ganzheitlich.jpg' | relative_url}}"
+  bild: "assets/images/angebot_ganzheitlich.jpg"
   alt: "Eine Frau und ein Mädchen gestalten zusammen ein Bild während der Kunsttherapie."
   beschreibung: "Wir berücksichtigen körperliche, seelische und soziale Belastungen und integrieren sie in Ihren individuellen Therapieplan – für eine nachhaltige gesundheitliche Stärkung."
 
 - titel: "Medizin & Gespräche"
-  bild: "{{'assets/images/angebot_reden.jpg' | relative_url}}"
+  bild: "assets/images/angebot_reden.jpg"
   alt: "Eine Ärztin und eine Patientin sitzen sich im Gespräch gegenüber."
   beschreibung: "Ihr Therapieplan enthält medizinische und physiotherapeutische Anwendungen sowie psychologische Einzel- oder Gruppengespräche – ergänzt durch Kunsttherapie oder Kurberatung."
 
 - titel: "Strukturierter Ablauf"
-  bild: "{{'assets/images/angebot_ablauf.jpg' | relative_url}}"
+  bild: "assets/images/angebot_ablauf.jpg"
   alt: "Eine Frau streckt sich zum Aufwärmen für den Sport in der Natur."
   beschreibung: "Die Kur verläuft über drei Wochen mit festen An- und Abreiseterminen. Das sorgt für klare Strukturen, gemeinsame Phasen und eine angenehme Gruppenatmosphäre."
 
 - titel: "Gesunde Ernährung"
-  bild: "{{'assets/images/angebot_essen.jpg | relative_url'}}"
+  bild: "assets/images/angebot_essen.jpg"
   alt: "Ein liebevoll angerichtetes Essen mit regionalen Zutaten."
   beschreibung: "Unsere Küche bietet vollwertige, frische Kost nach den Empfehlungen der DGE. Viele Zutaten stammen aus der Region. Auch vegetarische und leichte Kost sind möglich."

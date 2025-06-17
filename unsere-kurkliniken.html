@@ -17,7 +17,7 @@ description: "Erfahren Sie alles über unser ganzheitliches Gesundheitskonzept"
     <div class="intro-section-container">
       <div class="intro-section-container--image">
         <img
-          src="{'assets/images/tired-woman-concept-illustration/8447296.svg' | relative_url}"
+          src="{{'assets/images/tired-woman-concept-illustration/8447296.svg' | relative_url}}"
           alt="Illustration: Eine erschöpfte Frau sitz in einem Sessel."
         />
       </div>
@@ -54,7 +54,7 @@ description: "Erfahren Sie alles über unser ganzheitliches Gesundheitskonzept"
   <div class="outter-wrapper">
     <div class="simple-content-container">
       <div class="headline_eyebrow centered">
-        <img src="{'assets/icons/icon_siegel.svg' | relative_url}" alt="" />
+        <img src="{{'assets/icons/icon_siegel.svg' | relative_url}}" alt="" />
         <p class="eyebrow">Hohe Qualität ist uns wichtig</p>
         <h2>Zertifizierung und Qualität</h2>
       </div>
@@ -102,7 +102,7 @@ description: "Erfahren Sie alles über unser ganzheitliches Gesundheitskonzept"
       <div class="simple-content-container">
         <img
           class="zertifizierung-logo"
-          src="{{ item.logo }}"
+          src="{{ item.logo | relative_url}}"
           alt="{{ item.alt }}"
         />
       </div>
@@ -121,7 +121,7 @@ description: "Erfahren Sie alles über unser ganzheitliches Gesundheitskonzept"
   <div class="four-grid--container">
     {% for item in site.data.angebot %}
     <div class="kurkliniken-section-grid-container--element">
-      <img src="{{ item.bild }}" alt="{{ item.alt }}" />
+      <img src="{{ item.bild | relative_url}}" alt="{{ item.alt }}" />
       <div class="kurkliniken-section-grid-container--element--text">
         <h3>{{ item.titel }}</h3>
         <p>{{ item.beschreibung }}</p>

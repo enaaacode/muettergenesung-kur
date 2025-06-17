@@ -24,7 +24,7 @@
           <div class="three-column--container">
             <div class="simple-content-container centered">
               <img
-                src="{'/assets/icons/icon_klinik_kalender.svg' | relative_url}"
+                src="{{'/assets/icons/icon_klinik_kalender.svg' | relative_url}}"
                 alt="Symbol: Kalender"
                 width="150px"
               />
@@ -36,7 +36,7 @@
 
             <div class="simple-content-container centered">
               <img
-                src="{'/assets/icons/icon_klinik_ganzheitlich.svg' | relative_url}"
+                src="{{'/assets/icons/icon_klinik_ganzheitlich.svg' | relative_url}}"
                 alt="Symbol: Ganzheitlicher Ansatz"
                 width="150px"
               />
@@ -51,7 +51,7 @@
 
             <div class="simple-content-container centered">
               <img
-                src="{'/assets/icons/icon_klinik_kochen.svg' | relative_url}"
+                src="{{'/assets/icons/icon_klinik_kochen.svg' | relative_url}}"
                 alt="Symbol: Gesunde Küche"
                 width="150px"
               />
@@ -84,7 +84,7 @@
             <div
               class="kurtermine-section-grid-container--element impressionen"
             >
-              <img src="{{ item.bild }}" alt="{{ item.alt }}" />
+              <img src="{{ item.bild | relative_url }}" alt="{{ item.alt }}" />
             </div>
             {% endfor %}
           </div>
@@ -94,10 +94,14 @@
       <section class="flyer-download">
         <div class="download-flyer-container">
           <div class="simple-content-container download">
-            <img src="{{ page.icon }}" alt="Downloadsymbol" width="80px" />
+            <img
+              src="{{ page.icon | relative_url}}"
+              alt="Downloadsymbol"
+              width="80px"
+            />
             <h2>Sie wollen mehr erfahren?</h2>
             <a
-              href="/unsere-kurkliniken.html"
+              href="{{'/unsere-kurkliniken.html' | relative_url}}"
               class="button text download {{ page.class }}"
             >
               Hier erfahren Sie mehr über unser ganzheitliches

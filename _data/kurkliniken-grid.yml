@@ -4,7 +4,7 @@
   ort: "72290 Loßburg"
   beschreibung: "im Naturpark Schwarzwald"
   linktext: "Mehr über Loßburg erfahren"
-  linkurl: ""
+  linkurl: "kurklinik/lossburg/"
   icon-mutter: "/assets/icons/material_icons/face_3.svg"
   icon-kind: "/assets/icons/material_icons/child_care.svg"
   css-klasse: lossburg # Titelbild ist im CSS hinterlegt
@@ -15,7 +15,7 @@
   ort: "88175 Scheidegg"
   beschreibung: "im Allgäu"
   linktext: "Mehr über Scheidegg erfahren"
-  linkurl: ""
+  linkurl: "kurklinik/scheidegg/"
   icon-mutter: "/assets/icons/material_icons/face_3_scheidegg.svg"
   icon-kind: "/assets/icons/material_icons/child_care_scheidegg.svg"
   css-klasse: scheidegg # Titelbild ist im CSS hinterlegt
@@ -26,7 +26,7 @@
   ort: "88410 Bad Wurzach"
   beschreibung: "in Oberschwaben"
   linktext: "Mehr über Bad Wurzach erfahren"
-  linkurl: ""
+  linkurl: "kurklinik/bad-wurzach/"
   icon-mutter: "/assets/icons/material_icons/face_3_bad-wurzach.svg"
   icon-kind: ""
   css-klasse: bad-wurzach # Titelbild ist im CSS hinterlegt

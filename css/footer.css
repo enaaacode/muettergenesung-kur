@@ -1,7 +1,8 @@
 /* FAQ SECTION + FOOTER
 ======================================================================= */
 
-#faq-section {
+#faq-section,
+#beratungsstellen-section {
   background-color: var(--color-darkblue);
   color: white;
 }
@@ -13,19 +14,22 @@ footer {
   gap: 1.5rem;
 }
 
-.footer-content {
+.footer-content,
+.beratungsstellen-section--content {
   gap: 1rem;
 }
 
 .faq-section--content,
-.footer-content {
+.footer-content,
+.beratungsstellen-section--content {
   text-align: center;
   align-items: center;
   color: white;
 }
 
 .faq-section--content p,
-.footer-content span {
+.footer-content span,
+.beratungsstellen-section--content p {
   max-width: 800px;
 }
 
@@ -36,6 +40,7 @@ footer span {
 .footer-nav {
   list-style: none;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;

@@ -1,0 +1,14 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "" # the name of your site, e.g. ACME Corp.
+
+collections:
+  stellenanzeigen:
+    output: true
+    permalink: /stellenanzeigen/:name/
+  landingpage-einrichtung:
+    output: true
+    permalink: /kurklinik/:name/
+  rechtliches:
+    output: true
+    permalink: /:name/

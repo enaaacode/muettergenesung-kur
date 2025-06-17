@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    <main aria-label="Seiteninhalt">
+      <div class="headline_eyebrow centered">
+        <p class="eyebrow">Wir suchen Sie als</p>
+        <h1>{{page.titel}}</h1>
+        <p>in unserer Einrichtung in {{ page.klinik }} {{page.umfang}}</p>
+      </div>
+      <div class="outter-wrapper">
+        <section id="behandlungsschwerpunkt-section">
+          <div class="intro-section-container">
+            <div class="stellenanzeige-container">
+              {{ content }}
+
+              <p>Wir freuen uns auf Ihre Onlinebewerbung!</p>
+
+              <p>
+                <strong> Ansprechpartnerin:</strong>
+                {{page.ansprechpartnerin}} ({{page.position}})
+              </p>
+              <p>
+                <strong>E-Mail:</strong>
+                <a class="button text" href="mailto:{{page.mail}}"
+                  >{{page.mail}}</a
+                >
+              </p>
+            </div>
+            <div class="intro-section-container--image">(Illustration)</div>
+          </div>
+        </section>
+      </div>
+
+      <section id="gruende-fuer-uns">
+        <div class="outter-wrapper">
+          <div class="four-grid--container">
+            <div class="kurkliniken-section-grid-container--element">
+              <div class="kurkliniken-section-grid-container--element--text">
+                <h3>Was wir bieten:</h3>
+                <ul>
+                  <li>Ein Umfeld, in dem Sie sich weiterentwickeln können.</li>
+                  <li>Die Möglichkeit, einen wertvollen Beitrag zu leisten.</li>
+                  <li>Teamwork und einen wertschätzenden Umgang.</li>
+                  <li>Ehrliche Kommunikation.</li>
+                  <li>Ein vernünftiges Gehalt.</li>
+                  <li>Verschiedene Weiterbildungsmaßnahmen.</li>
+                  <li>Betriebliche Altersvorsorge.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="kurkliniken-section-grid-container--element">
+              <div class="kurkliniken-section-grid-container--element--text">
+                <h3>Sie passen zu uns, wenn Sie:</h3>
+                <ul>
+                  <li>Kraftspender*in sein möchten</li>
+                  <li>einen Beitrag zu #femaleempowerment leisten wollen</li>
+                  <li>sich stetig weiterentwickeln und verbessern möchten</li>
+                  <li>wissbegierig, neugierig und äußerst motiviert sind</li>
+                  <li>mit Leidenschaft und Begeisterung bei der Arbeit sind</li>
+                  <li>
+                    eine Macher*innen-Einstellung haben und in Lösungen denken
+                  </li>
+                  <li>agil, schnell, pragmatisch und Teamplayer*in sind</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="kurkliniken-section-grid-container--element">
+              <div class="kurkliniken-section-grid-container--element--text">
+                <h3>Wie ist es, bei uns zu arbeiten?</h3>
+                <p>
+                  Wir arbeiten mit einem sehr gut ausgearbeiteten
+                  Qualitätsmanagement und haben konkrete Ziele. Durch die
+                  3-wöchige Anreise der Kurgruppen, haben wir in kurzen
+                  Abständen immer wieder die Möglichkeit, Prozesse schnell und
+                  flexibel anzupassen. Sie haben von Anfang an viel
+                  Verantwortung und können einiges mitgestalten. Bei uns gibt es
+                  regelmäßigen Austausch im interdisziplinären Team.
+                </p>
+              </div>
+            </div>
+
+            <div class="kurkliniken-section-grid-container--element">
+              <div class="kurkliniken-section-grid-container--element--text">
+                <h3>Wie wir ticken</h3>
+                <p>
+                  Den Grundpfeiler unserer Arbeit bildet ein ganzheitliches
+                  Gesundheitskonzept. Die Gesundheit unserer Patientinnen ist
+                  für uns absolut im Vordergrund. Unsere Unternehmenskultur ist
+                  geprägt von Aufmerksamkeit, Achtsamkeit und Fürsorge. Wir
+                  setzen um, testen, lernen. Wir sind schnell, aber nicht
+                  hastig. Wir sind pragmatisch und gleichzeitig sorgfältig.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Kurkliniken Übersicht -->
+
+      <section id="kurkliniken-section" class="outter-wrapper">
+        <div class="headline_eyebrow centered">
+          <p class="eyebrow">Gesundheit, Prävention und Rehabilitation</p>
+          <h2>Unsere Evangelischen Kurkliniken</h2>
+        </div>
+
+        <div class="kurkliniken-section-grid-container">
+          {% for item in site.data.kurkliniken-grid %}
+
+          <div class="kurkliniken-section-grid-container--element">
+            <a href="{{ item.linkurl }}">
+              <div
+                class="kurkliniken-section-grid-container--element--img {{ item.css-klasse }}"
+              >
+                <div class="mutter-kind-icons-container">
+                  <img class="mutter-kind-icons-container--element" src= "{{
+                  item.icon-mutter }}"" alt="" /> {% if item.icon-kind != "" %}
+                  <img
+                    class="mutter-kind-icons-container--element"
+                    src="{{ item.icon-kind }}"
+                    alt=""
+                  />
+                  {% endif %}
+                </div>
+              </div>
+
+              <div class="kurkliniken-section-grid-container--element--text">
+                <h3>{{ item.titel }}</h3>
+                <p>{{ item.beschreibung }}</p>
+
+                <div class="button text">{{ item.linktext }}&nbsp;&rarr;</div>
+              </div>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      {% include section-spenden.html %}
+    </main>
+    <footer role="contentinfo">{% include footer.html %}</footer>
+  </body>
+</html>

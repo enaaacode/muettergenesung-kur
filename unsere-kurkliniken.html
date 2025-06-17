@@ -1,0 +1,216 @@
+---
+layout: startseite
+title: "Unsere Kurkliniken im Überblick – Evangelische Müttergenesung in Württemberg"
+description: "Erfahren Sie alles über unser ganzheitliches Gesundheitskonzept"
+---
+
+<div class="headline-wrapper">
+  <div class="headline_eyebrow centered">
+    <!-- <p class="eyebrow">Ein Überblick unserer Angebote</p> -->
+    <h1>Unser ganzheitliches Gesundheitskonzept</h1>
+  </div>
+</div>
+
+<!-- INTRO Section mit Illustration und Behandlungsschwerpunkt -->
+<div class="outter-wrapper">
+  <section id="behandlungsschwerpunkt-section">
+    <div class="intro-section-container">
+      <div class="intro-section-container--image">
+        <img
+          src="assets/images/tired-woman-concept-illustration/8447296.svg"
+          alt="Illustration: Eine erschöpfte Frau sitz in einem Sessel."
+        />
+      </div>
+      <div class="intro-section-container--text">
+        <div class="simple-content-container">
+          <div class="headline_eyebrow">
+            <p class="eyebrow">Unser Behandlungsschwerpunkt</p>
+            <h2>Erschöpfung</h2>
+          </div>
+
+          <p>
+            Unser Behandlungsschwerpunkt liegt auf Erschöpfungszuständen und
+            psycho-somatischen Gesundheitsstörungen in Zusammenhang mit
+            familiären, frauenspezifischen Belastungen.
+          </p>
+          <p>
+            Weitere Indikationen, die mit der Erschöpfung einhergehen können und
+            in unserm Haus behandelt werden, sind z. B.:
+          </p>
+
+          <ul>
+            {% for item in site.data.indikationen %}
+            <li>{{ item.beschreibung }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- Zertifizierung und Qualität -->
+<section id="zertifizierungen">
+  <div class="outter-wrapper">
+    <div class="simple-content-container">
+      <div class="headline_eyebrow centered">
+        <img src="assets/icons/icon_siegel.svg" alt="" />
+        <p class="eyebrow">Hohe Qualität ist uns wichtig</p>
+        <h2>Zertifizierung und Qualität</h2>
+      </div>
+      <div class="two-column-text--container">
+        <div class="two-column-text--container--text">
+          <p>
+            Unsere Einrichtungen und ihr ganzheitlicher Behandlungsansatz haben
+            bei Beratungsstellen, Krankenkassen und Familien über die
+            Landesgrenzen hinaus einen ausgezeichneten Ruf und ein hohes
+            Ansehen.
+          </p>
+          <p>Seit 2016 sind wir zertifiziert nach:</p>
+          <ul>
+            <li>DIN EN ISO9001:2015</li>
+            <li>MGW-Qualitätssiegel</li>
+            <li>
+              Diakonie-Siegel "Vorsorge und Rehabilitation für
+              Mütter/Mutter-Kind"
+            </li>
+          </ul>
+        </div>
+        <div class="two-column-text--container--text">
+          <p>
+            Als anerkannte Einrichtung des Deutschen Müttergenesungswerks
+            erfüllen wir ebenfalls die BAR-Anforderungen nach § 20 II a SGB IX
+          </p>
+          <p>
+            Für die Arbeit der Einrichtung in Scheidegg ist uns zusätzlich im
+            Juli 2018 erneut das AOK-Gütesiegel der AOK Bayern verliehen worden.
+          </p>
+
+          <p>
+            Die Zertifizierungsgesellschaft proCum Cert bestätigt uns in ihrem
+            Bericht über die Begutachtung der Systemförderung 2022 , dass das
+            etablierte Qualitätsmanagement auf einem sehr hohen Niveau gehalten
+            wird. Sie hebt hervor, dass ein sehr hohes Engagement und hohe
+            soziale und fachliche Kompetenz der Leitungen und der
+            Mitarbeiter*innen in den Kliniken festgestellt wurde.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="three-column--container">
+      {% for item in site.data.zertifizierungen %}
+      <div class="simple-content-container">
+        <img
+          class="zertifizierung-logo"
+          src="{{ item.logo }}"
+          alt="{{ item.alt }}"
+        />
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Unser Angebot im Überblick -->
+<section id="unser-Angebot" class="outter-wrapper">
+  <div class="headline_eyebrow centered">
+    <p class="eyebrow">Bei uns sind Sie in guten Händen</p>
+    <h2>Unser Angebot</h2>
+  </div>
+
+  <div class="four-grid--container">
+    {% for item in site.data.angebot %}
+    <div class="kurkliniken-section-grid-container--element">
+      <img src="{{ item.bild }}" alt="{{ item.alt }}" />
+      <div class="kurkliniken-section-grid-container--element--text">
+        <h3>{{ item.titel }}</h3>
+        <p>{{ item.beschreibung }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Spiritualität und christliches Profil -->
+<section id="christliches-profil">
+  <div class="outter-wrapper">
+    <div class="simple-content-container">
+      <div class="headline_eyebrow centered">
+        <img src="assets/icons/icon_christlich.svg" alt="" />
+        <p class="eyebrow">Unser Selbstverständnis</p>
+        <h2>Spiritualität und christliches Profil</h2>
+      </div>
+      <div class="two-column-text--container">
+        <div class="two-column-text--container--text">
+          <p>
+            Die Belegung im Haus ist konfessions- und religionsunabhängig. Wir
+            heißen bei uns alle Menschen Willkommen. Doch ausgehend vom
+            christlichen Menschenbild basiert unsere professionelle Arbeit mit
+            Frauen und Kindern auf der Überzeugung, dass der christliche Glaube
+            eine Kraftquelle ist.
+          </p>
+          <p>
+            Aus diesem Verständnis heraus schaffen wir Angebote und Raum, die
+            eigene Identität zu stärken. In unserem Haus haben Ihre Fragen nach
+            Lebenssinn, religiösem Suchen und spirituelle Bedürfnisse einen
+            Platz und wir sind Ihre Ansprechpartnerinnen.
+          </p>
+        </div>
+        <div class="two-column-text--container--text">
+          <p>
+            Durch Ihr Erleben von lebendiger Gemeinschaft, Zuwendung, Fürsorge
+            und Wertschätzung, können Sie wieder Freude, Zuversicht und
+            Lebenszufriedenheit finden.
+          </p>
+          <p>Unsere Angebote:</p>
+
+          <ul>
+            <li>Gespräche zu Lebens- und Glaubensfragen</li>
+            <li>Besinnungen</li>
+            <li>Seelsorge</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="outter-wrapper">
+  <section id="kurkliniken-section">
+    <div class="headline_eyebrow centered">
+      <p class="eyebrow">Gesundheit, Prävention und Rehabilitation</p>
+      <h2>Unsere Evangelischen Kurkliniken</h2>
+    </div>
+
+    <div class="kurkliniken-section-grid-container">
+      {% for item in site.data.kurkliniken-grid %}
+
+      <div class="kurkliniken-section-grid-container--element">
+        <a href="{{ item.linkurl }}">
+          <div
+            class="kurkliniken-section-grid-container--element--img {{ item.css-klasse }}"
+          >
+            <div class="mutter-kind-icons-container">
+              <img class="mutter-kind-icons-container--element" src= "{{
+              item.icon-mutter }}"" alt="" /> {% if item.icon-kind != "" %}
+              <img
+                class="mutter-kind-icons-container--element"
+                src="{{ item.icon-kind }}"
+                alt=""
+              />
+              {% endif %}
+            </div>
+          </div>
+
+          <div class="kurkliniken-section-grid-container--element--text">
+            <h3>{{ item.titel }}</h3>
+            <p>{{ item.beschreibung }}</p>
+
+            <div class="button text">{{ item.linktext }}&nbsp;&rarr;</div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>

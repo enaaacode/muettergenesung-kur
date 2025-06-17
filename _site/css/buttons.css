@@ -1,0 +1,138 @@
+button,
+.button {
+  all: unset;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.button.primary,
+.button.ghost {
+  border-radius: var(--border-radius-btn);
+  padding: 1rem 1.5rem;
+  color: white;
+  transition: all 300ms ease-out;
+}
+
+.button.primary {
+  background-color: var(--color-pink);
+}
+
+.button.ghost {
+  border: 1px solid white;
+}
+
+.button.ghost.blur {
+  backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.button.text {
+  color: var(--color-pink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.button.text.download {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  justify-content: center;
+}
+
+.button.text.download.lossburg {
+  background-image: none;
+  color: var(--color-green);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.button.text.download.scheidegg {
+  background-image: none;
+  color: var(--color-blue);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.button.text.download.badwurzach {
+  background-image: none;
+  color: var(--color-orange);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* :HOOVER
+======================================================================= */
+
+.button.primary:hover,
+.usp-section-content--button a:hover {
+  background-color: var(--color-pink-dark);
+}
+
+.button.ghost:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.button.primary:hover,
+.button.ghost:hover,
+.usp-section-content--button a:hover {
+  transform: scale(1.02);
+  transition: all 300ms ease-in;
+}
+
+.button.text:hover {
+  color: var(--color-pink-dark);
+  text-decoration-color: var(--color-pink-dark);
+  text-decoration-style: dashed;
+}
+
+.button.text.download.lossburg:hover,
+.button.text.download.scheidegg:hover,
+.button.text.download.badwurzach:hover {
+  font-weight: bold;
+  text-decoration-style: dashed;
+}
+/* FOKUS-STYLING FÜR BARRIEREFREIHEIT 
+======================================================================= */
+
+a:focus,
+button:focus {
+  outline: 2px dashed var(--color-pink);
+  outline-offset: 4px;
+}
+
+/* KURTERMIN FILTER
+======================================================================= */
+
+.kurtermine-filter {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.kurtermine-filter button[data-filter] {
+  font-size: 0.85rem;
+  cursor: pointer;
+  border: solid 1.5px grey;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius-btn);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25em;
+}
+
+.kurtermine-filter button[data-filter]:hover {
+  color: var(--color-pink);
+  border-color: var(--color-pink);
+  transform: scale(1.03);
+}
+
+.kurtermine-filter button[data-filter].active {
+  color: var(--color-pink);
+  border-color: var(--color-pink);
+  font-weight: bold;
+}

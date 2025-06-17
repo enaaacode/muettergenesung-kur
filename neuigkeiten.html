@@ -1,0 +1,38 @@
+---
+layout: startseite
+title: "Kurtermine für Loßburg, Scheidegg und Bad Wurzach – Evangelische Müttergenesung in Württemberg"
+description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
+---
+
+<div class="headline-wrapper">
+  <div class="headline_eyebrow centered">
+    <h1>Neues aus der Müttergenesung</h1>
+  </div>
+</div>
+
+<div class="outter-wrapper">
+  <div class="kurtermine-section-grid-container">
+    {% for post in site.posts %}
+    <div class="kurtermine-section-grid-container--element">
+      <div class="kurkliniken-section-grid-container--element--blog-img">
+        <img src="{{post.bild}}" alt="" />
+      </div>
+      <div class="kurkliniken-section-grid-container--element--text">
+        <small
+          >{{post.datum}} / {% assign words = post.content | number_of_words %}
+          {% assign minutes = words | divided_by:150 %} {% if minutes < 1 %}
+          Lesedauer: 1 Min {% else %} Lesedauer: {{ minutes }} Min {% endif %}
+        </small>
+
+        <h3>{{post.titel}}</h3>
+        <p>in {{post.teaser}}</p>
+
+        <a href="{{ post.url }}" class="button text"
+          >Beitrag lesen&nbsp;&rarr;</a
+        >
+      </div>
+    </div>
+
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    <main aria-label="Seiteninhalt">
+      <div class="headline-wrapper">
+        <div class="headline_eyebrow centered">
+          <p class="eyebrow mutter-kind-icon" style="color: {{ page.farbe }}">
+            Gesundheit, Prävention und Rehabilitation
+          </p>
+          <h1>
+            {{ page.titel }}<br />
+            <span>{{ page.subline }}</span>
+          </h1>
+          <p>{{ page.info }}</p>
+        </div>
+      </div>
+      <div class="outter-wrapper section-gap">
+        <!-- 3 Kacheln mit den Fakten auf einen Blick -->
+        <section class="kurklinik-einleitung-section">
+          <div class="three-column--container">
+            <div class="simple-content-container centered">
+              <img
+                src="/assets/icons/icon_klinik_kalender.svg"
+                alt="Symbol: Kalender"
+                width="150px"
+              />
+              <p class="p-usp mutter-kind-icon icon-{{page.class}}">
+                3 Wochen Kuraufenthalt
+              </p>
+              <p>Mit gemeinsamen An- und Abreiseterminen.</p>
+            </div>
+
+            <div class="simple-content-container centered">
+              <img
+                src="/assets/icons/icon_klinik_ganzheitlich.svg"
+                alt="Symbol: Ganzheitlicher Ansatz"
+                width="150px"
+              />
+              <p class="p-usp mutter-kind-icon  icon-{{page.class}}">
+                Ganzheitlicher Ansatz
+              </p>
+              <p>
+                Berücksichtigung körperlicher, seelischer und sozialer
+                Belastungen.
+              </p>
+            </div>
+
+            <div class="simple-content-container centered">
+              <img
+                src="/assets/icons/icon_klinik_kochen.svg"
+                alt="Symbol: Gesunde Küche"
+                width="150px"
+              />
+              <p class="p-usp mutter-kind-icon  icon-{{page.class}}">
+                Vollwertige Küche
+              </p>
+              <p>
+                Gesunde, frische und möglichst regionale Kost nach den
+                Empfehlungen der DGE.
+              </p>
+            </div>
+          </div>
+
+          <!-- Text/Einleitung zur jeweiligen Einrichtung -->
+          <div class="two-column-text--container">
+            <div class="text-columns">{{ content }}<br /></div>
+          </div>
+        </section>
+
+        <!-- Impressionen / Bildergalerie -->
+        <section class="bildergalerie-section">
+          <div class="headline_eyebrow centered">
+            <p class="eyebrow mutter-kind-icon" style="color: {{ page.farbe }}">
+              Weil Bilder oft mehr sagen als Worte
+            </p>
+            <h2>Impressionen aus Loßburg</h2>
+          </div>
+          <div class="kurtermine-section-grid-container">
+            {% for item in site.data.lossburg %}
+            <div
+              class="kurtermine-section-grid-container--element impressionen"
+            >
+              <img src="{{ item.bild }}" alt="{{ item.alt }}" />
+            </div>
+            {% endfor %}
+          </div>
+        </section>
+      </div>
+      <!-- Sie wollen mehr erfahren -->
+      <section class="flyer-download">
+        <div class="download-flyer-container">
+          <div class="simple-content-container download">
+            <img src="{{ page.icon }}" alt="Downloadsymbol" width="80px" />
+            <h2>Sie wollen mehr erfahren?</h2>
+            <a
+              href="/unsere-kurkliniken.html"
+              class="button text download {{ page.class }}"
+            >
+              Hier erfahren Sie mehr über unser ganzheitliches
+              Gesundheitskonzept&nbsp;&rarr;
+            </a>
+            <p>
+              Für weitere Informationen über die Einrichtung in Loßburg können
+              Sie gerne einen Blick in unsere PDF-Broschüre werfen. Dort finden
+              Sie die wichtigsten Informationen zusammengefasst.
+            </p>
+
+            <a
+              href="{{page.download}}"
+              class="button text download {{ page.class }}"
+              download
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+                focusable="false"
+                role="img"
+              >
+                <title>Download</title>
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Broschüre jetzt herunterladen
+            </a>
+          </div>
+        </div>
+      </section>
+      {% include section-faq.html %}
+    </main>
+    <footer role="contentinfo">{% include footer.html %}</footer>
+  </body>
+</html>

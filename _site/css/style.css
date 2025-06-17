@@ -1,0 +1,495 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+li {
+  margin-left: 1rem;
+}
+
+li::marker {
+  color: var(--color-pink);
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+a {
+  color: var(--color-pink);
+}
+
+a:hover {
+  color: var(--color-pink-dark);
+  text-decoration-color: var(--color-pink-dark);
+  text-decoration-style: dashed;
+}
+
+:root {
+  --color-bg: #eeeeee;
+  --color-bg-cards: #f5f5f5;
+  --color-text: #686868;
+  --color-text-button: #ffffff;
+
+  --color-green: #a1c049;
+  --color-orange: #d87e32;
+  --color-blue: #586eb0;
+  --color-darkblue: #394770;
+  --color-pink: #cc3577;
+  --color-pink-dark: #a32655; /* für button:hover etwas dunkleres Pink */
+
+  --font-body: "Source Sans 3", sans-serif;
+  --font-heading: "Source Sans 3", sans-serif;
+
+  --border-radius-btn: 5rem;
+  --border-radius-default: 1rem;
+  --box-shadow: 0px 1px 12px rgba(3, 7, 18, 0.1);
+
+  --padding: 2rem;
+  --section-gap: 6rem;
+  --max-width: 1200px;
+  --half-max-width: 600px;
+  --min-width: 300px;
+}
+
+html {
+  scroll-behavior: smooth; /* Sanftes Scrollen für Ankerlinks */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.outter-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  max-width: var(--max-width);
+  padding: var(--padding);
+}
+
+.outter-wrapper.section-gap {
+  gap: var(--section-gap);
+}
+
+.headline-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: var(--max-width);
+  padding: 0 var(--padding);
+}
+
+/* INTRO SECTION: Mütter brauchen Energie. Viel Energie!
+======================================================================= */
+
+.intro-section-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.intro-section-container--text,
+.intro-section-container--image {
+  flex: 1;
+  min-width: var(--min-width);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.intro-section-container--image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  border-radius: var(--border-radius-default);
+}
+
+/* KURKLINIKEN SECTION: Unsere Evangelischen Kurkliniken
+======================================================================= */
+
+#kurkliniken-section,
+#unser-Angebot,
+#kurtermine,
+.bildergalerie-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.kurkliniken-section-grid-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.kurkliniken-section-grid-container--element {
+  flex: 1;
+  min-width: var(--min-width);
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 0.75rem;
+  border-radius: var(--border-radius-default);
+  transition: transform 300ms ease;
+}
+
+#kurkliniken-section .kurkliniken-section-grid-container--element:hover {
+  transform: scale(1.02);
+  transition: all 300ms ease-in;
+}
+
+.kurkliniken-section-grid-container--element a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  flex: 1;
+}
+
+.kurkliniken-section-grid-container--element--img {
+  aspect-ratio: 1/1;
+  border-radius: var(--border-radius-default);
+  display: flex;
+  flex-direction: column;
+}
+
+.kurkliniken-section-grid-container--element--text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
+  justify-content: flex-start;
+}
+
+.kurkliniken-section-grid-container--element--text.centered {
+  align-items: center;
+  text-align: center;
+}
+
+.mutter-kind-icons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+#kurkliniken-section .mutter-kind-icons-container {
+  margin-top: auto;
+}
+
+.mutter-kind-icons-container.centered {
+  justify-content: center;
+}
+
+.mutter-kind-icons-container--element {
+  background-color: white;
+  padding: 0.25rem;
+  border-radius: 100%;
+}
+
+/* USP SECTION: Das Besondere an unseren Kuren für Sie auf einen Blick
+======================================================================= */
+
+#usp-section {
+  margin-top: var(--section-gap);
+  background-image: url("../assets/images/hintergrundbild_usp.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.usp-section-content {
+  /* + outter-wrapper für Ausrichtung und Abstand*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.usp-section-content--button,
+.usp-section-content--container {
+  flex: 1;
+}
+
+.spenden-button-headline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.usp-section-content--button a {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 0.5rem;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  padding: 2rem;
+  width: 200px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  background-color: var(--color-pink);
+}
+
+.usp-section-content--button span {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.usp-section-content--container {
+  background-color: white;
+  border-radius: var(--border-radius-default);
+  box-shadow: 0px 1px 12px rgba(3, 7, 18, 0.1);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-width: var(--half-max-width);
+}
+
+.usp-section-content--container-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+/*.usp-section-content--container-grid > * 
+<= das heißt alle direkten Kinder von der Eltern-Klasse */
+.usp-section-content--container-grid--element {
+  flex: 1;
+  min-width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Diverse Layout-Elemente
+======================================================================= */
+
+.simple-content-container.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.25rem;
+}
+
+.simple-content-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: white;
+  border-radius: var(--border-radius-default);
+  padding: 2rem;
+}
+
+.icon-and-text--container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.icon-and-text--container-icon img {
+  width: 70px;
+  height: auto;
+}
+
+/* HINTERGRUND BEREICHE 
+======================================================================= */
+
+#zertifizierungen,
+#christliches-profil {
+  padding: var(--section-gap) 0;
+  margin: var(--padding) 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#zertifizierungen {
+  background-image: url("/assets/images/hintergrundbild_zertifizierung.jpg");
+}
+
+#christliches-profil {
+  background-image: url("/assets/images/hintergrundbild_christlichesprofil.jpg");
+}
+
+@media (max-width: 700px) {
+  #zertifizierungen,
+  #christliches-profil {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* SPALTEN UND GRIDS   
+======================================================================= */
+
+.two-column-text--container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.two-column-text--container--text {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.three-column--container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.zertifizierung-logo {
+  max-width: 100%;
+  height: auto;
+  min-width: 200px;
+  aspect-ratio: 9 /6;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.four-grid--container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 700px) {
+  .four-grid--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.four-grid--container img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  object-fit: contain;
+  border-radius: var(--border-radius-default);
+}
+
+.kurkliniken-section-grid-container--element:hover {
+  transform: scale(1.02);
+  transition: all 300ms ease-in;
+}
+
+.kurtermine-section-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 1100px) {
+  .kurtermine-section-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 700px) {
+  .kurtermine-section-grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.kurtermine-section-grid-container--element {
+  flex: 1;
+  min-width: var(--min-width);
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 0.75rem;
+  border-radius: var(--border-radius-default);
+}
+
+.kurtermine-section-grid-container--element.impressionen {
+  padding: 0;
+  aspect-ratio: 1/1;
+}
+
+.kurtermine-section-grid-container--element.impressionen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: var(--border-radius-default);
+}
+
+.kurtermine-section-grid-container--element a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  flex: 1;
+}
+
+.stellenanzeige-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 2rem;
+  gap: 0.5rem;
+  border-radius: var(--border-radius-default);
+}
+
+/* BLOG 
+======================================================================= */
+
+.kurkliniken-section-grid-container--element--blog-img {
+  width: 100%;
+  aspect-ratio: 9/6;
+}
+
+.kurkliniken-section-grid-container--element--blog-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: var(--border-radius-default);
+}
+
+/* RECHTLICHE UNTERSEITEN 
+======================================================================= */
+
+.container-rechtliches {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 800px;
+}

@@ -1,0 +1,76 @@
+/* FAQ SECTION + FOOTER
+======================================================================= */
+
+#faq-section,
+#beratungsstellen-section {
+  background-color: var(--color-darkblue);
+  color: white;
+}
+
+footer {
+  background-color: rgb(29, 29, 29);
+}
+.faq-section--content {
+  gap: 1.5rem;
+}
+
+.footer-content,
+.beratungsstellen-section--content {
+  gap: 1rem;
+}
+
+.faq-section--content,
+.footer-content,
+.beratungsstellen-section--content {
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.faq-section--content p,
+.footer-content span,
+.beratungsstellen-section--content p {
+  max-width: 800px;
+}
+
+footer span {
+  color: rgb(185, 185, 185);
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer-nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-nav li a:hover {
+  text-decoration: underline;
+}
+
+.instagram-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

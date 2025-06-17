@@ -1,0 +1,88 @@
+---
+layout: startseite
+title: "Kontakt – Evangelische Müttergenesung in Württemberg"
+description: "Kontakt zur Geschäftsstelle der Evangelische Müttergenesung in Württemberg und den Einrichtungen in Bad Wurzach, Loßburg und Scheidegg"
+---
+
+<div class="headline-wrapper">
+  <div class="headline_eyebrow centered">
+    <h1>Kontakt</h1>
+  </div>
+</div>
+
+<div class="outter-wrapper section-gap">
+  <section id="intro-section ">
+    <div class="intro-section-container">
+      <div class="intro-section-container--text">
+        <div class="headline_eyebrow">
+          <p class="eyebrow">Bei der Geschäftsstelle</p>
+          <h2>Anmeldung und Terminabsprache</h2>
+        </div>
+        <p>
+          Evangelische Müttergenesung <br />
+          Württemberg gGmbH <br />
+
+          Büchsenstr. 35 <br />
+          70174 Stuttgart <br />
+        </p>
+        <div>
+          <p>
+            Sie erreichen uns immer Montag, Dienstag und Donnerstag von 9 bis
+            12:30 Uhr
+          </p>
+          <p>Telefon: 0711 / 76977 - 400</p>
+          <p>Fax: 0711 / 76977 - 451</p>
+          <p>
+            E-Mail:
+            <a href="mailto:info@muettergenesung-kur.de" class="button text"
+              >info@muettergenesung-kur.de</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="intro-section-container--image">
+        <img
+          src="assets/images/illustration_superkraft.svg"
+          alt="Illustration: Eine Frau mit Cape, Symbol für die Stärke von Müttern"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Adresse der Einrichtungen -->
+
+  <section id="kurkliniken-section">
+    <div class="headline_eyebrow centered">
+      <p class="eyebrow">Gesundheit, Prävention und Rehabilitation</p>
+      <h2>Adressen unserer Evangelischen Kurkliniken</h2>
+    </div>
+
+    <div class="kurkliniken-section-grid-container">
+      {% for item in site.data.kurkliniken-grid %}
+
+      <div class="kurkliniken-section-grid-container--element">
+        <div class="mutter-kind-icons-container">
+          <img class="mutter-kind-icons-container--element" src= "{{
+          item.icon-mutter }}"" alt="" /> {% if item.icon-kind != "" %}
+          <img
+            class="mutter-kind-icons-container--element"
+            src="{{ item.icon-kind }}"
+            alt=""
+          />
+          {% endif %}
+        </div>
+
+        <div class="kurkliniken-section-grid-container--element--text">
+          <h3>{{ item.name }}</h3>
+          <p>
+            {{ item.strasse }} <br />
+            {{ item.ort }}
+          </p>
+
+          <div class="button text">{{ item.linktext }}&nbsp;&rarr;</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>

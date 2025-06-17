@@ -7,9 +7,14 @@
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.2;
+}
+
+h1 span {
+  font-weight: 350;
+  font-size: clamp(1.5rem, 3vw + 0.5rem, 2.5rem);
 }
 
 h2 {
@@ -18,7 +23,8 @@ h2 {
   line-height: 1.2;
 }
 
-h3 {
+h3,
+.p-usp {
   font-size: 1.75rem;
   font-weight: 500;
   line-height: 1.2;
@@ -40,4 +46,11 @@ h3 {
 
 .headline_eyebrow.centered {
   text-align: center;
+  align-items: center;
+}
+
+.headline_eyebrow img {
+  width: 70px;
+  height: auto;
+  color: var(--color-pink);
 }

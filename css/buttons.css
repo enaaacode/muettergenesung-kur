@@ -35,6 +35,34 @@ button,
   text-underline-offset: 3px;
 }
 
+.button.text.download {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  justify-content: center;
+}
+
+.button.text.download.lossburg {
+  background-image: none;
+  color: var(--color-green);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.button.text.download.scheidegg {
+  background-image: none;
+  color: var(--color-blue);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.button.text.download.badwurzach {
+  background-image: none;
+  color: var(--color-orange);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 /* :HOOVER
 ======================================================================= */
 
@@ -59,6 +87,13 @@ button,
   text-decoration-color: var(--color-pink-dark);
   text-decoration-style: dashed;
 }
+
+.button.text.download.lossburg:hover,
+.button.text.download.scheidegg:hover,
+.button.text.download.badwurzach:hover {
+  font-weight: bold;
+  text-decoration-style: dashed;
+}
 /* FOKUS-STYLING FÜR BARRIEREFREIHEIT 
 ======================================================================= */
 
@@ -66,4 +101,38 @@ a:focus,
 button:focus {
   outline: 2px dashed var(--color-pink);
   outline-offset: 4px;
+}
+
+/* KURTERMIN FILTER
+======================================================================= */
+
+.kurtermine-filter {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.kurtermine-filter button[data-filter] {
+  font-size: 0.85rem;
+  cursor: pointer;
+  border: solid 1.5px grey;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius-btn);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25em;
+}
+
+.kurtermine-filter button[data-filter]:hover {
+  color: var(--color-pink);
+  border-color: var(--color-pink);
+  transform: scale(1.03);
+}
+
+.kurtermine-filter button[data-filter].active {
+  color: var(--color-pink);
+  border-color: var(--color-pink);
+  font-weight: bold;
 }

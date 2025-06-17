@@ -41,6 +41,11 @@ header {
   text-decoration-thickness: 0.25rem;
 }
 
+.main-nav a.active {
+  color: var(--color-pink);
+  font-weight: bold;
+}
+
 /* MOBIL NAVIGATION 
 ======================================================================= */
 .mobile-nav {

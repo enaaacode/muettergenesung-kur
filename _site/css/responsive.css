@@ -1,0 +1,38 @@
+@media (max-width: 1100px) {
+  .main-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  #usp-section {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .usp-section-content.outter-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .usp-section-content--button a {
+    aspect-ratio: unset;
+    border-radius: var(--border-radius-default);
+    width: auto;
+  }
+
+  .usp-section-content--container {
+    min-width: 100%;
+  }
+
+  .usp-section-content--container-grid--element {
+    min-width: 100%;
+  }
+}

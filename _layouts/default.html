@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    <main aria-label="Seiteninhalt">
+      {{ content }} {% include section-faq.html %}
+    </main>
+    <footer role="contentinfo">{% include footer.html %}</footer>
+  </body>
+</html>

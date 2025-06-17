@@ -209,7 +209,7 @@ body {
 
 #usp-section {
   margin-top: var(--section-gap);
-  background-image: url("../assets/images/hintergrundbild_usp.png");
+  background-image: url("{{'/assets/images/hintergrundbild_usp.png' | relative_url}}");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -331,11 +331,11 @@ body {
 }
 
 #zertifizierungen {
-  background-image: url("/assets/images/hintergrundbild_zertifizierung.jpg");
+  background-image: url("{{'/assets/images/hintergrundbild_zertifizierung.jpg' | relative_url}}");
 }
 
 #christliches-profil {
-  background-image: url("/assets/images/hintergrundbild_christlichesprofil.jpg");
+  background-image: url("{{'/assets/images/hintergrundbild_christlichesprofil.jpg' | relative_url}}");
 }
 
 @media (max-width: 700px) {

@@ -1,11 +1,11 @@
-- logo: "{{'assets/logo/quality_siegel/proCum_logo.jpg' | relative_url}}"
+- logo: "assets/logo/quality_siegel/proCum_logo.jpg"
   alt: "proCum Logo"
 
-- logo: "{{'assets/logo/quality_siegel/MGW_siegel.png' | relative_url}}"
+- logo: "assets/logo/quality_siegel/MGW_siegel.png"
   alt: "Qualitätssiegel Müttergenesungswerk"
 
-- logo: "{{'assets/logo/quality_siegel/diakonie_siegel.jpg' | relative_url}}"
+- logo: "assets/logo/quality_siegel/diakonie_siegel.jpg"
   alt: "Diakonie-Siegel 'Vorsorge und Rehabilitation für Mütter/Mutter-Kind'"
 
-- logo: "{{'assets/logo/quality_siegel/aok_siegel.svg' | relative_url}}"
+- logo: "assets/logo/quality_siegel/aok_siegel.svg"
   alt: "AOK-Gütesiegel der AOK Bayern für die Mutter-Kind-Kurklinik in Scheidegg"

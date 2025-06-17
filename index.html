@@ -83,10 +83,11 @@ description: "Alles zur Müttergenesungskur: Voraussetzungen, Kliniken, Kurtermi
           >
             <div class="mutter-kind-icons-container">
               <img class="mutter-kind-icons-container--element" src= "{{
-              item.icon-mutter }}"" alt="" /> {% if item.icon-kind != "" %}
+              item.icon-mutter | relative_url }}"" alt="" /> {% if
+              item.icon-kind != "" %}
               <img
                 class="mutter-kind-icons-container--element"
-                src="{{ item.icon-kind }}"
+                src="{{ item.icon-kind | relative_url }}"
                 alt=""
               />
               {% endif %}

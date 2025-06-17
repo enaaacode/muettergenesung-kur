@@ -79,7 +79,9 @@ description: "Kontakt zur Geschäftsstelle der Evangelische Müttergenesung in W
             {{ item.ort }}
           </p>
 
-          <div class="button text">{{ item.linktext }}&nbsp;&rarr;</div>
+          <a href="{{ item.linkurl }}" class="button text"
+            >{{ item.linktext }}&nbsp;&rarr;</a
+          >
         </div>
       </div>
       {% endfor %}

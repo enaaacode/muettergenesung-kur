@@ -2,6 +2,7 @@
 layout: landingpage-einrichtung
 titel: "Evangelische Mutter-Kind-Kurklinik"
 subline: "in Loßburg im Schwarzwald"
+ort: "Loßburg"
 info: "für Mütter mit Kindern im Alter von 3 bis 12 Jahren"
 class: "lossburg"
 icon: "/assets/images/einrichtungen/icon_lossburg.svg"

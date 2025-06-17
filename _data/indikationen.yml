@@ -1,14 +1,14 @@
 - beschreibung: "Wirbelsäulen- und Gelenkbeschwerden, muskuläre Verspannungen"
-  icon: "assets/icons/icon-muskel.svg"
+  icon: "{{'assets/icons/icon-muskel.svg' | relative_url}}"
 
 - beschreibung: "Depressive Verstimmungen, Anpassungsstörungen"
-  icon: "assets/icons/icon-sad.svg"
+  icon: "{{'assets/icons/icon-sad.svg' | relative_url}}"
 
 - beschreibung: "Kopfschmerzen"
-  icon: "assets/icons/icon-kopfschmerz.svg"
+  icon: "{{'assets/icons/icon-kopfschmerz.svg' | relative_url}}"
 
 - beschreibung: "Adipositas (Übergewicht)"
-  icon: "assets/icons/icon-waage.svg"
+  icon: "{{'assets/icons/icon-waage.svg | relative_url'}}"
 
 - beschreibung: "Schlafstörungen"
-  icon: "assets/icons/icon-mond.svg"
+  icon: "{{'assets/icons/icon-mond.svg  | relative_url'}}"

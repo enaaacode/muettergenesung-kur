@@ -15,7 +15,7 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
     {% for post in site.posts %}
     <div class="kurtermine-section-grid-container--element">
       <div class="kurkliniken-section-grid-container--element--blog-img">
-        <img src="{{post.bild}}" alt="" />
+        <img src="{{post.bild | relative_url }}" alt="" />
       </div>
       <div class="kurkliniken-section-grid-container--element--text">
         <small

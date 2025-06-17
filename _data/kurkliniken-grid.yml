@@ -5,8 +5,8 @@
   beschreibung: "im Naturpark Schwarzwald"
   linktext: "Mehr über Loßburg erfahren"
   linkurl: ""
-  icon-mutter: "{'/assets/icons/material_icons/face_3.svg' | relative_url}"
-  icon-kind: "{'/assets/icons/material_icons/child_care.svg' | relative_url}"
+  icon-mutter: "{{'/assets/icons/material_icons/face_3.svg' | relative_url}}"
+  icon-kind: "{{'/assets/icons/material_icons/child_care.svg' | relative_url}}"
   css-klasse: lossburg # Titelbild ist im CSS hinterlegt
 
 - titel: "Mutter-Kind-Kur </br> Scheidegg"
@@ -16,8 +16,8 @@
   beschreibung: "im Allgäu"
   linktext: "Mehr über Scheidegg erfahren"
   linkurl: ""
-  icon-mutter: "{'/assets/icons/material_icons/face_3_scheidegg.svg | relative_url'}"
-  icon-kind: "{'/assets/icons/material_icons/child_care_scheidegg.svg' | relative_url}"
+  icon-mutter: "{{'/assets/icons/material_icons/face_3_scheidegg.svg | relative_url'}}"
+  icon-kind: "{{'/assets/icons/material_icons/child_care_scheidegg.svg' | relative_url}}"
   css-klasse: scheidegg # Titelbild ist im CSS hinterlegt
 
 - titel: "Frauen- und Mütterkur </br> Bad Wurzach"
@@ -27,6 +27,6 @@
   beschreibung: "in Oberschwaben"
   linktext: "Mehr über Bad Wurzach erfahren"
   linkurl: ""
-  icon-mutter: "{'/assets/icons/material_icons/face_3_bad-wurzach.svg' | relative_url}"
+  icon-mutter: "{{'/assets/icons/material_icons/face_3_bad-wurzach.svg' | relative_url}}"
   icon-kind: ""
   css-klasse: bad-wurzach # Titelbild ist im CSS hinterlegt

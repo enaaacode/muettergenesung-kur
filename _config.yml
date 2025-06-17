@@ -1,7 +1,5 @@
-url: "https://enaaacode.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl:
-  "/sneakpeak"
-  # the subpath of your site, e.g. /blog
+url: "https://astounding-blancmange-bbba79.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/"
 title: "" # the name of your site, e.g. ACME Corp.
 
 collections:

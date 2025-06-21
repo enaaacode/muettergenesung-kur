@@ -9,31 +9,37 @@
       <div class="headline_eyebrow centered">
         <p class="eyebrow">Wir suchen Sie als</p>
         <h1>{{page.titel}}</h1>
-        <p>in unserer Einrichtung in {{ page.klinik }} {{page.umfang}}</p>
+        <p>
+          in unserer Einrichtung in
+          <strong>{{ page.klinik }}</strong> {{page.umfang}} (unabhängig von
+          Geschlecht, Herkunft oder Alter)
+        </p>
       </div>
-      <div class="outter-wrapper">
-        <section id="behandlungsschwerpunkt-section">
-          <div class="intro-section-container">
-            <div class="stellenanzeige-container">
-              {{ content }}
 
-              <p>Wir freuen uns auf Ihre Onlinebewerbung!</p>
+      <section class="job-aufgaben-section lossburg-job-bild">
+        <div class="outter-wrapper">
+          <div class="four-grid--container">
+            <div class="kurkliniken-section-grid-container--element">
+              <div class="kurkliniken-section-grid-container--element--text">
+                {{ content }}
 
-              <p>
-                <strong> Ansprechpartnerin:</strong>
-                {{page.ansprechpartnerin}} ({{page.position}})
-              </p>
-              <p>
-                <strong>E-Mail:</strong>
-                <a class="button text" href="mailto:{{page.mail}}"
-                  >{{page.mail}}</a
-                >
-              </p>
+                <p>Wir freuen uns auf Ihre Onlinebewerbung!</p>
+
+                <p>
+                  <strong> Ansprechpartnerin:</strong>
+                  {{page.ansprechpartnerin}} ({{page.position}})
+                </p>
+                <p>
+                  <strong>E-Mail:</strong>
+                  <a class="button text" href="mailto:{{page.mail}}"
+                    >{{page.mail}}</a
+                  >
+                </p>
+              </div>
             </div>
-            <div class="intro-section-container--image">(Illustration)</div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <section id="gruende-fuer-uns">
         <div class="outter-wrapper">
@@ -57,15 +63,13 @@
               <div class="kurkliniken-section-grid-container--element--text">
                 <h3>Sie passen zu uns, wenn Sie:</h3>
                 <ul>
-                  <li>Kraftspender*in sein möchten</li>
-                  <li>einen Beitrag zu #femaleempowerment leisten wollen</li>
+                  <li>Kraft geben möchten</li>
+                  <li>Frauen ermutigen, stärken und inspirieren wollen</li>
                   <li>sich stetig weiterentwickeln und verbessern möchten</li>
-                  <li>wissbegierig, neugierig und äußerst motiviert sind</li>
+                  <li>wissbegierig, neugierig und hochmotiviert sind</li>
                   <li>mit Leidenschaft und Begeisterung bei der Arbeit sind</li>
-                  <li>
-                    eine Macher*innen-Einstellung haben und in Lösungen denken
-                  </li>
-                  <li>agil, schnell, pragmatisch und Teamplayer*in sind</li>
+                  <li>anpacken, mitdenken und lösungsorientiert handeln</li>
+                  <li>agil, schnell, pragmatisch und teamorientiert sind</li>
                 </ul>
               </div>
             </div>
@@ -99,46 +103,6 @@
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <!-- Kurkliniken Übersicht -->
-
-      <section id="kurkliniken-section" class="outter-wrapper">
-        <div class="headline_eyebrow centered">
-          <p class="eyebrow">Gesundheit, Prävention und Rehabilitation</p>
-          <h2>Unsere Evangelischen Kurkliniken</h2>
-        </div>
-
-        <div class="kurkliniken-section-grid-container">
-          {% for item in site.data.kurkliniken-grid %}
-
-          <div class="kurkliniken-section-grid-container--element">
-            <a href="{{ item.linkurl }}">
-              <div
-                class="kurkliniken-section-grid-container--element--img {{ item.css-klasse }}"
-              >
-                <div class="mutter-kind-icons-container">
-                  <img class="mutter-kind-icons-container--element" src= "{{
-                  item.icon-mutter }}"" alt="" /> {% if item.icon-kind != "" %}
-                  <img
-                    class="mutter-kind-icons-container--element"
-                    src="{{ item.icon-kind }}"
-                    alt=""
-                  />
-                  {% endif %}
-                </div>
-              </div>
-
-              <div class="kurkliniken-section-grid-container--element--text">
-                <h3>{{ item.titel }}</h3>
-                <p>{{ item.beschreibung }}</p>
-
-                <div class="button text">{{ item.linktext }}&nbsp;&rarr;</div>
-              </div>
-            </a>
-          </div>
-          {% endfor %}
         </div>
       </section>
 

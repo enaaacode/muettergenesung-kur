@@ -1,11 +1,161 @@
 ---
 layout: startseite
-title: "Kurtermine für Loßburg, Scheidegg und Bad Wurzach – Evangelische Müttergenesung in Württemberg"
-description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
+title: "Unser Team – Evangelische Müttergenesung in Württemberg"
+description: "Erfahren Sie mehr über uns."
 ---
 
 <div class="headline-wrapper">
   <div class="headline_eyebrow centered">
     <h1>Über uns</h1>
+    <p>
+      Wir betreiben eine Geschäftsstelle in Stuttgart sowie drei Vorsorge- und
+      Rehakliniken in Loßburg, Scheidegg und Bad Wurzach. <br />
+      Sie möchten Teil unseres Teams werden? Hier geht’s zu unseren
+      <a href="/stellenanzeigen.html">Stellenanzeigen</a>.
+    </p>
   </div>
+</div>
+
+<div class="outter-wrapper">
+  <section id="team">
+    <div class="kurtermine-filter">
+      <button data-filter="alle">
+        Alle anzeigen ({{ site.data.team | size }})
+      </button>
+      <button data-filter="loßburg">
+        Loßburg ({{ site.data.team | where: "ort", "Loßburg" | size }})
+      </button>
+      <button data-filter="scheidegg">
+        Scheidegg ({{ site.data.team | where: "ort", "Scheidegg" | size }})
+      </button>
+      <button data-filter="bad wurzach">
+        Bad Wurzach ({{ site.data.team | where: "ort", "Bad Wurzach" | size }})
+      </button>
+      <button data-filter="geschäftsstelle">
+        Geschäftsstelle ({{ site.data.team | where: "ort", "Geschäftsstelle" |
+        size }})
+      </button>
+    </div>
+
+    <div class="team-section-grid">
+      {% for item in site.data.team %}
+      <div
+        class="team-section-grid--element"
+        data-klinik="{{ item.ort | downcase }}"
+      >
+        <div class="team-section-grid--element--bild">
+          {% if item.bild and item.bild != "" %}
+          <img
+            src="{{ item.bild | relative_url }}"
+            alt="Portraitbild von {{ item.name }}"
+          />
+          {% else %}
+          <img
+            src="assets/images/team/leeres_profilbild.avif"
+            alt="Platzhalterbild für {{ item.name }}"
+          />
+          {% endif %}
+        </div>
+        <div class="team-section-grid--element--text-container">
+          <div class="team-section-grid--element--name">
+            <p>{{item.name}}</p>
+          </div>
+          <div class="team-section-grid--element--beschreibung">
+            <p>{{item.beschreibung}}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+
+<section id="vom-verein-zur-ggmbh">
+  <div class="outter-wrapper">
+    <div class="intro-section-container">
+      <div class="intro-section-container--text vom-verein-zur-ggmbh">
+        <div class="headline_eyebrow">
+          <p class="eyebrow">Vom Verein zur gGmbH</p>
+          <h2>Evangelische Müttergenesung Württemberg gGmbH</h2>
+        </div>
+        <p>
+          Wir sind seit dem 01.01.2023 aus dem Verein Ev. Mütterkurheime
+          Württemberg e.V. hervorgegangen. Zum 01.01.2023 wurde die Ev.
+          Müttergenesung Württemberg als gGmbH gegründet.
+        </p>
+        <p>
+          Die beiden Gesellschafter sind die Ev. Landeskirche Württemberg (55 %)
+          sowie der Verein Ev. Mütterkurheime Württemberg e.V. (45 %). Als
+          Geschäftsführerin der gGmbH ist seit dem 01.10.2023 Andrea Boyer
+          eingesetzt.
+        </p>
+        <p>
+          Wir betreiben eine Geschäftsstelle in Stuttgart sowie drei Vorsorge-
+          und Rehakliniken in Loßburg, Scheidegg und Bad Wurzach.
+        </p>
+      </div>
+      <div class="intro-section-container--image"></div>
+    </div>
+  </div>
+</section>
+
+<div class="outter-wrapper">
+  <section id="unsere-auftrag">
+    <div class="headline_eyebrow centered">
+      <p class="eyebrow">Unsere Leidenschaft</p>
+      <h2>Unser Auftrag</h2>
+    </div>
+    <div class="four-grid--container">
+      <div class="kurkliniken-section-grid-container--element">
+        <div class="kurkliniken-section-grid-container--element--text">
+          <h3>Unsere Mission</h3>
+          <p>
+            Unsere Arbeit ist Ausdruck des kirchlichen Auftrags der
+            Evangelischen Landeskirche in Württemberg. Sie macht diesen für
+            Familien erfahrbar – getragen von einem Menschenbild, das auf der
+            liebevollen Annahme Gottes basiert. Wir laden ein, sich mit
+            Gesundheits-, Lebens- und Glaubensfragen auseinanderzusetzen.
+          </p>
+        </div>
+      </div>
+
+      <div class="kurkliniken-section-grid-container--element">
+        <div class="kurkliniken-section-grid-container--element--text">
+          <h3>Unsere Arbeitsweise</h3>
+          <p>
+            Grundlage unserer Arbeit ist ein ganzheitliches Gesundheitskonzept.
+            Unsere Kliniken bieten Überschaubarkeit, frauenspezifische
+            Ausrichtung, gemeinsame An- und Abreise, individuelle Therapiepläne
+            und geistlich-spirituelle Angebote – abgestimmt auf die Bedürfnisse
+            jeder Frau.
+          </p>
+        </div>
+      </div>
+
+      <div class="kurkliniken-section-grid-container--element">
+        <div class="kurkliniken-section-grid-container--element--text">
+          <h3>Unser Selbstverständnis</h3>
+          <p>
+            Wir vereinen fachliche Kompetenz, soziale Verantwortung und
+            persönliches Engagement. Diese Haltung leben wir im Team – achtsam,
+            mit Überzeugung und mit Freude an einer Arbeit, die für viele Frauen
+            einen wertvollen Wendepunkt im Leben bedeutet.
+          </p>
+        </div>
+      </div>
+
+      <div class="kurkliniken-section-grid-container--element">
+        <div class="kurkliniken-section-grid-container--element--text">
+          <h3>Unsere Gemeinschaft</h3>
+          <p>
+            Die Ev. Müttergenesung Württemberg gGmbH bietet stationäre
+            Präventions- und Rehamaßnahmen für erschöpfte Frauen. Willkommen
+            sind Frauen aller Religionen, Weltanschauungen und Lebenswege.
+            Unsere Kultur ist geprägt von Respekt, Achtsamkeit und einem offenen
+            Miteinander.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>

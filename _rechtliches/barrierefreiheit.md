@@ -13,7 +13,7 @@ Die Umsetzung orientiert sich an den Anforderungen des **Behindertengleichstellu
 
 ## Stand der Vereinbarkeit mit den Anforderungen
 
-Diese Website ist **weitgehend barrierefrei**. Viele Anforderungen der BITV 2.0 und der WCAG 2.1 wurden bereits umgesetzt. Dazu zählen unter anderem:
+Diese Website ist **weitgehend barrierefrei**. Viele Anforderungen der BITV 2.0 und der WCAG 2.2 wurden bereits umgesetzt. Dazu zählen unter anderem:
 
 - semantische HTML-Struktur für assistive Technologien
 - vollständige Tastaturbedienbarkeit

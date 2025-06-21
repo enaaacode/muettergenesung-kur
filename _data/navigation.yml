@@ -1,7 +1,9 @@
 - title: Startseite
   url: index.html
-- title: Unsere Kurkliniken
+- title: Kurkliniken
   url: /unsere-kurkliniken.html
+- title: Kurtermine
+  url: /kurtermine.html
 - title: Neuigkeiten
   url: /neuigkeiten.html
 - title: Über uns

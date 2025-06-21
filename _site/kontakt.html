@@ -21,17 +21,18 @@
 ></script>
 
 <link rel="stylesheet" href="/css/style.css" />
-<link rel="stylesheet" href="/css/buttons.css" />
-<link rel="stylesheet" href="/css/footer.css" />
-<link rel="stylesheet" href="/css/header.css" />
-<link rel="stylesheet" href="/css/hero.css" />
-<link rel="stylesheet" href="/css/kurkliniken.css" />
-<link rel="stylesheet" href="/css/responsive.css" />
-<link rel="stylesheet" href="/css/typography.css" />
+
+<link rel="stylesheet" href="/css/buttons.css " />
+<link rel="stylesheet" href="/css/footer.css " />
+<link rel="stylesheet" href="/css/header.css " />
+<link rel="stylesheet" href="/css/hero.css " />
+<link rel="stylesheet" href="/css/kurkliniken.css " />
+<link rel="stylesheet" href="/css/responsive.css " />
+<link rel="stylesheet" href="/css/typography.css " />
 
 <!-- <script src="js/login.js"></script> -->
-<script src="js/script.js" defer></script>
-<script src="js/klinikfilter.js" defer></script>
+<script src="/js/script.js" defer></script>
+<script src="/js/klinikfilter.js" defer></script>
 
   </head>
   <body>
@@ -49,7 +50,7 @@
       <ul class="main-nav">
         
           <li>
-            <a href="index.html"
+            <a href="/index.html"
               
             >
               Startseite
@@ -60,7 +61,15 @@
             <a href="/unsere-kurkliniken.html"
               
             >
-              Unsere Kurkliniken
+              Kurkliniken
+            </a>
+          </li>
+        
+          <li>
+            <a href="/kurtermine.html"
+              
+            >
+              Kurtermine
             </a>
           </li>
         
@@ -161,7 +170,15 @@
               <a href="/unsere-kurkliniken.html"
                 
               >
-                Unsere Kurkliniken
+                Kurkliniken
+              </a>
+            </li>
+          
+            <li>
+              <a href="/kurtermine.html"
+                
+              >
+                Kurtermine
               </a>
             </li>
           
@@ -246,7 +263,7 @@
       </div>
       <div class="intro-section-container--image">
         <img
-          src="assets/images/illustration_superkraft.svg"
+          src="/assets/images/illustration_superkraft.svg"
           alt="Illustration: Eine Frau mit Cape, Symbol für die Stärke von Müttern"
         />
       </div>
@@ -255,7 +272,7 @@
 
   <!-- Adresse der Einrichtungen -->
 
-  <section id="kurkliniken-section">
+  <section class="kurkliniken-section">
     <div class="headline_eyebrow centered">
       <p class="eyebrow">Gesundheit, Prävention und Rehabilitation</p>
       <h2>Adressen unserer Evangelischen Kurkliniken</h2>
@@ -282,7 +299,9 @@
             72290 Loßburg
           </p>
 
-          <div class="button text">Mehr über Loßburg erfahren&nbsp;&rarr;</div>
+          <a href="kurklinik/lossburg/" class="button text"
+            >Mehr über Loßburg erfahren&nbsp;&rarr;</a
+          >
         </div>
       </div>
       
@@ -305,7 +324,9 @@
             88175 Scheidegg
           </p>
 
-          <div class="button text">Mehr über Scheidegg erfahren&nbsp;&rarr;</div>
+          <a href="kurklinik/scheidegg/" class="button text"
+            >Mehr über Scheidegg erfahren&nbsp;&rarr;</a
+          >
         </div>
       </div>
       
@@ -322,7 +343,9 @@
             88410 Bad Wurzach
           </p>
 
-          <div class="button text">Mehr über Bad Wurzach erfahren&nbsp;&rarr;</div>
+          <a href="kurklinik/badwurzach/" class="button text"
+            >Mehr über Bad Wurzach erfahren&nbsp;&rarr;</a
+          >
         </div>
       </div>
       
@@ -335,7 +358,10 @@
       <a href="">
         <div class="spenden-button-headline">
           <h3>Spenden</h3>
-          <img src="/assets/icons/material_icons/favorite.svg" alt="" />
+          <img
+            src="/assets/icons/material_icons/favorite.svg"
+            alt=""
+          />
         </div>
 
         <p>
@@ -424,11 +450,15 @@
     </main>
     <footer role="contentinfo"><div class="footer-content outter-wrapper">
   <ul class="footer-nav">
-    <li><a href="kontakt.html">Kontakt</a></li>
+    <li><a href="/kontakt.html">Kontakt</a></li>
     <li><a href="/impressum/">Impressum</a></li>
     <li><a href="/datenschutz/">Datenschutz</a></li>
-    <li><a href="/barrierefreiheit/">Barrierefreiheit</a></li>
-    <li><a href="stellenanzeigen.html">Stellenanzeigen</a></li>
+    <li>
+      <a href="/barrierefreiheit/">Barrierefreiheit</a>
+    </li>
+    <li>
+      <a href="/stellenanzeigen.html">Stellenanzeigen</a>
+    </li>
     <li><a href="/spenden/">Spenden</a></li>
     <li>
       <a

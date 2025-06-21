@@ -38,6 +38,27 @@ Scheidegg => color-blue: #586eb0;
   color: var(--color-orange);
 }
 
+.lossburg-job-bild {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/titelbild_lossburg2.jpg");
+}
+
+.scheidegg-job-bild {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/titelbild_scheidegg2.jpg");
+}
+
+.bad-wurzach-job-bild {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/titelbild_badwurzach2.jpg");
+}
+
 /* LANDINGPAGEES der einzelnen Kurkliniken 
 ======================================================================= */
 

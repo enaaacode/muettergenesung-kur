@@ -1,27 +1,57 @@
 ---
 layout: default
-title: "Kurtermine für Loßburg, Scheidegg und Bad Wurzach – Evangelische Müttergenesung in Württemberg"
-description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
+title: "Gästebucheintrag – Evangelische Müttergenesung in Württemberg"
+description: "Wir freuen uns über jedes Feedback."
 ---
 
 <div class="headline-wrapper">
   <div class="headline_eyebrow centered">
     <h1>Gästebuch</h1>
+    <p>
+      Wir freuen uns über jedes Feedback, das wir von unseren Patientinnen
+      erhalten.
+    </p>
+    <a href="/gaestebucheintrag.html" class="button text"
+      >Gästebucheintrag schreiben&nbsp;&rarr;</a
+    >
   </div>
 </div>
 
-<div class="outter-wrapper">
-  <form name="gaestebuch" method="POST" data-netlify="true">
-    <p>
-      <label for="name">Name:</label><br />
-      <input type="text" id="name" name="name" required />
-    </p>
-    <p>
-      <label for="nachricht">Nachricht:</label><br />
-      <textarea id="nachricht" name="nachricht" required></textarea>
-    </p>
-    <p>
-      <button type="submit">Absenden</button>
-    </p>
-  </form>
+<div class="outter-wrapper gaestebucheintraege">
+  <!-- FILTER -->
+  <div class="kurtermine-filter">
+    <button data-filter="alle">
+      Alle anzeigen ({{ site.data.geastebucheintraege | size }})
+    </button>
+    <button data-filter="loßburg">
+      Loßburg ({{ site.data.geastebucheintraege | where: "ort", "Loßburg" | size
+      }})
+    </button>
+    <button data-filter="scheidegg">
+      Scheidegg ({{ site.data.geastebucheintraege | where: "ort", "Scheidegg" |
+      size }})
+    </button>
+    <!-- prettier-ignore -->
+    <button data-filter="bad wurzach">
+      Bad Wurzach ({{ site.data.geastebucheintraege | where: "ort", "Bad Wurzach" | size }})
+    </button>
+    <button data-filter="geschäftsstelle">
+      Geschäftsstelle ({{ site.data.geastebucheintraege | where: "ort",
+      "Geschäftsstelle" | size }})
+    </button>
+  </div>
+
+  <!-- GÄSTEBUCHEINTRAG GENERIEREN -->
+  {% for item in site.data.geastebucheintraege %}
+  <div class="gaestebucheintrag" data-klinik="{{ item.ort | downcase }}">
+    <div>
+      <strong>
+        {% if item.ort == "Bad Wurzach" %} Frauen- und Mütterkur {{item.ort}}{%
+        else %} Mutter-Kind-Kur {{item.ort}} {% endif %}</strong
+      >
+    </div>
+    <div>{{item.nachricht}}</div>
+    <div><small>{{item.datum}}</small></div>
+  </div>
+  {% endfor %}
 </div>

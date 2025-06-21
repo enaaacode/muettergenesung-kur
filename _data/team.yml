@@ -1,0 +1,141 @@
+# Geschäftsstelle
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+- ort: "Geschäftsstelle"
+  name: "Andrea Boyer"
+  beschreibung: "Geschäftsführerin"
+  bild: "assets/images/team/geschaeftsstelle/Andrea_Boyer.png"
+
+- ort: "Geschäftsstelle"
+  name: "Diana Schrade- Geckeler"
+  beschreibung: "stellv. Geschäftsführung und Leitung Kurberatung und Kurbelegung"
+  bild: ""
+
+- ort: "Geschäftsstelle"
+  name: "Vera Martens"
+  beschreibung: "Kurbelegung und Beratung Mutter-Kind-Kurklinik Scheidegg"
+  bild: "assets/images/team/geschaeftsstelle/Vera_Martens.png"
+
+- ort: "Geschäftsstelle"
+  name: "Katja Eisenhard"
+  beschreibung: "Kurbelegung und Beratung Mutter-Kind-Kurklinik Scheidegg"
+  bild: "assets/images/team/geschaeftsstelle/Katja_Eisenhard.png"
+
+- ort: "Geschäftsstelle"
+  name: "Ingeburg Kelsch"
+  beschreibung: "Kurbelegung und Beratung"
+  bild: ""
+
+- ort: "Geschäftsstelle"
+  name: "Stephanie Rudolph"
+  beschreibung: "Kurbelegung und Beratung Mutter-Kind-Kurklinik Loßburg"
+  bild: "assets/images/team/geschaeftsstelle/Stephanie_Rudolph.png"
+
+- ort: "Geschäftsstelle"
+  name: "Corinna Braun"
+  beschreibung: "Kurbelegung und Beratung Frauen-und-Mütter-Kurklinik Bad Wurzach"
+  bild: ""
+
+- ort: "Geschäftsstelle"
+  name: "Janine Riehl"
+  beschreibung: "Kurbelegung und Beratung"
+  bild: ""
+
+- ort: "Geschäftsstelle"
+  name: "Renate Unterweger"
+  beschreibung: "Finanzcontrolling"
+  bild: "assets/images/team/geschaeftsstelle/Renate_Unterweger.png"
+
+- ort: "Geschäftsstelle"
+  name: "Heike Leiblein"
+  beschreibung: "Buchhaltung"
+  bild: "assets/images/team/geschaeftsstelle/Heike_Leiblein.png"
+
+- ort: "Geschäftsstelle"
+  name: "Saskia Rothenberger"
+  beschreibung: "Personalverwaltung"
+  bild: "assets/images/team/geschaeftsstelle/Saskia_Rothenberger.png"
+
+- ort: "Geschäftsstelle"
+  name: "Karin Berkholz-Müller"
+  beschreibung: "Personalverwaltung"
+  bild: "assets/images/team/geschaeftsstelle/Karin_Berkholz-Mueller.png"
+
+- ort: "Geschäftsstelle"
+  name: "Regine Schmid"
+  beschreibung: "Sekretariat /Orga. MGW Sammlung Württemberg"
+  bild: "assets/images/team/geschaeftsstelle/Regine_Schmid.png"
+
+# Loßburg
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+- ort: "Loßburg"
+  name: ""
+  beschreibung: ""
+  bild: ""
+
+- ort: "Loßburg"
+  name: ""
+  beschreibung: ""
+  bild: ""
+
+- ort: "Loßburg"
+  name: ""
+  beschreibung: ""
+  bild: ""
+
+- ort: "Loßburg"
+  name: ""
+  beschreibung: ""
+  bild: ""
+
+- ort: "Loßburg"
+  name: ""
+  beschreibung: ""
+  bild: ""
+
+# Scheidegg
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+- ort: "Scheidegg"
+  name: ""
+  beschreibung: ""
+  bild: ""
+
+- ort: "Scheidegg"
+  name: ""
+  beschreibung: ""
+  bild: ""
+
+- ort: "Scheidegg"
+  name: ""
+  beschreibung: ""
+  bild: ""
+
+- ort: "Scheidegg"
+  name: ""
+  beschreibung: ""
+  bild: ""
+
+- ort: "Scheidegg"
+  name: ""
+  beschreibung: ""
+  bild: ""
+
+# Bad Wurzach
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+- ort: "Bad Wurzach"
+  name: ""
+  beschreibung: ""
+  bild: ""
+
+- ort: "Bad Wurzach"
+  name: ""
+  beschreibung: ""
+  bild: ""
+
+- ort: "Bad Wurzach"
+  name: ""
+  beschreibung: ""
+  bild: ""

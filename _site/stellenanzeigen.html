@@ -13,7 +13,7 @@
 
 <meta name="author" content="Evangelische Müttergenesung in Württemberg" />
 
-<title>Stellenanzeigen für Loßburg, Scheidegg und Bad Wurzach – Evangelische Müttergenesung in Württemberg</title>
+<title>Stellenanzeigen – Evangelische Müttergenesung in Württemberg</title>
 
 <script
   src="https://kit.fontawesome.com/81f652e334.js"
@@ -21,17 +21,18 @@
 ></script>
 
 <link rel="stylesheet" href="/css/style.css" />
-<link rel="stylesheet" href="/css/buttons.css" />
-<link rel="stylesheet" href="/css/footer.css" />
-<link rel="stylesheet" href="/css/header.css" />
-<link rel="stylesheet" href="/css/hero.css" />
-<link rel="stylesheet" href="/css/kurkliniken.css" />
-<link rel="stylesheet" href="/css/responsive.css" />
-<link rel="stylesheet" href="/css/typography.css" />
+
+<link rel="stylesheet" href="/css/buttons.css " />
+<link rel="stylesheet" href="/css/footer.css " />
+<link rel="stylesheet" href="/css/header.css " />
+<link rel="stylesheet" href="/css/hero.css " />
+<link rel="stylesheet" href="/css/kurkliniken.css " />
+<link rel="stylesheet" href="/css/responsive.css " />
+<link rel="stylesheet" href="/css/typography.css " />
 
 <!-- <script src="js/login.js"></script> -->
-<script src="js/script.js" defer></script>
-<script src="js/klinikfilter.js" defer></script>
+<script src="/js/script.js" defer></script>
+<script src="/js/klinikfilter.js" defer></script>
 
   </head>
   <body>
@@ -49,7 +50,7 @@
       <ul class="main-nav">
         
           <li>
-            <a href="index.html"
+            <a href="/index.html"
               
             >
               Startseite
@@ -60,7 +61,15 @@
             <a href="/unsere-kurkliniken.html"
               
             >
-              Unsere Kurkliniken
+              Kurkliniken
+            </a>
+          </li>
+        
+          <li>
+            <a href="/kurtermine.html"
+              
+            >
+              Kurtermine
             </a>
           </li>
         
@@ -158,7 +167,15 @@
               <a href="/unsere-kurkliniken.html"
                 
               >
-                Unsere Kurkliniken
+                Kurkliniken
+              </a>
+            </li>
+          
+            <li>
+              <a href="/kurtermine.html"
+                
+              >
+                Kurtermine
               </a>
             </li>
           
@@ -204,7 +221,6 @@
     <main aria-label="Seiteninhalt">
       <div class="headline-wrapper">
   <div class="headline_eyebrow centered">
-    <p class="eyebrow">Wir suchen Sie</p>
     <h1>Stellenanzeigen</h1>
     <p>
       Aus Gründen der besseren Lesbarkeit verwenden wir in den folgenden
@@ -230,16 +246,18 @@
     <button data-filter="bad wurzach">
       Bad Wurzach (1)
     </button>
-    <button data-filter="stuttbart">
+    <button data-filter="geschäftsstelle">
       Geschäftsstelle (0)
     </button>
   </div>
 
   <div class="kurtermine-section-grid-container">
     
-    <div
+    <a
+      href="/stellenanzeigen/pflegefachkraft/"
       class="kurtermine-section-grid-container--element"
       data-klinik="bad wurzach"
+      style="text-decoration: none; color: inherit"
     >
       <div class="mutter-kind-icons-container centered">
         <svg
@@ -276,11 +294,9 @@
         <h3>Pflegefachkraft / Heilerziehungspflegerin</h3>
         <p>in Bad Wurzach</p>
 
-        <a href="/stellenanzeigen/pflegefachkraft/" class="button text"
-          >Mehr erfahren&nbsp;&rarr;</a
-        >
+        <span class="button text">Mehr erfahren&nbsp;&rarr;</span>
       </div>
-    </div>
+    </a>
     
   </div>
 </section>
@@ -290,7 +306,10 @@
       <a href="">
         <div class="spenden-button-headline">
           <h3>Spenden</h3>
-          <img src="/assets/icons/material_icons/favorite.svg" alt="" />
+          <img
+            src="/assets/icons/material_icons/favorite.svg"
+            alt=""
+          />
         </div>
 
         <p>
@@ -379,11 +398,15 @@
     </main>
     <footer role="contentinfo"><div class="footer-content outter-wrapper">
   <ul class="footer-nav">
-    <li><a href="kontakt.html">Kontakt</a></li>
+    <li><a href="/kontakt.html">Kontakt</a></li>
     <li><a href="/impressum/">Impressum</a></li>
     <li><a href="/datenschutz/">Datenschutz</a></li>
-    <li><a href="/barrierefreiheit/">Barrierefreiheit</a></li>
-    <li><a href="stellenanzeigen.html">Stellenanzeigen</a></li>
+    <li>
+      <a href="/barrierefreiheit/">Barrierefreiheit</a>
+    </li>
+    <li>
+      <a href="/stellenanzeigen.html">Stellenanzeigen</a>
+    </li>
     <li><a href="/spenden/">Spenden</a></li>
     <li>
       <a

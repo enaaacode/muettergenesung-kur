@@ -1,12 +1,11 @@
 ---
 layout: startseite
-title: "Stellenanzeigen für Loßburg, Scheidegg und Bad Wurzach – Evangelische Müttergenesung in Württemberg"
+title: "Stellenanzeigen – Evangelische Müttergenesung in Württemberg"
 description: "Erfahren Sie welche Stellenanzeigen zur Verfügung stehen."
 ---
 
 <div class="headline-wrapper">
   <div class="headline_eyebrow centered">
-    <p class="eyebrow">Wir suchen Sie</p>
     <h1>Stellenanzeigen</h1>
     <p>
       Aus Gründen der besseren Lesbarkeit verwenden wir in den folgenden
@@ -34,17 +33,19 @@ description: "Erfahren Sie welche Stellenanzeigen zur Verfügung stehen."
       Bad Wurzach ({{ site.stellenanzeigen | where: "klinik", "Bad Wurzach" |
       size }})
     </button>
-    <button data-filter="stuttbart">
-      Geschäftsstelle ({{ site.stellenanzeigen | where: "klinik", "Stuttgart" |
-      size }})
+    <button data-filter="geschäftsstelle">
+      Geschäftsstelle ({{ site.stellenanzeigen | where: "klinik",
+      "Geschäftsstelle" | size }})
     </button>
   </div>
 
   <div class="kurtermine-section-grid-container">
     {% for post in site.stellenanzeigen %}
-    <div
+    <a
+      href="{{ post.url }}"
       class="kurtermine-section-grid-container--element"
       data-klinik="{{ post.klinik | downcase }}"
+      style="text-decoration: none; color: inherit"
     >
       <div class="mutter-kind-icons-container centered">
         <svg
@@ -108,11 +109,9 @@ description: "Erfahren Sie welche Stellenanzeigen zur Verfügung stehen."
         <h3>{{post.titel}}</h3>
         <p>in {{post.klinik}}</p>
 
-        <a href="{{ post.url }}" class="button text"
-          >Mehr erfahren&nbsp;&rarr;</a
-        >
+        <span class="button text">Mehr erfahren&nbsp;&rarr;</span>
       </div>
-    </div>
+    </a>
     {% endfor %}
   </div>
 </section>

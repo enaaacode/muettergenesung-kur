@@ -1,0 +1,93 @@
+---
+layout: default
+title: "Gästebucheintrag – Evangelische Müttergenesung in Württemberg"
+description: "Wir freuen uns über jedes Feedback."
+---
+
+<div class="headline-wrapper">
+  <div class="headline_eyebrow centered">
+    <h1>Gästebucheintrag</h1>
+    <p>
+      Wir freuen uns über jedes Feedback, das wir von unseren Patientinnen
+      erhalten.
+    </p>
+  </div>
+</div>
+
+<div class="outter-wrapper">
+  <!-- modify this form HTML and place wherever you want your form -->
+  <div class="gaestebucheintrag-container">
+    <form action="https://formspree.io/f/xkgbzdop" method="POST">
+      <!-- Weiterleitung nach erfolgreicher Absendung -->
+      <input
+        type="hidden"
+        name="_redirect"
+        value="https://deine-seite.github.io/danke.html"
+      />
+
+      <!-- Honeypot-Feld für Spam-Schutz -->
+      <p style="display: none">
+        <label>Bitte leer lassen: <input type="text" name="_gotcha" /></label>
+      </p>
+
+      <!-- Name-Feld -->
+      <p>
+        <label for="name">Ihr Name:</label><br />
+        <input type="text" id="name" name="name" required />
+      </p>
+
+      <!-- E-Mail-Feld -->
+      <p>
+        <label for="email">Ihre E-Mail:</label><br />
+        <input type="email" id="email" name="email" required />
+      </p>
+
+      <!-- Kurklinik - In welcher Einrichtung waren Sie? -->
+      <fieldset class="form--einrichtungsabfrage-container">
+        <legend>In welcher Einrichtung waren Sie?</legend>
+        <p class="datenschutz-checkbox">
+          <label>
+            <input type="radio" name="kurklinik" value="lossburg" required />
+            Ev. Mutter-Kind-Kurklinik Loßburg
+          </label>
+        </p>
+
+        <p class="datenschutz-checkbox">
+          <label>
+            <input type="radio" name="kurklinik" value="scheidegg" />
+            Ev. Mutter-Kind-Kurklinik Scheidegg
+          </label>
+        </p>
+
+        <p class="datenschutz-checkbox">
+          <label>
+            <input type="radio" name="kurklinik" value="badwurzach" />
+            Ev. Mutter-Kind-Kurklinik Bad Wurzach
+          </label>
+        </p>
+      </fieldset>
+
+      <!-- Nachrichtenfeld -->
+      <p>
+        <label for="message">Ihre Nachricht:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </p>
+
+      <!-- Datenschutz-Checkbox -->
+      <a href="{{ 'datenschutz' | relative_url }}" target="_blank"
+        >Hinweis zum Datenschutz</a
+      >
+      <p class="datenschutz-checkbox">
+        <label>
+          <input type="checkbox" name="datenschutz" required />
+          Ich habe die Datenschutzerklärung gelesen und akzeptiere.
+        </label>
+      </p>
+
+      <!-- Absende-Button -->
+      <p>
+        <button type="submit" class="button primary">Eintragen</button>
+      </p>
+    </form>
+  </div>
+</div>

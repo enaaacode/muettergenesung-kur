@@ -17,7 +17,7 @@ Fax: 0711 / 76977 - 451
 E-Mail: <a href="mailto:info@muettergenesung-kur.de" class="button text">info@muettergenesung-kur.de</a>
 
 **Gestaltung und Technische Umsetzung:**
-<a href="https://annabelle-feiler.com/" target="_blank" rel="noopener" class="button text">studio feiler</a>
+<a href="https://studio-feiler.com/" target="_blank" rel="noopener" class="button text">studio feiler</a>
 
 ## Haftungshinweis
 

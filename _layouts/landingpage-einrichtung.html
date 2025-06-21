@@ -80,7 +80,8 @@
             <h2>Impressionen aus Loßburg</h2>
           </div>
           <div class="kurtermine-section-grid-container">
-            {% for item in site.data.lossburg %}
+            {% assign datenquelle = site.data[page.class] %} {% for item in
+            datenquelle %}
             <div
               class="kurtermine-section-grid-container--element impressionen"
             >

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<meta name="description" content="Erfahren Sie welche Kurtermine zur Verfügung stehen." />
+<meta name="description" content="Wir freuen uns über jedes Feedback." />
 
 <meta
   name="keywords"
@@ -13,7 +13,7 @@
 
 <meta name="author" content="Evangelische Müttergenesung in Württemberg" />
 
-<title>Kurtermine für Loßburg, Scheidegg und Bad Wurzach – Evangelische Müttergenesung in Württemberg</title>
+<title>Gästebucheintrag – Evangelische Müttergenesung in Württemberg</title>
 
 <script
   src="https://kit.fontawesome.com/81f652e334.js"
@@ -21,17 +21,18 @@
 ></script>
 
 <link rel="stylesheet" href="/css/style.css" />
-<link rel="stylesheet" href="/css/buttons.css" />
-<link rel="stylesheet" href="/css/footer.css" />
-<link rel="stylesheet" href="/css/header.css" />
-<link rel="stylesheet" href="/css/hero.css" />
-<link rel="stylesheet" href="/css/kurkliniken.css" />
-<link rel="stylesheet" href="/css/responsive.css" />
-<link rel="stylesheet" href="/css/typography.css" />
+
+<link rel="stylesheet" href="/css/buttons.css " />
+<link rel="stylesheet" href="/css/footer.css " />
+<link rel="stylesheet" href="/css/header.css " />
+<link rel="stylesheet" href="/css/hero.css " />
+<link rel="stylesheet" href="/css/kurkliniken.css " />
+<link rel="stylesheet" href="/css/responsive.css " />
+<link rel="stylesheet" href="/css/typography.css " />
 
 <!-- <script src="js/login.js"></script> -->
-<script src="js/script.js" defer></script>
-<script src="js/klinikfilter.js" defer></script>
+<script src="/js/script.js" defer></script>
+<script src="/js/klinikfilter.js" defer></script>
 
   </head>
   <body>
@@ -49,7 +50,7 @@
       <ul class="main-nav">
         
           <li>
-            <a href="index.html"
+            <a href="/index.html"
               
             >
               Startseite
@@ -60,7 +61,15 @@
             <a href="/unsere-kurkliniken.html"
               
             >
-              Unsere Kurkliniken
+              Kurkliniken
+            </a>
+          </li>
+        
+          <li>
+            <a href="/kurtermine.html"
+              
+            >
+              Kurtermine
             </a>
           </li>
         
@@ -161,7 +170,15 @@
               <a href="/unsere-kurkliniken.html"
                 
               >
-                Unsere Kurkliniken
+                Kurkliniken
+              </a>
+            </li>
+          
+            <li>
+              <a href="/kurtermine.html"
+                
+              >
+                Kurtermine
               </a>
             </li>
           
@@ -211,23 +228,61 @@
       <div class="headline-wrapper">
   <div class="headline_eyebrow centered">
     <h1>Gästebuch</h1>
+    <p>
+      Wir freuen uns über jedes Feedback, das wir von unseren Patientinnen
+      erhalten.
+    </p>
+    <a href="/gaestebucheintrag.html" class="button text"
+      >Gästebucheintrag schreiben&nbsp;&rarr;</a
+    >
   </div>
 </div>
 
-<div class="outter-wrapper">
-  <form name="gaestebuch" method="POST" data-netlify="true">
-    <p>
-      <label for="name">Name:</label><br />
-      <input type="text" id="name" name="name" required />
-    </p>
-    <p>
-      <label for="nachricht">Nachricht:</label><br />
-      <textarea id="nachricht" name="nachricht" required></textarea>
-    </p>
-    <p>
-      <button type="submit">Absenden</button>
-    </p>
-  </form>
+<div class="outter-wrapper gaestebucheintraege">
+  <!-- FILTER -->
+  <div class="kurtermine-filter">
+    <button data-filter="alle">
+      Alle anzeigen (2)
+    </button>
+    <button data-filter="loßburg">
+      Loßburg (0)
+    </button>
+    <button data-filter="scheidegg">
+      Scheidegg (1)
+    </button>
+    <!-- prettier-ignore -->
+    <button data-filter="bad wurzach">
+      Bad Wurzach (1)
+    </button>
+    <button data-filter="geschäftsstelle">
+      Geschäftsstelle (0)
+    </button>
+  </div>
+
+  <!-- GÄSTEBUCHEINTRAG GENERIEREN -->
+  
+  <div class="gaestebucheintrag" data-klinik="bad wurzach">
+    <div>
+      <strong>
+         Frauen- und Mütterkur Bad Wurzach</strong
+      >
+    </div>
+    <div>Liebes „Klinik“ Team, ich möchte von Herzen und ganz tiefer Dankbarkeit, dass mich mein Weg zu Ihnen geführt hat, ein paar liebe Worte da lassen. Ich weiß gar nicht wo ich anfangen soll! Ich fühlte mich bei Ihnen wunderbar aufgehoben, umsorgt, entlastet, verwöhnt, sportlich gefordert und behütet. Meine Therapeutinnen waren alle der Hammer! Soviel Wertschätzung und Impulse habe ich selten erfahren. Sie tun wirklich mehr als alles, dass man sich wohlfühlt und die Seele mal baumeln lassen kann!!!! Ich habe tatsächlich einige Impulse in meinen Alltag mitgenommen und es fühlt sich gut an! Ich kann die wundervolle Einrichtung in Bad Wurzach rundherum sehr empfehlen!!!! Auch das Essen war ausgezeichnet und super liebevoll angerichtet! Die ausgesprochene Freundlichkeit & Offenheit aller im Haus war eine absolute Bereicherung und man konnte sich wunderbar erholen. Auch die Natur und die Umgebung sind toll! Ich hoffe sehr, dass ich noch mal wiederkommen kann!!! Ganz vielen lieben Dank für alles! R. Apitz :-)
+</div>
+    <div><small>Mai 2025</small></div>
+  </div>
+  
+  <div class="gaestebucheintrag" data-klinik="scheidegg">
+    <div>
+      <strong>
+         Mutter-Kind-Kur Scheidegg </strong
+      >
+    </div>
+    <div>Wir waren vom 12.2-5.3.2025 da und es hat uns sehr gut getan. Wir konnten uns dort gut erholen und neue Kraft sammel. Alle waren super freundlich man hat sich sehr willkommen gefühlt. Essen war sehr gut, Therapien waren sehr gut und es gab viele gute Ansätze und Anregungen. Vielen dank für 3 sorgenfreie Wochen Sabine mit Felix
+</div>
+    <div><small>Februar 2025</small></div>
+  </div>
+  
 </div>
  <section id="faq-section">
   <div class="faq-section--content outter-wrapper">
@@ -255,11 +310,15 @@
     </main>
     <footer role="contentinfo"><div class="footer-content outter-wrapper">
   <ul class="footer-nav">
-    <li><a href="kontakt.html">Kontakt</a></li>
+    <li><a href="/kontakt.html">Kontakt</a></li>
     <li><a href="/impressum/">Impressum</a></li>
     <li><a href="/datenschutz/">Datenschutz</a></li>
-    <li><a href="/barrierefreiheit/">Barrierefreiheit</a></li>
-    <li><a href="stellenanzeigen.html">Stellenanzeigen</a></li>
+    <li>
+      <a href="/barrierefreiheit/">Barrierefreiheit</a>
+    </li>
+    <li>
+      <a href="/stellenanzeigen.html">Stellenanzeigen</a>
+    </li>
     <li><a href="/spenden/">Spenden</a></li>
     <li>
       <a

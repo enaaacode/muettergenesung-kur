@@ -7,7 +7,7 @@ document
     const form = e.target;
     const data = Object.fromEntries(new FormData(form).entries());
 
-    const response = await fetch("/.netlify/functions/submit-form", {
+    const response = await fetch("/.netlify/functions/submit-to-nextcloud", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),

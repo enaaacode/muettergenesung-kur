@@ -11,17 +11,21 @@ description: "Kontakt zur Geschäftsstelle der Evangelische Müttergenesung in W
 </div>
 
 <div class="outter-wrapper">
-  <form name="kontakt" method="POST" data-netlify="true">
+  <form
+    name="kontakt"
+    method="POST"
+    data-netlify="true"
+    netlify-honeypot="bot-field"
+  >
+    <input type="hidden" name="form-name" value="kontakt" />
+
     <label for="name">Name:</label>
-    <input type="text" name="name" id="name" required />
+    <input type="text" name="name" required />
 
     <label for="email">E-Mail:</label>
-    <input type="email" name="email" id="email" required />
+    <input type="email" name="email" required />
 
-    <label for="message">Nachricht:</label>
-    <textarea name="message" id="message" required></textarea>
-
-    <button type="submit">Absenden</button>
+    <button type="submit">Abschicken</button>
   </form>
 
   <h1>Kontaktformular</h1>

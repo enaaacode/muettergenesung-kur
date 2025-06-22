@@ -3,9 +3,3 @@
     "netlify/functions/submit-to-nextcloud.js"
   ]
 
-[build]
-  command = "echo 'no build needed'"
-  publish = "."
-
-[functions]
-  directory = "netlify/functions"

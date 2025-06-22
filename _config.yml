@@ -15,7 +15,3 @@ collections:
 
 exclude:
   - netlify
-  - node_modules
-  - README.md
-  - package.json
-  - .env

@@ -12,3 +12,10 @@ collections:
   rechtliches:
     output: true
     permalink: /:name/
+
+exclude:
+  - netlify
+  - node_modules
+  - README.md
+  - package.json
+  - .env

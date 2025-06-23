@@ -9,9 +9,6 @@ collections:
   landingpage-einrichtung:
     output: true
     permalink: /kurklinik/:name/
-  rechtliches:
-    output: true
-    permalink: /:name/
 
 exclude:
   - netlify

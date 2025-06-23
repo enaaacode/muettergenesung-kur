@@ -6,6 +6,7 @@ description: "Wir freuen uns über jedes Feedback."
 
 <div class="headline-wrapper">
   <div class="headline_eyebrow centered">
+    <a href="/gaestebuch" class="button text">Zurück zum Gästebuch</a>
     <h1>Gästebucheintrag</h1>
     <p>
       Wir freuen uns über jedes Feedback, das wir von unseren Patientinnen
@@ -14,17 +15,20 @@ description: "Wir freuen uns über jedes Feedback."
   </div>
 </div>
 
-<div class="outter-wrapper">
+<div class="outter-wrapper" id="gaestebucheintrag-section">
   <!-- modify this form HTML and place wherever you want your form -->
   <div class="gaestebucheintrag-container">
-    <form action="https://formspree.io/f/xkgbzdop" method="POST">
-      <!-- Weiterleitung nach erfolgreicher Absendung -->
-      <input
-        type="hidden"
-        name="_redirect"
-        value="https://deine-seite.github.io/danke.html"
-      />
-
+    <form
+      name="gaestebuch"
+      method="POST"
+      netlify
+      netlify-honeypot="bot-field"
+      action="/danke.html"
+    >
+      <input type="hidden" name="form-name" value="gaestebuch" />
+      <p style="display: none">
+        <label>Don’t fill this out: <input name="bot-field" /></label>
+      </p>
       <!-- Honeypot-Feld für Spam-Schutz -->
       <p style="display: none">
         <label>Bitte leer lassen: <input type="text" name="_gotcha" /></label>

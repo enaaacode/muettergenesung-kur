@@ -20,19 +20,34 @@
   crossorigin="anonymous"
 ></script>
 
-<link rel="stylesheet" href="/css/style.css" />
+<link rel="canonical" href="http://localhost:4000/kurklinik/lossburg/" />
 
-<link rel="stylesheet" href="/css/buttons.css " />
-<link rel="stylesheet" href="/css/footer.css " />
-<link rel="stylesheet" href="/css/header.css " />
-<link rel="stylesheet" href="/css/hero.css " />
-<link rel="stylesheet" href="/css/kurkliniken.css " />
-<link rel="stylesheet" href="/css/responsive.css " />
-<link rel="stylesheet" href="/css/typography.css " />
+<link rel="icon" href="/assets/icons/favicon.svg" />
+
+<link rel="stylesheet" href="/assets/css/style.css" />
+
+<link rel="stylesheet" href="/assets/css/buttons.css " />
+<link rel="stylesheet" href="/assets/css/footer.css " />
+<link rel="stylesheet" href="/assets/css/header.css " />
+<link rel="stylesheet" href="/assets/css/hero.css " />
+<link
+  rel="stylesheet"
+  href="/assets/css/kurkliniken.css "
+/>
+<link
+  rel="stylesheet"
+  href="/assets/css/responsive.css "
+/>
+<link
+  rel="stylesheet"
+  href="/assets/css/typography.css "
+/>
 
 <!-- <script src="js/login.js"></script> -->
-<script src="/js/script.js" defer></script>
-<script src="/js/klinikfilter.js" defer></script>
+<script src="/assets/js/script.js" defer></script>
+<script src="/assets/js/klinikfilter.js" defer></script>
+<script src="/assets/js/form-handler.js" defer></script>
+<script src="/assets/js/scrollup.js" defer></script>
 
   </head>
   <body>
@@ -129,7 +144,7 @@
       </button>
 
       <div id="mobile-overlay" class="outter-wrapper">
-        <div class="button-wrapper">
+        <div class="close-icon-wrapper">
           <button
             id="close-icon"
             aria-label="Menü schließen"
@@ -312,55 +327,91 @@
             <div
               class="kurtermine-section-grid-container--element impressionen"
             >
-              <img src="/assets/images/einrichtungen/lossburg/DSX_0044.png" alt="" />
+              <img
+                src="/assets/images/einrichtungen/lossburg/DSX_0044.png"
+                alt=""
+                loading="lazy"
+              />
             </div>
             
             <div
               class="kurtermine-section-grid-container--element impressionen"
             >
-              <img src="/assets/images/einrichtungen/lossburg/DSX_0094.png" alt="" />
+              <img
+                src="/assets/images/einrichtungen/lossburg/DSX_0094.png"
+                alt=""
+                loading="lazy"
+              />
             </div>
             
             <div
               class="kurtermine-section-grid-container--element impressionen"
             >
-              <img src="/assets/images/einrichtungen/lossburg/DSX_0181.png" alt="" />
+              <img
+                src="/assets/images/einrichtungen/lossburg/DSX_0181.png"
+                alt=""
+                loading="lazy"
+              />
             </div>
             
             <div
               class="kurtermine-section-grid-container--element impressionen"
             >
-              <img src="/assets/images/einrichtungen/lossburg/DSX_0200.png" alt="" />
+              <img
+                src="/assets/images/einrichtungen/lossburg/DSX_0200.png"
+                alt=""
+                loading="lazy"
+              />
             </div>
             
             <div
               class="kurtermine-section-grid-container--element impressionen"
             >
-              <img src="/assets/images/einrichtungen/lossburg/DSX_0252.png" alt="" />
+              <img
+                src="/assets/images/einrichtungen/lossburg/DSX_0252.png"
+                alt=""
+                loading="lazy"
+              />
             </div>
             
             <div
               class="kurtermine-section-grid-container--element impressionen"
             >
-              <img src="/assets/images/einrichtungen/lossburg/DSX_9986.png" alt="" />
+              <img
+                src="/assets/images/einrichtungen/lossburg/DSX_9986.png"
+                alt=""
+                loading="lazy"
+              />
             </div>
             
             <div
               class="kurtermine-section-grid-container--element impressionen"
             >
-              <img src="/assets/images/einrichtungen/lossburg/DSX_0283.png" alt="" />
+              <img
+                src="/assets/images/einrichtungen/lossburg/DSX_0283.png"
+                alt=""
+                loading="lazy"
+              />
             </div>
             
             <div
               class="kurtermine-section-grid-container--element impressionen"
             >
-              <img src="/assets/images/einrichtungen/lossburg/DSX_0290.png" alt="" />
+              <img
+                src="/assets/images/einrichtungen/lossburg/DSX_0290.png"
+                alt=""
+                loading="lazy"
+              />
             </div>
             
             <div
               class="kurtermine-section-grid-container--element impressionen"
             >
-              <img src="/assets/images/einrichtungen/lossburg/DSX_9790.png" alt="" />
+              <img
+                src="/assets/images/einrichtungen/lossburg/DSX_9790.png"
+                alt=""
+                loading="lazy"
+              />
             </div>
             
           </div>
@@ -486,6 +537,10 @@
   </span>
   <p>© 2025 Müttergenesung in Württemberg</p>
 </div>
+
+<button id="myBtn" onclick="topFunction()" aria-label="Nach oben">
+  <img src="/assets/icons/arrow-up-solid.svg" alt="" />
+</button>
 </footer>
   </body>
 </html>

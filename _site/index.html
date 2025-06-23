@@ -20,19 +20,34 @@
   crossorigin="anonymous"
 ></script>
 
-<link rel="stylesheet" href="/css/style.css" />
+<link rel="canonical" href="http://localhost:4000/" />
 
-<link rel="stylesheet" href="/css/buttons.css " />
-<link rel="stylesheet" href="/css/footer.css " />
-<link rel="stylesheet" href="/css/header.css " />
-<link rel="stylesheet" href="/css/hero.css " />
-<link rel="stylesheet" href="/css/kurkliniken.css " />
-<link rel="stylesheet" href="/css/responsive.css " />
-<link rel="stylesheet" href="/css/typography.css " />
+<link rel="icon" href="/assets/icons/favicon.svg" />
+
+<link rel="stylesheet" href="/assets/css/style.css" />
+
+<link rel="stylesheet" href="/assets/css/buttons.css " />
+<link rel="stylesheet" href="/assets/css/footer.css " />
+<link rel="stylesheet" href="/assets/css/header.css " />
+<link rel="stylesheet" href="/assets/css/hero.css " />
+<link
+  rel="stylesheet"
+  href="/assets/css/kurkliniken.css "
+/>
+<link
+  rel="stylesheet"
+  href="/assets/css/responsive.css "
+/>
+<link
+  rel="stylesheet"
+  href="/assets/css/typography.css "
+/>
 
 <!-- <script src="js/login.js"></script> -->
-<script src="/js/script.js" defer></script>
-<script src="/js/klinikfilter.js" defer></script>
+<script src="/assets/js/script.js" defer></script>
+<script src="/assets/js/klinikfilter.js" defer></script>
+<script src="/assets/js/form-handler.js" defer></script>
+<script src="/assets/js/scrollup.js" defer></script>
 
   </head>
   <body>
@@ -132,7 +147,7 @@
       </button>
 
       <div id="mobile-overlay" class="outter-wrapper">
-        <div class="button-wrapper">
+        <div class="close-icon-wrapper">
           <button
             id="close-icon"
             aria-label="Menü schließen"
@@ -403,7 +418,7 @@
           <h3>Standorte</h3>
           <p>In Loßburg (im Schwarzwald), in Bad Wurzach (in Oberschwaben) und in Scheidegg (im Allgäu).</p>
           <div class="button-wrapper">
-            <a href="" class="button text"
+            <a href="/unsere-kurkliniken" class="button text"
               >Entdecken Sie unsere Standorte&nbsp;→</a
             >
           </div>
@@ -413,7 +428,7 @@
           <h3>Erfahrung</h3>
           <p>Wir blicken zurück auf 70 Jahre Erfahrung in der Versorgung und Rehabilitierung von Frauen und Müttern.</p>
           <div class="button-wrapper">
-            <a href="" class="button text"
+            <a href="/ueber-uns" class="button text"
               >Erfahren Sie mehr über uns&nbsp;→</a
             >
           </div>
@@ -423,7 +438,7 @@
           <h3>Zufriedenheit</h3>
           <p>Wir sind stolz auf die Zufriedenheit von 98 % unserer Patientinnen.</p>
           <div class="button-wrapper">
-            <a href="" class="button text"
+            <a href="/gaestebuch" class="button text"
               >Schauen Sie in unser Gästebuch&nbsp;→</a
             >
           </div>
@@ -433,7 +448,7 @@
           <h3>Qualität</h3>
           <p>Wir lassen uns regelmäßig zertifizieren, unter anderem nach dem Qualitäts-Siegel des Müttergenesungswerks.</p>
           <div class="button-wrapper">
-            <a href="" class="button text"
+            <a href="/unsere-kurkliniken#zertifizierungen" class="button text"
               >Erfahren Sie mehr über uns&nbsp;→</a
             >
           </div>
@@ -515,6 +530,10 @@
   </span>
   <p>© 2025 Müttergenesung in Württemberg</p>
 </div>
+
+<button id="myBtn" onclick="topFunction()" aria-label="Nach oben">
+  <img src="/assets/icons/arrow-up-solid.svg" alt="" />
+</button>
 </footer>
   </body>
 </html>

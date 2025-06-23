@@ -1,19 +1,21 @@
+# Texte auf der Startseite ganzen Unten ("Das Besondere an unseren Kuren für Sie auf einen Blick")
+
 - titel: "Standorte"
   beschreibung: "In Loßburg (im Schwarzwald), in Bad Wurzach (in Oberschwaben) und in Scheidegg (im Allgäu)."
   linktext: "Entdecken Sie unsere Standorte"
-  linkurl: ""
+  linkurl: "/unsere-kurkliniken"
 
 - titel: "Erfahrung"
   beschreibung: "Wir blicken zurück auf 70 Jahre Erfahrung in der Versorgung und Rehabilitierung von Frauen und Müttern."
   linktext: "Erfahren Sie mehr über uns"
-  linkurl: ""
+  linkurl: "/ueber-uns"
 
 - titel: "Zufriedenheit"
   beschreibung: "Wir sind stolz auf die Zufriedenheit von 98 % unserer Patientinnen."
   linktext: "Schauen Sie in unser Gästebuch"
-  linkurl: ""
+  linkurl: "/gaestebuch"
 
 - titel: "Qualität"
   beschreibung: "Wir lassen uns regelmäßig zertifizieren, unter anderem nach dem Qualitäts-Siegel des Müttergenesungswerks."
   linktext: "Erfahren Sie mehr über uns"
-  linkurl: ""
+  linkurl: "/unsere-kurkliniken#zertifizierungen"

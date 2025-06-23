@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    <main aria-label="Seiteninhalt">
+      <div class="headline-wrapper">
+        <div class="headline_eyebrow centered">
+          <a href="/neuigkeiten" class="button text">Zurück zur Übersicht</a>
+          <h1>{{page.title}}</h1>
+          <small> {{ page.date | date: "%d.%m.%Y" }} </small>
+        </div>
+      </div>
+
+      <div class="outter-wrapper container-rechtliches">
+        <img
+          src="{{page.bild}}"
+          alt="{{page.alt}}"
+          style="border-radius: var(--border-radius-default)"
+        />
+        {{ content }}
+        <div class="button-wrapper">
+          <a href="/neuigkeiten" class="button text">Zurück zur Übersicht</a>
+        </div>
+      </div>
+      {% include section-faq.html %}
+    </main>
+    <footer role="contentinfo">{% include footer.html %}</footer>
+  </body>
+</html>

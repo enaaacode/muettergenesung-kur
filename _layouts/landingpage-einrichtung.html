@@ -85,7 +85,11 @@
             <div
               class="kurtermine-section-grid-container--element impressionen"
             >
-              <img src="{{ item.bild | relative_url }}" alt="{{ item.alt }}" />
+              <img
+                src="{{ item.bild | relative_url }}"
+                alt="{{ item.alt }}"
+                loading="lazy"
+              />
             </div>
             {% endfor %}
           </div>

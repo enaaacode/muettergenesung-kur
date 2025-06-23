@@ -30,7 +30,7 @@
           <h3>{{ item.titel }}</h3>
           <p>{{ item.beschreibung }}</p>
           <div class="button-wrapper">
-            <a href="{{ item.linkurl }}" class="button text"
+            <a href="{{ item.linkurl | relative_url }}" class="button text"
               >{{ item.linktext }}&nbsp;→</a
             >
           </div>

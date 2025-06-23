@@ -4,6 +4,8 @@ title: "Internationaler Aktionstag für Frauengesundheit"
 teaser: "Gesundheit von Frauen und Mädchen als zentrales Menschenrecht."
 date: 2025-05-28
 bild: "/assets/images/blogposts/2025-05-28-aktionstag.png"
+alt: ""
+quelle: "Pexels.com"
 ---
 
 Anlässlich des Internationalen Aktionstags für Frauengesundheit am 28. Mai fordert der Landesfrauenrat Baden-Württemberg (LFR BW) die Gesundheit von Frauen und Mädchen als zentrales Menschenrecht zu stärken.

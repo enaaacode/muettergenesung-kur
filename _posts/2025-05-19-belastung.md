@@ -4,6 +4,8 @@ title: "Belastung ernstnehmen"
 teaser: "Anlässlich des Internationalen Tages der Familie fordert der Landesfrauenrat die Belastung von Frauen ernstzunehmen."
 date: 2025-05-19
 bild: "/assets/images/blogposts/2025-05-19-belastung.png"
+alt: ""
+quelle: "Pexels.com"
 ---
 
 Stuttgart (epd). Anlässlich des Internationalen Tages der Familie am 15. Mai hat der Landesfrauenrat Baden-Württemberg dazu aufgerufen, die Belastungen von Frauen und Müttern ernstzunehmen.

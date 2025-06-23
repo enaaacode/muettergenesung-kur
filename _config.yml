@@ -11,4 +11,4 @@ collections:
     permalink: /kurklinik/:name/
 
 exclude:
-  - netlify
+  - netlify/functions

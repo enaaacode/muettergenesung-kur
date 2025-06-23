@@ -568,7 +568,7 @@ body {
 
 /* GÄSTEBUCH Formular
 ======================================================================= */
-#gaestebucheintrag-section {
+.gaestebucheintrag-section {
   background-image: url(/assets/images/illustration_gb_background.svg);
   background-repeat: no-repeat;
   background-position: bottom;

@@ -11,29 +11,6 @@ description: "Erfahren Sie was es Neues in der Evangelischen Müttergenesung in 
 </div>
 
 <div class="outter-wrapper section-gap">
-  <section class="kurtermine-section-grid-container">
-    {% for post in site.posts %}
-    <div class="kurtermine-section-grid-container--element">
-      <a href="{{ post.url }}">
-        <div class="kurkliniken-section-grid-container--element--blog-img">
-          <img src="{{post.bild | relative_url }}" alt="" />
-        </div>
-        <div class="kurkliniken-section-grid-container--element--text">
-          <small>
-            {{ post.date | date: "%d.%m.%Y" }} • {% assign words = post.content
-            | number_of_words %} {% assign minutes = words | divided_by:150 %}
-            {% if minutes < 1 %} Lesedauer: 1 Min {% else %} Lesedauer: {{
-            minutes }} Min {% endif %}
-          </small>
-          <h3>{{post.title}}</h3>
-          <p>{{post.teaser}}</p>
-          <p class="button text">Beitrag lesen&nbsp;&rarr;</p>
-        </div>
-      </a>
-    </div>
-    {% endfor %}
-  </section>
-
   <section id="mailingliste">
     <div class="mailingliste-outter-container">
       <div class="mailingliste-container--bild">
@@ -57,5 +34,28 @@ description: "Erfahren Sie was es Neues in der Evangelischen Müttergenesung in 
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="kurtermine-section-grid-container">
+    {% for post in site.posts %}
+    <div class="kurtermine-section-grid-container--element">
+      <a href="{{ post.url }}">
+        <div class="kurkliniken-section-grid-container--element--blog-img">
+          <img src="{{post.bild | relative_url }}" alt="" />
+        </div>
+        <div class="kurkliniken-section-grid-container--element--text">
+          <small>
+            {{ post.date | date: "%d.%m.%Y" }} • {% assign words = post.content
+            | number_of_words %} {% assign minutes = words | divided_by:150 %}
+            {% if minutes < 1 %} Lesedauer: 1 Min {% else %} Lesedauer: {{
+            minutes }} Min {% endif %}
+          </small>
+          <h3>{{post.title}}</h3>
+          <p>{{post.teaser}}</p>
+          <p class="button text">Beitrag lesen&nbsp;&rarr;</p>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
   </section>
 </div>

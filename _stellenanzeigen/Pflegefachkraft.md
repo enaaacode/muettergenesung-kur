@@ -1,7 +1,7 @@
 ---
 layout: job
 titel: "Pflegefachkraft / Heilerziehungspflegerin"
-klinik: "Bad Wurzach"
+klinik: "Loßburg"
 zeitpunkt: "Ab sofort"
 umfang: "in Vollzeit"
 ansprechpartnerin: "Michaela Kratzenstein-Koch"

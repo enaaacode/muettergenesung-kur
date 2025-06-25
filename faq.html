@@ -1,11 +1,89 @@
 ---
-layout: default
-title: "Kurtermine für Loßburg, Scheidegg und Bad Wurzach – Evangelische Müttergenesung in Württemberg"
+layout: faqlayout
+title: "Häufig gestellte Fragen"
 description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
 ---
 
-<div class="headline-wrapper">
-  <div class="headline_eyebrow centered">
-    <h1>Häufig gestellte Fragen</h1>
-  </div>
-</div>
+<details class="fragen-container">
+  <summary class="fragen-kategorie"><h2>Allgemeine Fragen</h2></summary>
+  {% for item in site.data.faq-1-allgemeine-fragen %}
+  <details class="fragen-container--element">
+    <summary>
+      <strong>{{item.title}}</strong>
+    </summary>
+    {{ item.antwort | newline_to_br }}
+  </details>
+  {% endfor %}
+</details>
+
+<details class="fragen-container">
+  <summary class="fragen-kategorie"><h2>Kurablauf</h2></summary>
+  {% for item in site.data.faq-2-kurablauf %}
+  <details class="fragen-container--element">
+    <summary>
+      <strong>{{item.title}}</strong>
+    </summary>
+    {{item.antwort}}
+  </details>
+  {% endfor %}
+</details>
+
+<details class="fragen-container">
+  <summary class="fragen-kategorie"><h2>Organisatorisches</h2></summary>
+  {% for item in site.data.faq-3-organisatorisches %}
+  <details class="fragen-container--element">
+    <summary>
+      <strong>{{item.title}}</strong>
+    </summary>
+    {{item.antwort}}
+  </details>
+  {% endfor %}
+</details>
+
+<details class="fragen-container">
+  <summary class="fragen-kategorie"><h2>Essen & Trinken</h2></summary>
+  {% for item in site.data.faq-4-essen %}
+  <details class="fragen-container--element">
+    <summary>
+      <strong>{{item.title}}</strong>
+    </summary>
+    {{item.antwort}}
+  </details>
+  {% endfor %}
+</details>
+
+<details class="fragen-container">
+  <summary class="fragen-kategorie"><h2>An- und Abreise</h2></summary>
+  {% for item in site.data.faq-5-anabreise %}
+  <details class="fragen-container--element">
+    <summary>
+      <strong>{{item.title}}</strong>
+    </summary>
+    {{item.antwort}}
+  </details>
+  {% endfor %}
+</details>
+
+<details class="fragen-container">
+  <summary class="fragen-kategorie"><h2>Kurklinik & Ausstattung</h2></summary>
+  {% for item in site.data.faq-6-kurklinik %}
+  <details class="fragen-container--element">
+    <summary>
+      <strong>{{item.title}}</strong>
+    </summary>
+    {{item.antwort}}
+  </details>
+  {% endfor %}
+</details>
+
+<details class="fragen-container">
+  <summary class="fragen-kategorie"><h2>Kinder & Betreuung</h2></summary>
+  {% for item in site.data.faq-7-kinder %}
+  <details class="fragen-container--element">
+    <summary>
+      <strong>{{item.title}}</strong>
+    </summary>
+    {{item.antwort}}
+  </details>
+  {% endfor %}
+</details>

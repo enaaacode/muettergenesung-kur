@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    <main aria-label="Seiteninhalt">
+      <div class="headline-wrapper">
+        <div class="headline_eyebrow centered">
+          <a href="/index" class="button text">&larr; Zurück zur Startseite</a>
+          <h1>{{page.title}}</h1>
+          <p>Hier finden Sie Antworten auf häufig gestellte Fragen</p>
+        </div>
+      </div>
+
+      <div class="outter-wrapper container-rechtliches">{{ content }}</div>
+    </main>
+    <footer role="contentinfo">{% include footer.html %}</footer>
+  </body>
+</html>

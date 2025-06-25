@@ -1,7 +1,7 @@
 # Bilder und Namen für "Über uns"-Seite
 
 # Geschäftsstelle
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# ======================================================
 
 - ort: "Geschäftsstelle"
   name: "Andrea Boyer"
@@ -11,7 +11,7 @@
 - ort: "Geschäftsstelle"
   name: "Diana Schrade- Geckeler"
   beschreibung: "stellv. Geschäftsführung und Leitung Kurberatung und Kurbelegung"
-  bild: ""
+  bild: "assets/images/team/geschaeftsstelle/Diana_Schrade-Geckeler.png"
 
 - ort: "Geschäftsstelle"
   name: "Vera Martens"
@@ -26,7 +26,7 @@
 - ort: "Geschäftsstelle"
   name: "Ingeburg Kelsch"
   beschreibung: "Kurbelegung und Beratung"
-  bild: ""
+  bild: "assets/images/team/geschaeftsstelle/Ingeburg_Kelsch.png"
 
 - ort: "Geschäftsstelle"
   name: "Stephanie Rudolph"
@@ -36,7 +36,7 @@
 - ort: "Geschäftsstelle"
   name: "Corinna Braun"
   beschreibung: "Kurbelegung und Beratung Frauen-und-Mütter-Kurklinik Bad Wurzach"
-  bild: ""
+  bild: "assets/images/team/geschaeftsstelle/Corinna_Braun.png"
 
 - ort: "Geschäftsstelle"
   name: "Janine Riehl"
@@ -69,12 +69,12 @@
   bild: "assets/images/team/geschaeftsstelle/Regine_Schmid.png"
 
 # Loßburg
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# ======================================================
 
 - ort: "Loßburg"
-  name: ""
-  beschreibung: ""
-  bild: ""
+  name: "Michaela Kratzenstein-Koch"
+  beschreibung: "Einrichtungsleitung"
+  bild: "assets/images/team/lossburg/Michaela_Kratzenstein-Koch.png"
 
 - ort: "Loßburg"
   name: ""
@@ -97,7 +97,7 @@
   bild: ""
 
 # Scheidegg
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# ======================================================
 
 - ort: "Scheidegg"
   name: ""
@@ -125,7 +125,7 @@
   bild: ""
 
 # Bad Wurzach
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# ======================================================
 
 - ort: "Bad Wurzach"
   name: ""

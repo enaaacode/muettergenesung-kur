@@ -7,8 +7,7 @@ info: "für Mütter mit Kindern im Alter von 3 bis 12 Jahren"
 class: "lossburg"
 icon: "/assets/images/einrichtungen/icon_lossburg.svg"
 download: "/assets/downloads/240930_Hausflyer_Lossburg_WEB.pdf"
-farbe: "var(--color-green)"
-
+farbe: "#a1c049"
 title: "Evangelische Mutter-Kind-Kurklinik in Loßburg"
 discription: ""
 ---

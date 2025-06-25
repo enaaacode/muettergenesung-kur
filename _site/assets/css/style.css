@@ -691,10 +691,92 @@ legend {
 .mailingliste-container--bild img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* oder 'contain', je nach gewünschtem Verhalten */
+  object-fit: cover;
   display: block;
 }
 
 .mailingliste-container--text {
   gap: 1rem;
+}
+
+/* FAQ
+======================================================================= */
+/* Hauptcontainer */
+.fragen-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: var(--border-radius-default);
+}
+
+/* Kategorie-Überschrift */
+summary.fragen-kategorie > h2 {
+  font-size: 1.2rem;
+}
+
+/* Summary: Hauptfrage (Kategorie) */
+summary.fragen-kategorie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+}
+
+/* Kategorie: Plus-Symbol */
+summary.fragen-kategorie::after {
+  content: "+";
+  font-size: 2.25rem; /* größer */
+  color: var(--color-pink);
+  transition: transform 150ms ease-in-out;
+}
+
+/* Kategorie: Drehung bei geöffnetem Zustand */
+details[open] > summary.fragen-kategorie::after {
+  transform: rotate(45deg);
+}
+
+/* Unterfrage-Container */
+.fragen-container--element {
+  padding: 1rem 1.5rem;
+  background: #fff8fd;
+  border-radius: var(--border-radius-default);
+  margin-top: 1rem;
+}
+
+/* Unterfrage-Summary */
+.fragen-container--element > summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+}
+
+/* Unterfrage: Plus-Symbol */
+.fragen-container--element > summary::after {
+  content: "+";
+  font-size: 1.6rem; /* etwas kleiner als bei Hauptfrage */
+  color: var(--color-pink);
+
+  transition: transform 150ms ease-in-out;
+  margin-left: 0.5rem;
+}
+
+/* Unterfrage: Drehung bei geöffnetem Zustand */
+.fragen-container--element[open] > summary::after {
+  transform: rotate(45deg);
+}
+
+/* Optional: globale Drehung blockieren, wenn nötig */
+[open] summary::after {
+  transform: none;
+}
+
+/* JOB Unterseite - Gründe für uns
+======================================================================= */
+
+#gruende-fuer-uns {
+  margin-top: 4rem;
 }

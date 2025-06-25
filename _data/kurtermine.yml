@@ -7,6 +7,7 @@
 # Tipp zum Vorgehen: am besten einen bestehenden Block kopieren und die Daten entsprechend anpassen
 
 # Termine für Badwurzach
+# ======================================================
 
 - einrichtung: "Frauen- und Mütterkur"
   klinik: "Bad Wurzach"
@@ -19,6 +20,7 @@
   hinweis: ""
 
 # Termine für Schedegg
+# ======================================================
 
 - einrichtung: "Mutter-Kind-Kur"
   klinik: "Scheidegg"
@@ -26,6 +28,7 @@
   hinweis: ""
 
 # Termine für Loßburg
+# ======================================================
 
 - einrichtung: "Mutter-Kind-Kur"
   klinik: "Loßburg"

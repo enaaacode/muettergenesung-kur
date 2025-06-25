@@ -143,6 +143,7 @@ button:focus {
 ======================================================================= */
 
 #myBtn {
+  display: none;
   all: unset;
   cursor: pointer;
   position: fixed;

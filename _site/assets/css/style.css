@@ -838,3 +838,31 @@ details[open] > summary.fragen-kategorie::after {
 #gruende-fuer-uns {
   margin-top: 4rem;
 }
+
+/* JOB SEITE - Mobile Optimierungen */
+@media (max-width: 768px) {
+  .job-aufgaben-section .four-grid--container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .job-aufgaben-section .kurkliniken-section-grid-container--element {
+    width: 100%;
+  }
+
+  .job-aufgaben-section .kurkliniken-section-grid-container--element--text {
+    padding: 1.5rem;
+  }
+}
+
+/* Für sehr kleine Smartphones */
+@media (max-width: 480px) {
+  .job-aufgaben-section .outter-wrapper {
+    padding: 1rem;
+  }
+
+  .job-aufgaben-section .kurkliniken-section-grid-container--element--text {
+    padding: 1rem;
+  }
+}

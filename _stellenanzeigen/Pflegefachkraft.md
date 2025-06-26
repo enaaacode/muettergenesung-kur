@@ -1,6 +1,6 @@
 ---
 layout: job
-titel: "Pflegefachkraft / Heilerziehungspflegerin"
+titel: "Pflegefachkraft / Heilerziehungs&shy;pflegerin"
 klinik: "Loßburg"
 zeitpunkt: "Ab sofort"
 umfang: "in Vollzeit"

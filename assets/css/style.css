@@ -376,6 +376,26 @@ body {
   gap: 1rem;
 }
 
+@media (max-width: 768px) {
+  .two-column-text--container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .two-column-text--container--text {
+    min-width: unset; /* Entfernt die 300px Mindestbreite */
+    width: 100%;
+  }
+
+  /* Falls der Text trotzdem überläuft: */
+  .two-column-text--container--text p,
+  .two-column-text--container--text li {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+}
+
 .three-column--container {
   display: flex;
   flex-direction: row;

@@ -560,6 +560,38 @@ body {
   padding: var(--padding);
 }
 
+/* ÜBER UNS - Responsive
+======================================================================= */
+
+@media (max-width: 1200px) {
+  .team-section-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .team-section-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem 2rem;
+  }
+
+  .team-section-grid--element--bild {
+    width: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  .team-section-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .team-section-grid--element--bild {
+    width: 120px;
+  }
+}
+
 /* BLOG 
 ======================================================================= */
 

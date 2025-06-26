@@ -1,7 +1,6 @@
 <div class="outter-wrapper">
   <header>
-    <a href="{{'/index.html' | relative_url}}" 
-    class="logo">
+    <a href="{{ '/index.html' | relative_url }}" class="logo">
       <img
         src="{{ '/assets/logo/Muettergenesung_logo.svg' | relative_url }}"
         alt="Logo der Evangelischen Müttergenesung Württemberg"
@@ -11,20 +10,20 @@
     <nav id="desktop-nav" aria-label="Hauptnavigation (Desktop)">
       <ul class="main-nav">
         {% for item in site.data.navigation %}
-          <li>
-            <a href="{{ item.url | relative_url}}"
-              {% if page.url == item.url or page.url == '/' and item.url == 'index.html' %}
-                class="active"
-                aria-current="page"
-              {% endif %}
-            >
-              {{ item.title }}
-            </a>
-          </li>
+        <li>
+          <a
+            href="{{ item.url | relative_url}}"
+            {% if page.url == item.url or page.url == '/' and item.url == 'index.html' %}
+            class="active"
+            aria-current="page"
+            {% endif %}
+          >
+            {{ item.title }}
+          </a>
+        </li>
         {% endfor %}
       </ul>
     </nav>
-
 
     <nav class="mobile-nav" aria-label="Hauptnavigation (Mobil)">
       <button id="burger-icon" aria-label="Menü öffnen" class="icon-button">
@@ -69,22 +68,32 @@
           </button>
         </div>
 
-
         <ul>
           {% for item in site.data.navigation %}
-            <li>
-              <a href="{{ item.url }}"
-                {% if page.url == item.url or page.url == '/' and item.url == 'index.html' %}
-                  class="active"
-                  aria-current="page"
-                {% endif %}
-              >
-                {{ item.title }}
-              </a>
-            </li>
+          <li>
+            <a
+              href="{{ item.url }}"
+              {% if page.url == item.url or page.url == '/' and item.url == 'index.html' %}
+              class="active"
+              aria-current="page"
+              {% endif %}
+            >
+              {{ item.title }}
+            </a>
+          </li>
           {% endfor %}
+          <li>
+            <a
+              href="{{ '/stellenanzeigen.html' | relative_url }}"
+              {% if page.url == '/stellenanzeigen.html' %}
+              class="active"
+              aria-current="page"
+              {% endif %}
+            >
+              Stellenanzeigen
+            </a>
+          </li>
         </ul>
-              
       </div>
     </nav>
   </header>

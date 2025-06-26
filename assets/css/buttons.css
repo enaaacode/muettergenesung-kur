@@ -157,7 +157,7 @@ button:focus {
 ======================================================================= */
 
 #myBtn {
-  display: none;
+  display: none !important; /* Versteckt den Button initial */
   all: unset;
   cursor: pointer;
   position: fixed;
@@ -167,6 +167,13 @@ button:focus {
   background-color: var(--color-pink);
   padding: 15px;
   border-radius: 50%;
+  opacity: 0; /* Zusätzlich unsichtbar machen */
+  transition: opacity 0.3s ease;
+}
+
+#myBtn.show {
+  display: block !important;
+  opacity: 1;
 }
 
 #myBtn:hover {

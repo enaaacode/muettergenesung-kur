@@ -76,12 +76,20 @@ header {
 }
 
 .mobile-nav ul {
+  margin: 0; /* Entfernt Standard-Margin */
   margin-top: 1.5rem;
+  padding: 0; /* Entfernt Standard-Padding */
   list-style: none;
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+.mobile-nav li {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .mobile-nav a {

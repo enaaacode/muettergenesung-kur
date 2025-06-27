@@ -1,0 +1,42 @@
+- title: "Welche Getränke gibt es?"
+  antwort: |
+    <p>In unserer Teeküche können Sie sich jederzeit selbst eine Tasse Tee zubereiten – ein Wasserkocher und verschiedene Teesorten stehen für Sie bereit.</p>
+    <p>Zudem finden Sie dort auch Wassersprudler.</p>
+    <p>Für eine Tasse Kaffee steht im Gemeinschaftsraum ein Kaffeeautomat zur Verfügung.</p>
+  kategorie: "Essen und Trinken"
+
+- title: "Ist vegane oder vegetarische Ernährung möglich?"
+  antwort: |
+    <p>Wir bieten Ihnen gerne vegetarische Ernährung an.</p>
+    <p>Vegane Ernährung ist leider nicht möglich.</p>
+  kategorie: "Essen und Trinken"
+
+- title: "Kann man sich von den Mahlzeiten abmelden?"
+  antwort: |
+    <p>Montag bis Freitag ist eine Abmeldung vom Abendessen möglich.</p>
+    <p>Am Wochenende ist eine Abmeldung vom Mittag- und Abendessen möglich.</p>
+  kategorie: "Essen und Trinken"
+
+- title: "Ich habe Nahrungsunverträglichkeiten"
+  antwort: |
+    <p>Für Unverträglichkeiten bitten wir um ein Attest Ihrer Arztpraxis.</p>
+    <p>Sie werden selbstverständlich im Rahmen unserer Möglichkeiten berücksichtigt.</p>
+    <p>Für die Planung unserer Hauswirtschaft ist es notwendig, dass Sie die Atteste vorab an uns senden, damit wir wichtige Absprachen treffen können.</p>
+    <p>Natürlich berücksichtigen wir auch Unverträglichkeiten Ihrer Kinder. Dafür muss Ihr Kind nicht behandlungsbedürftig sein. Auch hier ist ein Attest notwendig.</p>
+  kategorie: "Essen und Trinken"
+
+- title: "Ab wann gibt es Frühstück?"
+  antwort: |
+    <p>Die Frühstückszeiten sind je nach Klinik unterschiedlich:</p>
+    <ul>
+      <li>Frauen- und Mütterkurklinik Bad Wurzach: Montag bis Freitag 7:00 – 8:30 Uhr, Samstag und Sonntag 7:30 – 9:00 Uhr</li>
+      <li>Mutter-Kind Kurklinik Scheidegg: täglich von 7:30 – 9:00 Uhr</li>
+      <li>Mutter-Kind Kurklinik Loßburg: täglich von 8:00 – 9:00 Uhr</li>
+    </ul>
+  kategorie: "Essen und Trinken"
+
+- title: "Gibt es einen Kühlschrank?"
+  antwort: |
+    <p>In der Teeküche steht Ihnen ein Kühlschrank zur Verfügung.</p>
+    <p>Sollten Sie Medikamente mitbringen, die gekühlt werden müssen, wenden Sie sich bitte bei der Anreise an eine Mitarbeiterin.</p>
+  kategorie: "Essen und Trinken"

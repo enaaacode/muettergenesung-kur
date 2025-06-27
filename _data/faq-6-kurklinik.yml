@@ -1,0 +1,23 @@
+- title: "Gibt es einen Fernseher?"
+  antwort: |
+    <p>Ja, im Gemeinschaftsraum gibt es einen Fernseher, der von allen Patientinnen genutzt werden kann.</p>
+  kategorie: "Kurklinik und Ausstattung"
+
+- title: "Gibt es WLAN im Haus?"
+  antwort: |
+    <p>Ja, gegen eine Gebühr kann sich in das hauseigene WLAN eingewählt werden.</p>
+    <p>In unserer Mutter-Kind-Kurklinik Scheidegg gibt es WLAN nur im Eingangsbereich.</p>
+  kategorie: "Kurklinik und Ausstattung"
+
+- title: "Gibt es ein Telefon auf dem Zimmer?"
+  antwort: |
+    <p>Ja, jedes Patientinnenzimmer verfügt über ein Telefon.</p>
+    <p>In unseren Mutter-Kind-Kurkliniken steht ebenfalls ein Babyfon für jedes Zimmer zur Verfügung.</p>
+  kategorie: "Kurklinik und Ausstattung"
+
+- title: "Kann ein Fahrrad ausgeliehen werden?"
+  antwort: |
+    <p>In Scheidegg und Bad Wurzach stehen Fahrräder zum Ausleihen zur Verfügung.</p>
+    <p>In Loßburg können im Ort Erwachsenenfahrräder ausgeliehen werden. In Freudenstadt sowohl Erwachsenen- als auch Kinderfahrräder.</p>
+    <p>Sie können jedoch auch Ihr eigenes Fahrrad mitbringen und im Fahrradschuppen unterstellen. Bitte bringen Sie dann ein eigenes Schloss für die Fahrräder mit.</p>
+  kategorie: "Kurklinik und Ausstattung"

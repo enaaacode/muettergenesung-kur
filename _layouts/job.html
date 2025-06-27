@@ -46,7 +46,7 @@
     {% include header.html %}
     <main aria-label="Seiteninhalt">
       <div class="headline_eyebrow centered">
-        <p class="eyebrow">Wir suchen Sie als</p>
+        <p class="eyebrow">Wir suchen Sie (m/w/d) als</p>
         <h1>{{page.titel}}</h1>
         <p>
           in unserer Einrichtung in
@@ -55,7 +55,12 @@
         </p>
       </div>
 
-      <section class="job-aufgaben-section lossburg-job-bild">
+      <!-- <section class="job-aufgaben-section
+     {% if page.klinik == "Loßburg" %} lossburg-job-bild
+      {% elsif page.klinik == "Scheidegg" %} scheidegg-job-bild
+      {% elsif page.klinik == "Bad Wurzach" %} bad-wurzach-job-bild
+      {% endif %}">  -->
+      <section class="job-aufgaben-section job-bild">
         <div class="outter-wrapper">
           <div class="four-grid--container">
             <div class="kurkliniken-section-grid-container--element">
@@ -65,8 +70,9 @@
                 <p>Wir freuen uns auf Ihre Onlinebewerbung!</p>
 
                 <p>
-                  <strong> Ansprechpartnerin:</strong>
-                  {{page.ansprechpartnerin}} ({{page.position}})
+                  <strong> Ansprechpartnerin:</strong> <br />
+                  {{page.ansprechpartnerin}} <br />
+                  <small>({{page.position}})</small>
                 </p>
                 <p>
                   <strong>E-Mail:</strong>

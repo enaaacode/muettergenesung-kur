@@ -1,15 +1,19 @@
 ---
 layout: job
-titel: "Pflegefachkraft / Heilerziehungs&shy;pflegerin"
+titel: "Physiotherapeutin"
 klinik: "Loßburg"
 zeitpunkt: "Ab sofort"
-umfang: "in Vollzeit"
+umfang: "in Teilzeit (40 %)"
 ansprechpartnerin: "Michaela Kratzenstein-Koch"
 position: "Einrichtungsleitung"
 mail: "michaela.kratzenstein@muettergenesung-kur.de"
 ---
 
 ## Aufgaben:
+
+Fühl den Muskelkater – und mach ihn weg!
+Du liebst es, anderen den Rücken zu stärken – im wahrsten Sinne des Wortes?
+Dann bist du bei uns genau richtig!
 
 - Aufgabe 1
 - Aufgabe 2

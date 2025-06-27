@@ -38,6 +38,14 @@ Scheidegg => color-blue: #586eb0;
   color: var(--color-orange);
 }
 
+.job-bild {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/assets/images/stock-photo-jigsaw-puzzle-pieces-communication-teamwork-unite-power-teamwork-and-unity-in-hand-teamwork-concept-2342732777.jpg");
+}
+
+/* 
 .lossburg-job-bild {
   background-size: cover;
   background-position: center;
@@ -49,15 +57,17 @@ Scheidegg => color-blue: #586eb0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/assets/images/titelbild_scheidegg2.jpg");
+  background-image: url("/assets/images/titelbild_scheidegg.jpg");
 }
 
 .bad-wurzach-job-bild {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/assets/images/titelbild_badwurzach2.jpg");
+  background-image: url("/assets/images/titelbild_badwurzach.jpg");
 }
+/* 
+
 
 /* LANDINGPAGEES der einzelnen Kurkliniken 
 ======================================================================= */

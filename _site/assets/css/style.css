@@ -37,6 +37,10 @@ a[href^="mailto:"] {
   overflow-wrap: break-word; /* Bricht nur bei Bedarf um */
 }
 
+small {
+  font-size: 0.9rem;
+}
+
 :root {
   --color-bg: #eeeeee;
   --color-bg-cards: #f5f5f5;

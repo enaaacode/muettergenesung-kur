@@ -7,9 +7,9 @@ class: "scheidegg"
 icon: "/assets/images/einrichtungen/icon_scheidegg.svg"
 download: "/assets/downloads/240930_Hausflyer_Scheidegg_WEB.pdf"
 farbe: "var(--color-blue)"
-
 title: "Evangelische Mutter-Kind-Kurklinik in Scheidegg"
 discription: ""
+ort: "Scheidegg"
 ---
 
 Unsere Klinik liegt ruhig am Ortsrand von Scheidegg, einem heilklimatischen Kneippkurort auf 900 Metern Höhe. Von hier aus haben Sie einen traumhaften Blick auf die Allgäuer Alpen und den Bodensee. Scheidegg zählt zu den 16 besten Heilklimatischen Kurorten in Deutschland. Die ausgezeichnete Luft- und Umweltqualität macht den Ort ideal für Erholung, Vorsorge und Therapie.

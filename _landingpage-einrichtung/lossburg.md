@@ -10,6 +10,7 @@ download: "/assets/downloads/240930_Hausflyer_Lossburg_WEB.pdf"
 farbe: "#a1c049"
 title: "Evangelische Mutter-Kind-Kurklinik in Loßburg"
 discription: ""
+ort: "Loßburg"
 ---
 
 Unsere Klinik liegt ruhig auf 740 Metern Höhe im schönen Loßburger Ferienland. Mitten im Herzen des nördlichen Schwarzwalds. Direkt hinter dem Haus beginnt der Wald. Typisch für die Region lädt er ein zu Spaziergängen, zum Walken, Joggen oder zum heilsamen Waldbaden.

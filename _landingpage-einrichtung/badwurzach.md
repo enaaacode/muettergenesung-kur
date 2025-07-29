@@ -1,12 +1,13 @@
 ---
 layout: landingpage-einrichtung
 titel: "Evangelische Frauen- und Mütterkurklinik"
-subline: "in Bad Wurach in Oberschwaben"
+subline: "in Bad Wurzach in Oberschwaben"
 info: "(mit Sanatoriumsanerkennung) für Mütter und Frauen"
 class: "badwurzach"
 icon: "/assets/images/einrichtungen/icon_badwurzach.svg"
 download: "/assets/downloads/240930_Bad-Wurzach-Borschüre_WEB.pdf"
 farbe: "var(--color-orange)"
+ort: "Bad Wurzach"
 
 title: "Evangelische Frauen- und Mütterkurklini in Bad Wurzach"
 discription: ""

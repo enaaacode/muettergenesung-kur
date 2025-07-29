@@ -15,17 +15,17 @@ Scheidegg => color-blue: #586eb0;
 }
 .lossburg {
   color: var(--color-green);
-  background-image: url("/assets/images/titelbild_lossburg2.jpg");
+  background-image: url("/assets/images/titelbild_lossburg.png");
 }
 
 .scheidegg {
   color: var(--color-blue);
-  background-image: url("/assets/images/titelbild_scheidegg2.jpg");
+  background-image: url("/assets/images/titelbild_scheidegg.png");
 }
 
 .bad-wurzach {
   color: var(--color-orange);
-  background-image: url("/assets/images/titelbild_badwurzach2.jpg");
+  background-image: url("/assets/images/titelbild_badwurzach.jpg");
 }
 
 .mutter-kind-icon.icon-lossburg {

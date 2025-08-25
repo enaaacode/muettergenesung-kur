@@ -70,17 +70,26 @@
 
                 <p>Wir freuen uns auf Ihre Onlinebewerbung!</p>
 
-                <p>
-                  <strong> Ansprechpartnerin:</strong> <br />
-                  {{page.ansprechpartnerin}} <br />
-                  <small>({{page.position}})</small>
-                </p>
-                <p>
-                  <strong>E-Mail:</strong>
-                  <a class="button text" href="mailto:{{page.mail}}"
-                    >{{page.mail}}</a
+                <div class="ansprechpartnerin-container">
+                  <div
+                    class="ansprechpartnerin-element team-section-grid--element--bild"
                   >
-                </p>
+                    <img
+                      <img
+                      src="{{ page.bild | default: '/assets/images/leeres_profilbild.jpg' }}"
+                      alt="Platzhalterbild für {{ page.name }}"
+                    />
+                  </div>
+
+                  <div class="ansprechpartnerin-element">
+                    <strong> Ihre Ansprechpartnerin:</strong> <br />
+                    {{page.ansprechpartnerin}} <br />
+
+                    <a class="button text" href="mailto:{{page.mail}}"
+                      >{{page.mail}}</a
+                    >
+                  </div>
+                </div>
               </div>
             </div>
           </div>

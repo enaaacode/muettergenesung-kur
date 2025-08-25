@@ -869,3 +869,33 @@ details[open] > summary.fragen-kategorie::after {
     padding: 1rem;
   }
 }
+
+/* JOB Ansprechpartnerin
+======================================================================= */
+
+.ansprechpartnerin-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 1rem;
+
+  align-items: center;
+}
+
+.ansprechpartnerin-element {
+  flex: 1;
+}
+
+.ansprechpartnerin-element.team-section-grid--element--bild {
+  width: 100px;
+  height: 100px; /* wichtig für Quadrat */
+  border-radius: 50%; /* macht es rund */
+  overflow: hidden;
+  flex: 0 0 auto; /* Flexbox darf die Größe nicht überschreiben */
+}
+
+.ansprechpartnerin-element.team-section-grid--element--bild img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

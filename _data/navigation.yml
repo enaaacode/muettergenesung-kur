@@ -1,13 +1,15 @@
-- title: Startseite
+- title: Start
   url: index.html
-- title: Kurkliniken
+- title: Kliniken
   url: /unsere-kurkliniken.html
-- title: Kurtermine
+- title: Termine
   url: /kurtermine.html
 - title: Neuigkeiten
   url: /neuigkeiten.html
 - title: Über uns
   url: /ueber-uns.html
+- title: Jobs
+  url: /stellenanzeigen.html
 - title: Gästebuch
   url: /gaestebuch.html
 - title: Kontakt

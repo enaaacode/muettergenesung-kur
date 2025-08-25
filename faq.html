@@ -4,86 +4,40 @@ title: "Häufig gestellte Fragen"
 description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
 ---
 
-<details class="fragen-container">
-  <summary class="fragen-kategorie"><h2>Allgemeine Fragen</h2></summary>
-  {% for item in site.data.faq-1-allgemeine-fragen %}
-  <details class="fragen-container--element">
-    <summary>
-      <strong>{{item.title}}</strong>
-    </summary>
-    {{ item.antwort | newline_to_br }}
-  </details>
-  {% endfor %}
-</details>
+{% assign kategorien = "Allgemeine Frage, Kurablauf, Organisatorisches, Essen und Trinken, An- und Abreise, Kurklinik und Ausstattung, Kinder und Betreuung" | split: ", " %}
 
+{% for kategorie in kategorien %}
 <details class="fragen-container">
-  <summary class="fragen-kategorie"><h2>Kurablauf</h2></summary>
-  {% for item in site.data.faq-2-kurablauf %}
-  <details class="fragen-container--element">
-    <summary>
-      <strong>{{item.title}}</strong>
-    </summary>
-    {{item.antwort}}
-  </details>
-  {% endfor %}
-</details>
+  <summary class="fragen-kategorie"><h2>{{ kategorie }}</h2></summary>
 
-<details class="fragen-container">
-  <summary class="fragen-kategorie"><h2>Organisatorisches</h2></summary>
-  {% for item in site.data.faq-3-organisatorisches %}
-  <details class="fragen-container--element">
-    <summary>
-      <strong>{{item.title}}</strong>
-    </summary>
-    {{item.antwort}}
-  </details>
+  {% for item in site.haeufige_fragen %}
+    {% if item.kategorie == kategorie %}
+      <details class="fragen-container--element">
+        <summary><strong>{{ item.frage }}</strong></summary>
+        {{ item.content | markdownify }}
+      </details>
+    {% endif %}
   {% endfor %}
 </details>
+{% endfor %}
 
-<details class="fragen-container">
-  <summary class="fragen-kategorie"><h2>Essen & Trinken</h2></summary>
-  {% for item in site.data.faq-4-essen %}
-  <details class="fragen-container--element">
-    <summary>
-      <strong>{{item.title}}</strong>
-    </summary>
-    {{item.antwort}}
-  </details>
-  {% endfor %}
-</details>
+<!--
+oder so:
 
-<details class="fragen-container">
-  <summary class="fragen-kategorie"><h2>An- und Abreise</h2></summary>
-  {% for item in site.data.faq-5-anabreise %}
-  <details class="fragen-container--element">
-    <summary>
-      <strong>{{item.title}}</strong>
-    </summary>
-    {{item.antwort}}
-  </details>
-  {% endfor %}
-</details>
+im frontmatter dieser Datei:
 
-<details class="fragen-container">
-  <summary class="fragen-kategorie"><h2>Kurklinik & Ausstattung</h2></summary>
-  {% for item in site.data.faq-6-kurklinik %}
-  <details class="fragen-container--element">
-    <summary>
-      <strong>{{item.title}}</strong>
-    </summary>
-    {{item.antwort}}
-  </details>
-  {% endfor %}
-</details>
+kategorien:
+  - Allgemeine Frage
+  - Kurablauf
+  - Organisatorisches
+  - Essen und Trinken
+  - An- und Abreise
+  - Kurklinik und Ausstattung
+  - Kinder und Betreuung
+  
+dann das im html:
 
-<details class="fragen-container">
-  <summary class="fragen-kategorie"><h2>Kinder & Betreuung</h2></summary>
-  {% for item in site.data.faq-7-kinder %}
-  <details class="fragen-container--element">
-    <summary>
-      <strong>{{item.title}}</strong>
-    </summary>
-    {{item.antwort}}
-  </details>
-  {% endfor %}
-</details>
+{% for kategorie in page.kategorien %}
+  {{ kategorie }}
+{% endfor %}
+-->

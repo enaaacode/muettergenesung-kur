@@ -60,6 +60,7 @@
       {% elsif page.klinik == "Scheidegg" %} scheidegg-job-bild
       {% elsif page.klinik == "Bad Wurzach" %} bad-wurzach-job-bild
       {% endif %}">  -->
+
       <section class="job-aufgaben-section job-bild">
         <div class="outter-wrapper">
           <div class="four-grid--container">
@@ -115,66 +116,17 @@
 
           <h2>Kommen Sie in unser Team</h2>
         </div>
+
         <div class="outter-wrapper">
           <div class="four-grid--container">
+            {% for element in site.kommen_sie_in_unser_team %}
             <div class="kurkliniken-section-grid-container--element">
               <div class="kurkliniken-section-grid-container--element--text">
-                <h3>Was wir bieten:</h3>
-                <ul>
-                  <li>Ein Umfeld, in dem Sie sich weiterentwickeln können.</li>
-                  <li>Die Möglichkeit, einen wertvollen Beitrag zu leisten.</li>
-                  <li>Teamwork und einen wertschätzenden Umgang.</li>
-                  <li>Ehrliche Kommunikation.</li>
-                  <li>Ein vernünftiges Gehalt.</li>
-                  <li>Verschiedene Weiterbildungsmaßnahmen.</li>
-                  <li>Betriebliche Altersvorsorge.</li>
-                </ul>
+                <h3>{{ element.title }}</h3>
+                {{ element.content | markdownify }}
               </div>
             </div>
-
-            <div class="kurkliniken-section-grid-container--element">
-              <div class="kurkliniken-section-grid-container--element--text">
-                <h3>Sie passen zu uns, wenn Sie:</h3>
-                <ul>
-                  <li>Kraft geben möchten</li>
-                  <li>Frauen ermutigen, stärken und inspirieren wollen</li>
-                  <li>sich stetig weiterentwickeln und verbessern möchten</li>
-                  <li>wissbegierig, neugierig und hochmotiviert sind</li>
-                  <li>mit Leidenschaft und Begeisterung bei der Arbeit sind</li>
-                  <li>anpacken, mitdenken und lösungsorientiert handeln</li>
-                  <li>agil, schnell, pragmatisch und teamorientiert sind</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="kurkliniken-section-grid-container--element">
-              <div class="kurkliniken-section-grid-container--element--text">
-                <h3>Wie ist es, bei uns zu arbeiten?</h3>
-                <p>
-                  Wir arbeiten mit einem sehr gut ausgearbeiteten
-                  Qualitätsmanagement und haben konkrete Ziele. Durch die
-                  3-wöchige Anreise der Kurgruppen, haben wir in kurzen
-                  Abständen immer wieder die Möglichkeit, Prozesse schnell und
-                  flexibel anzupassen. Sie haben von Anfang an viel
-                  Verantwortung und können einiges mitgestalten. Bei uns gibt es
-                  regelmäßigen Austausch im interdisziplinären Team.
-                </p>
-              </div>
-            </div>
-
-            <div class="kurkliniken-section-grid-container--element">
-              <div class="kurkliniken-section-grid-container--element--text">
-                <h3>Wie wir ticken</h3>
-                <p>
-                  Den Grundpfeiler unserer Arbeit bildet ein ganzheitliches
-                  Gesundheitskonzept. Die Gesundheit unserer Patientinnen ist
-                  für uns absolut im Vordergrund. Unsere Unternehmenskultur ist
-                  geprägt von Aufmerksamkeit, Achtsamkeit und Fürsorge. Wir
-                  setzen um, testen, lernen. Wir sind schnell, aber nicht
-                  hastig. Wir sind pragmatisch und gleichzeitig sorgfältig.
-                </p>
-              </div>
-            </div>
+            {% endfor %}
           </div>
         </div>
       </section>

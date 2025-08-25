@@ -133,9 +133,10 @@
             </p>
             <h2>Impressionen aus {{ page.ort }}</h2>
           </div>
+
           <div class="kurtermine-section-grid-container">
-            {% assign datenquelle = site.data[page.class] %} {% for item in
-            datenquelle %}
+            {% assign datenquelle = site.data.bildergalerie[page.class] %} {%
+            for item in datenquelle %}
             <div
               class="kurtermine-section-grid-container--element impressionen"
             >
@@ -149,6 +150,7 @@
           </div>
         </section>
       </div>
+
       <!-- Sie wollen mehr erfahren -->
       <section class="flyer-download">
         <div class="download-flyer-container">

@@ -21,33 +21,30 @@ description: "Wir freuen uns über jedes Feedback."
   <!-- FILTER -->
   <div class="kurtermine-filter">
     <button data-filter="alle">
-      Alle anzeigen ({{ site.data.geastebucheintraege | size }})
+      Alle anzeigen ({{ site.gaestebuch | size }})
     </button>
     <button data-filter="loßburg">
-      Loßburg ({{ site.data.geastebucheintraege | where: "ort", "Loßburg" | size
-      }})
+      Loßburg ({{ site.gaestebuch | where: "ort", "Loßburg" | size }})
     </button>
     <button data-filter="scheidegg">
-      Scheidegg ({{ site.data.geastebucheintraege | where: "ort", "Scheidegg" |
-      size }})
+      Scheidegg ({{ site.gaestebuch | where: "ort", "Scheidegg" | size }})
     </button>
-    <!-- prettier-ignore -->
     <button data-filter="bad wurzach">
-      Bad Wurzach ({{ site.data.geastebucheintraege | where: "ort", "Bad Wurzach" | size }})
+      Bad Wurzach ({{ site.gaestebuch | where: "ort", "Bad Wurzach" | size }})
     </button>
   </div>
 
-  <!-- GÄSTEBUCHEINTRAG GENERIEREN -->
-  {% for item in site.data.geastebucheintraege %}
+  <!-- EINTRÄGE GENERIEREN -->
+  {% for item in site.gaestebuch %}
   <div class="gaestebucheintrag" data-klinik="{{ item.ort | downcase }}">
     <div>
       <strong>
-        {% if item.ort == "Bad Wurzach" %} Frauen- und Mütterkur {{item.ort}}{%
-        else %} Mutter-Kind-Kur {{item.ort}} {% endif %}</strong
-      >
+        {% if item.ort == "Bad Wurzach" %} Frauen- und Mütterkur {{ item.ort }}
+        {% else %} Mutter-Kind-Kur {{ item.ort }} {% endif %}
+      </strong>
     </div>
-    <div>{{item.nachricht}}</div>
-    <div><small>{{item.datum}}</small></div>
+    <div>{{ item.content | markdownify }}</div>
+    <div><small>{{ item.datum }}</small></div>
   </div>
   {% endfor %}
 </div>

@@ -6,9 +6,25 @@ collections:
   stellenanzeigen:
     output: true
     permalink: /stellenanzeigen/:name/
+
   landingpage-einrichtung:
     output: true
     permalink: /kurklinik/:name/
+
+  kurtermine_badwurzach: {}
+
+  kurtermine_lossburg: {}
+
+  kurtermine_scheidegg: {}
+
+  gaestebuch:
+    output: false
+
+  haeufige_fragen:
+    output: false
+
+  kommen_sie_in_unser_team:
+    output: false
 
 exclude:
   - netlify/functions

@@ -7,64 +7,42 @@ description: "Erfahren Sie alles über unser ganzheitliches Gesundheitskonzept"
 <div class="headline-wrapper">
   <div class="headline_eyebrow centered">
     <h1>Unserer Evangelischen Kurkliniken</h1>
+    <p>
+      Wir betreiben eine Geschäftsstelle in Stuttgart sowie drei Vorsorge- und
+      Rehakliniken in Loßburg, Scheidegg und Bad Wurzach.
+    </p>
   </div>
 </div>
 
-<!-- INTRO Section mit Illustration und Behandlungsschwerpunkt -->
+<!-- Kurkliniken im Überblick -->
 <div class="outter-wrapper">
-  <section id="behandlungsschwerpunkt-section">
-    <div class="intro-section-container">
-      <div class="intro-section-container--image">
-        <img
-          src="{{ 'assets/images/tired-woman-concept-illustration/illustration_erschoepfte_frau.svg' | relative_url }}"
-          alt="Illustration: Eine erschöpfte Frau sitz in einem Sessel."
-        />
-      </div>
-      <div class="intro-section-container--text">
-        <div class="headline_eyebrow">
-          <p class="eyebrow">Bei uns sind Sie in guten Händen</p>
-          <h2>Behandlungs&shy;schwerpunkt</h2>
-        </div>
-        <p>
-          Im Mittelpunkt unseres therapeutischen Angebots stehen
-          Erschöpfungszustände sowie psychosomatische Beschwerden, die häufig in
-          Verbindung mit familiären und frauenspezifischen Belastungen
-          auftreten.
-        </p>
-        <p>
-          Darüber hinaus begleiten wir Frauen bei weiteren gesundheitlichen
-          Herausforderungen, die oft mit Erschöpfung einhergehen – unter anderem
-          bei:
-        </p>
-        <ul>
-          {% for item in site.data.indikationen %}
-          <li>{{ item.beschreibung }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-
-    <div class="kurkliniken-section-grid-container kurkliniken-section">
+  <section class="kurkliniken-section">
+    <div class="kurkliniken-section-grid-container">
       {% for item in site.data.kurkliniken-grid %}
       <div class="kurkliniken-section-grid-container--element">
         <a href="{{ item.linkurl }}">
-          <div class="mutter-kind-icons-container">
-            <img
-              class="mutter-kind-icons-container--element"
-              src="{{ item.icon-mutter | relative_url }}"
-              alt=""
-            />
-            {% if item.icon-kind != "" %}
-            <img
-              class="mutter-kind-icons-container--element"
-              src="{{ item.icon-kind | relative_url }}"
-              alt=""
-            />
-            {% endif %}
+          <div
+            class="kurkliniken-section-grid-container--element--img {{ item.css-klasse }}"
+          >
+            <div class="mutter-kind-icons-container">
+              <img
+                class="mutter-kind-icons-container--element"
+                src="{{ item.icon-mutter | relative_url }}"
+                alt=""
+              />
+              {% if item.icon-kind != "" %}
+              <img
+                class="mutter-kind-icons-container--element"
+                src="{{ item.icon-kind | relative_url }}"
+                alt=""
+              />
+              {% endif %}
+            </div>
           </div>
           <div class="kurkliniken-section-grid-container--element--text">
-            <h3>{{ item.name }}</h3>
-            <p class="button text">{{ item.linktext }}&nbsp;&rarr;</p>
+            <h3>{{ item.titel }}</h3>
+            <p>{{ item.beschreibung }}</p>
+            <div class="button text">{{ item.linktext }}&nbsp;&rarr;</div>
           </div>
         </a>
       </div>

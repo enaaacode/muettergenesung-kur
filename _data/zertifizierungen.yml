@@ -1,9 +1,6 @@
 # Logos auf der Seite "Kurkliniken" unter "Zertifizierung und Qualität"
 # ======================================================
 
-- logo: "assets/logo/quality_siegel/proCum_logo.jpg"
-  alt: "proCum Logo"
-
 - logo: "assets/logo/quality_siegel/MGW_siegel.png"
   alt: "Qualitätssiegel Müttergenesungswerk"
 
@@ -12,3 +9,6 @@
 
 - logo: "assets/logo/quality_siegel/aok_siegel.svg"
   alt: "AOK-Gütesiegel der AOK Bayern für die Mutter-Kind-Kurklinik in Scheidegg"
+
+- logo: "assets/logo/quality_siegel/SQ_Cert_logo.png"
+  alt: "SQ Cert Logo"

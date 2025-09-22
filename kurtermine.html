@@ -97,90 +97,117 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
 
   <div class="kurtermine-section-grid-container">
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-     KURTERMINE für Loßburg 
-      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
-    {% for termin in site.kurtermine_lossburg %}
+   KURTERMINE für Loßburg 
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
+    {% for termin in site.kurtermine_lossburg %} {% if termin.sichtbar == "Ja"
+    %}
+
     <div
       class="kurtermine-section-grid-container--element"
       data-klinik="loßburg"
     >
-      <a
-        href="https://forms.office.com/Pages/ResponsePage.aspx?id=rqPQV3ZzQ0SioQaP2vvPdeh-tbw5oB1LhDfHOutAtCpUNjBVM0s5SFlSR0FSSkFROE5DUUtNSFNGUC4u"
-        target="_blank"
-        rel="noopener"
-      >
-        <div class="mutter-kind-icons-container centered">
-          <img src="assets/icons/material_icons/face_3.svg" alt="" />
-          <img src="assets/icons/material_icons/child_care.svg" alt="" />
-        </div>
-        <div class="kurkliniken-section-grid-container--element--text centered">
-          <h3>Mutter-Kind-Kur<br />Loßburg</h3>
-          <p>{{termin.datum}}</p>
+      <div class="mutter-kind-icons-container centered">
+        <img src="assets/icons/material_icons/face_3.svg" alt="" />
+        <img src="assets/icons/material_icons/child_care.svg" alt="" />
+      </div>
 
-          <p class="button text">Jetzt anfragen&nbsp;&rarr;</p>
-          <p style="font-size: 0.85rem">{{termin.hinweis}}</p>
-        </div>
-      </a>
+      <div class="kurkliniken-section-grid-container--element--text centered">
+        <h3>Mutter-Kind-Kur<br />Loßburg</h3>
+        <p>{{ termin.datum }}</p>
+
+        {% if termin.ausgebucht == "Nein" %}
+        <a
+          href="https://forms.office.com/Pages/ResponsePage.aspx?id=rqPQV3ZzQ0SioQaP2vvPdeh-tbw5oB1LhDfHOutAtCpUNjBVM0s5SFlSR0FSSkFROE5DUUtNSFNGUC4u"
+          target="_blank"
+          rel="noopener"
+          class="button text"
+        >
+          Jetzt anfragen&nbsp;&rarr;
+        </a>
+        <p style="font-size: 0.85rem">{{ termin.hinweis }}</p>
+        {% else %}
+        <p class="button text disabled">
+          Dieser Kurtermin ist bereits ausgebucht.
+        </p>
+        {% endif %}
+      </div>
     </div>
-    {% endfor %}
+    {% endif %} {% endfor %}
 
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-     KURTERMINE für Scheidegg 
-      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
-    {% for termin in site.kurtermine_scheidegg %}
+   KURTERMINE für Scheidegg 
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
+    {% for termin in site.kurtermine_scheidegg %} {% if termin.sichtbar == "Ja"
+    %}
     <div
       class="kurtermine-section-grid-container--element"
       data-klinik="scheidegg"
     >
-      <a
-        href="https://forms.office.com/Pages/ResponsePage.aspx?id=rqPQV3ZzQ0SioQaP2vvPdeh-tbw5oB1LhDfHOutAtCpUNjBVM0s5SFlSR0FSSkFROE5DUUtNSFNGUC4u"
-        target="_blank"
-        rel="noopener"
-      >
-        <div class="mutter-kind-icons-container centered">
-          <img src="assets/icons/material_icons/face_3_scheidegg.svg" alt="" />
-          <img
-            src="assets/icons/material_icons/child_care_scheidegg.svg"
-            alt=""
-          />
-        </div>
-        <div class="kurkliniken-section-grid-container--element--text centered">
-          <h3>Mutter-Kind-Kur<br />Scheidegg</h3>
-          <p>{{termin.datum}}</p>
+      <div class="mutter-kind-icons-container centered">
+        <img src="assets/icons/material_icons/face_3_scheidegg.svg" alt="" />
+        <img
+          src="assets/icons/material_icons/child_care_scheidegg.svg"
+          alt=""
+        />
+      </div>
+      <div class="kurkliniken-section-grid-container--element--text centered">
+        <h3>Mutter-Kind-Kur<br />Scheidegg</h3>
+        <p>{{ termin.datum }}</p>
 
-          <p class="button text">Jetzt anfragen&nbsp;&rarr;</p>
-        </div>
-      </a>
+        {% if termin.ausgebucht == "Nein" %}
+        <a
+          href="https://forms.office.com/Pages/ResponsePage.aspx?id=rqPQV3ZzQ0SioQaP2vvPdeh-tbw5oB1LhDfHOutAtCpUNjBVM0s5SFlSR0FSSkFROE5DUUtNSFNGUC4u"
+          target="_blank"
+          rel="noopener"
+          class="button text"
+        >
+          Jetzt anfragen&nbsp;&rarr;
+        </a>
+        {% else %}
+        <p class="button text disabled">
+          Dieser Kurtermin ist bereits ausgebucht.
+        </p>
+        {% endif %}
+      </div>
     </div>
-    {% endfor %}
+    {% endif %} {% endfor %}
 
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-     KURTERMINE für Bad Wurzach 
-      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
-    {% for termin in site.kurtermine_badwurzach %}
+   KURTERMINE für Bad Wurzach 
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
+    {% for termin in site.kurtermine_badwurzach %} {% if termin.sichtbar == "Ja"
+    %}
     <div
       class="kurtermine-section-grid-container--element"
       data-klinik="bad wurzach"
     >
-      <a
-        href="https://forms.office.com/Pages/ResponsePage.aspx?id=rqPQV3ZzQ0SioQaP2vvPdeh-tbw5oB1LhDfHOutAtCpUNjBVM0s5SFlSR0FSSkFROE5DUUtNSFNGUC4u"
-        target="_blank"
-        rel="noopener"
-      >
-        <div class="mutter-kind-icons-container centered">
-          <img
-            src="assets/icons/material_icons/face_3_bad-wurzach.svg"
-            alt=""
-          />
-        </div>
-        <div class="kurkliniken-section-grid-container--element--text centered">
-          <h3>Frauen- und Mütterkur<br />Bad Wurzach</h3>
-          <p>{{termin.datum}}</p>
+      <div class="mutter-kind-icons-container centered">
+        <img src="assets/icons/material_icons/face_3_bad-wurzach.svg" alt="" />
+      </div>
+      <div class="kurkliniken-section-grid-container--element--text centered">
+        <h3>Frauen- und Mütterkur<br />Bad Wurzach</h3>
+        <p>{{ termin.datum }}</p>
 
-          <p class="button text">Jetzt anfragen&nbsp;&rarr;</p>
-        </div>
-      </a>
+        {% if termin.ausgebucht == "Nein" %}
+        <a
+          href="https://forms.office.com/Pages/ResponsePage.aspx?id=rqPQV3ZzQ0SioQaP2vvPdeh-tbw5oB1LhDfHOutAtCpUNjBVM0s5SFlSR0FSSkFROE5DUUtNSFNGUC4u"
+          target="_blank"
+          rel="noopener"
+          class="button text"
+        >
+          Jetzt anfragen&nbsp;&rarr;
+        </a>
+        <p style="font-size: 0.85rem">
+          Bitte beachten: Es handelt sich um eine Frauen- und Mütterkur. Kinder
+          können nicht mitkommen.
+        </p>
+        {% else %}
+        <p class="button text disabled">
+          Dieser Kurtermin ist bereits ausgebucht.
+        </p>
+        {% endif %}
+      </div>
     </div>
-    {% endfor %}
+    {% endif %} {% endfor %}
   </div>
 </section>

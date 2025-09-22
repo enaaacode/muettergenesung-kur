@@ -35,6 +35,13 @@ button,
   text-underline-offset: 3px;
 }
 
+.button.text.disabled {
+  color: #aaa;
+  text-decoration: none;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .button.text.download {
   display: flex;
   flex-direction: row;

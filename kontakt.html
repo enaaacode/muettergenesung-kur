@@ -63,17 +63,6 @@ description: "Kontakt zur Geschäftsstelle der Evangelische Müttergenesung in W
       {% for item in site.data.kurkliniken-grid %}
 
       <div class="kurkliniken-section-grid-container--element">
-        <div class="mutter-kind-icons-container">
-          <img class="mutter-kind-icons-container--element" src= "{{
-          item.icon-mutter }}"" alt="" /> {% if item.icon-kind != "" %}
-          <img
-            class="mutter-kind-icons-container--element"
-            src="{{ item.icon-kind }}"
-            alt=""
-          />
-          {% endif %}
-        </div>
-
         <div class="kurkliniken-section-grid-container--element--text">
           <h3>{{ item.name }}</h3>
           <p>

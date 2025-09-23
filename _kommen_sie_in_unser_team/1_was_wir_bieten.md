@@ -6,6 +6,6 @@ title: "Was wir bieten:"
 - Die Möglichkeit, einen wertvollen Beitrag zu leisten.
 - Teamwork und einen wertschätzenden Umgang.
 - Ehrliche Kommunikation.
-- Ein vernünftiges Gehalt.
+- Bezahlung nach Vergütung nach KAO/TVöD
 - Verschiedene Weiterbildungsmaßnahmen.
 - Betriebliche Altersvorsorge.

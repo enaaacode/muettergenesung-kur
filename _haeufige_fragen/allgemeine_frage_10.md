@@ -1,5 +1,5 @@
 ---
-kategorie: "Essen und Trinken"
+kategorie: "Allgemeine Frage"
 frage: "Ich bin beihilfeberechtigt – was muss ich beachten?"
 ---
 

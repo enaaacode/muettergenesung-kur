@@ -108,4 +108,42 @@ description: "Alles zur Müttergenesungskur: Voraussetzungen, Kliniken, Kurtermi
       {% endfor %}
     </div>
   </section>
+
+  <section class="neuigkeiten-banner">
+    <div class="headline-wrapper">
+      <div class="headline_eyebrow centered">
+        <p class="eyebrow">Neuigkeiten und Infos</p>
+        <h2>Neues aus der Müttergenesung</h2>
+      </div>
+    </div>
+
+    <div class="kurtermine-section-grid-container">
+      {% for post in site.posts limit:3 %}
+      <div class="kurtermine-section-grid-container--element">
+        <a href="{{ post.url }}">
+          <div class="kurkliniken-section-grid-container--element--blog-img">
+            <img src="{{post.bild | relative_url }}" alt="" />
+          </div>
+          <div class="kurkliniken-section-grid-container--element--text">
+            <small>
+              {{ post.date | date: "%d.%m.%Y" }} • {% assign words =
+              post.content | number_of_words %} {% assign minutes = words |
+              divided_by:150 %} {% if minutes < 1 %} Lesedauer: 1 Min {% else %}
+              Lesedauer: {{ minutes }} Min {% endif %}
+            </small>
+            <h3>{{post.title}}</h3>
+            <p>{{post.teaser}}</p>
+            <p class="button text">Beitrag lesen&nbsp;&rarr;</p>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="hero-section-container--buttons">
+      <a href="neuigkeiten.html" class="button primary"
+        >Weitere Beiträge entdecken</a
+      >
+    </div>
+  </section>
 </div>

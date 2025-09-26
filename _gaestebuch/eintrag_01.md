@@ -1,7 +1,7 @@
 ---
-ort: "Scheidegg"
-datum: "Februar 2025"
+ort: "Bad Wurzach"
+datum: "August 2022"
 name: ""
 ---
 
-Wir waren vom 12.2-5.3.2025 da und es hat uns sehr gut getan. Wir konnten uns dort gut erholen und neue Kraft sammel. Alle waren super freundlich man hat sich sehr willkommen gefühlt. Essen war sehr gut, Therapien waren sehr gut und es gab viele gute Ansätze und Anregungen. Vielen dank für 3 sorgenfreie Wochen Sabine mit Felix
+Es waren traumhafte 3 Wochen für mich. Ich hatte seit Jahren keine Zeit für mich, für meine Bedürfnisse und für meine Gedanken. Das Personal ist sehr angagiert und freundlich. Das Essen war sehr lecker und gesund. Es gab frische Salate, Obst und viele andere Köstlichkeiten. Einen Aufenthalt in der Klinik kann ich jeder Frau empfehlen.

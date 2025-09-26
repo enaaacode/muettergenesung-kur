@@ -5,13 +5,13 @@ titel: "Datenschutzerklärung"
 
 ## 1. Allgemeine Hinweise zur Datenverarbeitung
 
-Beim Besuch einer Website werden in der Regel nur wenige personenbezogene oder personenbeziehbare Daten verarbeitet. Einige dieser Verarbeitungen sind technisch erforderlich, z. B. zur Darstellung der Seite oder zur IT-Sicherheit (siehe Abschnitt „Server-Logdateien“). Verantwortlich für die Einhaltung der Datenschutzbestimmungen ist die Stelle, die über die Mittel und Zwecke der Verarbeitung entscheidet – die sogenannte **verantwortliche Stelle**.
+Beim Besuch einer Website werden in der Regel nur wenige personenbezogene oder personenbeziehbare Daten verarbeitet. Einige dieser Verarbeitungen sind technisch erforderlich, z. B. zur Darstellung der Seite oder zur IT-Sicherheit. Verantwortlich für die Einhaltung der Datenschutzbestimmungen ist die Stelle, die über die Mittel und Zwecke der Verarbeitung entscheidet – die sogenannte **verantwortliche Stelle**.
 
 Auf dieser Website betrifft die Datenverarbeitung vor allem:
 
 - die automatische Erfassung von IP-Adressen,
 - technisch notwendige Cookies,
-- die statistische Auswertung durch ein Analyse-Tool,
+- die statistische Auswertung durch ein Analyse-Tool (GoatCounter),
 - optionale Eingaben durch Besucherinnen und Besucher (z. B. im Gästebuch).
 
 ## 2. Verantwortliche Stelle
@@ -41,9 +41,6 @@ Wenn auf dieser Website personenbezogene Daten verarbeitet werden, haben Sie gem
 - Berichtigung unrichtiger Daten,
 - Löschung oder Einschränkung der Verarbeitung,
 - Widerspruch gegen bestimmte Verarbeitungen.
-
-Mehr Informationen dazu finden Sie hier:  
-[https://www.kirchenrecht-ekd.de/document/41335#s47000048](https://www.kirchenrecht-ekd.de/document/41335#s47000048)
 
 ## 5. Aufsichtsbehörde
 
@@ -78,9 +75,8 @@ Beim Besuch der Website wird Ihre IP-Adresse automatisch an den Server übermitt
 **Unsere Zusage:**  
 Wir nutzen IP-Adressen ausschließlich zur IT-Sicherheit und anonymisierten Statistik – nicht zur Identifizierung einzelner Personen.
 
-- Die IP-Adresse wird für 7 Tage gespeichert.
-- Danach wird sie gelöscht oder anonymisiert (z. B. gehasht).
-- Anhand der IP-Adresse erfolgt keine Nachverfolgung oder Profilbildung.
+- Die IP-Adresse wird ggf. temporär durch GitHub gespeichert (Hosting).
+- Anhand der IP-Adresse erfolgt keine Nachverfolgung oder Profilbildung durch uns.
 
 **Rechtsgrundlage:** § 6 Ziffer 2 DSG-EKD i. V. m. Art. 4 Nr. 11 DSGVO
 
@@ -93,41 +89,59 @@ Wir betreiben kein Fingerprinting und keine personalisierte Nutzerverfolgung.
 
 ## 9. Webhosting
 
-Diese Website wird gehostet bei:
+Diese Website wird gehostet über:
 
-**1&1 IONOS SE**  
-Elgendorfer Str. 57  
-56410 Montabaur  
-Telefon: +49 (0)721 170 5522  
-E-Mail: [info@ionos.de](mailto:info@ionos.de)
+**GitHub Pages**  
+GitHub Inc.  
+88 Colin P. Kelly Jr. Street  
+San Francisco, CA 94107  
+USA
+
+Datenschutzinformationen von GitHub:  
+[https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement](https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement)
+
+**Hinweis:** GitHub speichert ggf. IP-Adressen zur Absicherung der Infrastruktur.
 
 ## 10. Cookies
 
-Wir verwenden ausschließlich technisch notwendige Cookies. Diese ermöglichen grundlegende Funktionen der Website und werden in der Regel beim Schließen des Browsers gelöscht.
+Wir verwenden ausschließlich technisch notwendige Cookies (sofern vom Browser gesetzt). Diese ermöglichen grundlegende Funktionen der Website und werden in der Regel beim Schließen des Browsers gelöscht.
 
 **Keine Cookies zu Analyse- oder Marketingzwecken.**
 
 **Rechtsgrundlage:** § 6 Ziffer 2 DSG-EKD
 
-## 11. Analyse-Tool
+## 11. Analyse-Tool (GoatCounter)
 
-Zur statistischen Auswertung nutzen wir das datenschutzkonforme Tool **WebAnalytics** von IONOS. Dabei werden keine personenbezogenen Profile erstellt.
+Zur rein statistischen Auswertung der Website-Nutzung verwenden wir **GoatCounter**, ein datenschutzfreundliches Open-Source-Tool:
 
-- Die IP-Adresse wird anonymisiert.
-- Es werden keine Cookies gesetzt.
-- Die Auswertung dient rein technischen und statistischen Zwecken.
+- Es werden **keine Cookies** gesetzt.
+- Die IP-Adresse wird **anonymisiert** (z. B. gekürzt oder gehasht).
+- Es erfolgt **kein Tracking**, keine Profilbildung.
+- GoatCounter wird DSGVO-konform betrieben (EU-Hosting oder eigene Instanz).
 
-Mehr Informationen:  
-[IONOS WebAnalytics](https://www.ionos.de/hilfe/datenschutz/datenverarbeitung-von-webseitenbesuchern-ihres-11-ionos-produktes/webanalytics/)
+Mehr Informationen: [https://www.goatcounter.com/privacy](https://www.goatcounter.com/privacy)
 
 **Rechtsgrundlage:** § 6 Ziffer 3 DSG-EKD
 
-## 12. Gästebuch
+## 12. Gästebuch (Formular via Formspree)
 
-Wenn Sie einen Eintrag im Gästebuch hinterlassen, wird dieser öffentlich sichtbar. Bitte geben Sie nur Daten an, deren Veröffentlichung Sie ausdrücklich wünschen.
+Wenn Sie einen Eintrag im Gästebuch hinterlassen, wird dieser **nach Prüfung durch uns öffentlich sichtbar**. Die Daten werden über das Tool **Formspree** verarbeitet.
+
+- Ihre Eingaben werden per SSL verschlüsselt übertragen.
+- Die Datenverarbeitung erfolgt **ausschließlich zur Anzeige im Gästebuch**.
+- Eine Weitergabe an Dritte oder weitere Nutzung findet nicht statt.
+
+**Dienstanbieter:**  
+Formspree, Inc.  
+548 Market St  
+San Francisco, CA 94104  
+USA  
+[https://formspree.io/legal/privacy-policy](https://formspree.io/legal/privacy-policy)
 
 **Löschung:**  
-Sie können Ihren Eintrag jederzeit per E-Mail (unter Angabe des gewählten Namens oder Kürzels) löschen lassen.
+Sie können Ihren Eintrag jederzeit per E-Mail löschen lassen.
+
+**Rechtsgrundlage:** § 6 Ziffer 2 DSG-EKD (Einwilligung)
 
 ## 13. Mailingliste
 
@@ -139,19 +153,14 @@ Wenn Sie sich per E-Mail in unsere Mailingliste eintragen lassen möchten:
 
 **Rechtsgrundlage:** Einwilligung gemäß § 6 Ziffer 2 DSG-EKD
 
-## 14. Kuranmeldung (Netlify Forms)
+## 14. Kuranmeldung
 
-Wenn Sie unser Formular zur Anmeldung für eine Kur nutzen:
+Die Kuranmeldung erfolgt außerhalb dieser Website. Sollten in Zukunft Formulare zur Anmeldung eingebunden werden, informieren wir hier über die genaue Datenverarbeitung.
 
-- werden die eingegebenen Daten über eine verschlüsselte Verbindung an unseren Netlify-Server gesendet.
-- Ihre Angaben werden ausschließlich zur Bearbeitung der Anmeldung verwendet.
-- Die Formulardaten werden nicht mit Drittanbietern geteilt.
-- Ihre Daten werden nach Bearbeitung gelöscht oder gemäß gesetzlicher Vorgaben gespeichert.
-
-**Rechtsgrundlage:** § 6 Ziffer 5 DSG-EKD (vorvertragliche Maßnahmen auf Anfrage)
+**Hinweis:** Aktuell findet **keine Verarbeitung über diese Website** statt.
 
 ## 15. Änderungen an dieser Erklärung
 
 Diese Datenschutzerklärung wird bei Bedarf aktualisiert, um gesetzlichen Anforderungen oder technischen Änderungen gerecht zu werden.
 
-**Letzte Aktualisierung:** 17. Juni 2025
+**Letzte Aktualisierung:** 26. September 2025

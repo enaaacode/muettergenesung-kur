@@ -1,7 +1,7 @@
 ---
-ort: "Bad Wurzach"
-datum: "Mai 2025"
+ort: "Loßburg"
+datum: "Oktober 2022"
 name: ""
 ---
 
-Liebes „Klinik“ Team, ich möchte von Herzen und ganz tiefer Dankbarkeit, dass mich mein Weg zu Ihnen geführt hat, ein paar liebe Worte da lassen. Ich weiß gar nicht wo ich anfangen soll! Ich fühlte mich bei Ihnen wunderbar aufgehoben, umsorgt, entlastet, verwöhnt, sportlich gefordert und behütet. Meine Therapeutinnen waren alle der Hammer! Soviel Wertschätzung und Impulse habe ich selten erfahren. Sie tun wirklich mehr als alles, dass man sich wohlfühlt und die Seele mal baumeln lassen kann!!!! Ich habe tatsächlich einige Impulse in meinen Alltag mitgenommen und es fühlt sich gut an! Ich kann die wundervolle Einrichtung in Bad Wurzach rundherum sehr empfehlen!!!! Auch das Essen war ausgezeichnet und super liebevoll angerichtet! Die ausgesprochene Freundlichkeit & Offenheit aller im Haus war eine absolute Bereicherung und man konnte sich wunderbar erholen. Auch die Natur und die Umgebung sind toll! Ich hoffe sehr, dass ich noch mal wiederkommen kann!!! Ganz vielen lieben Dank für alles! R. Apitz :-)
+Ich und meine Tochter hatten wunderbare und erholsame drei Wochen im August 2022 in Loßburg! Das Haus ist wunderschön und wirklich direkt am Wald gelegen. Die Mitarbeiterinnen waren durchweg so freundlich und empathisch. Ich habe mich schon lange nicht mehr so erholt gefühlt und konnte so frei kreativ sein. Meine Tochter hat sich außerdem in der Kinderbetreuung pudelwohl gefühlt und konnte ebenso in den drei Wochen viel neues erleben und erfahren! Vielen vielen Dank!

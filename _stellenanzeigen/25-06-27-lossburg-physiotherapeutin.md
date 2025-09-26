@@ -15,7 +15,3 @@ mail: "michaela.kratzenstein@muettergenesung-kur.de"
 Fühl den Muskelkater – und mach ihn weg!
 Du liebst es, anderen den Rücken zu stärken – im wahrsten Sinne des Wortes?
 Dann bist du bei uns genau richtig!
-
-- Aufgabe 1
-- Aufgabe 2
-- Aufgabe 3

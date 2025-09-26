@@ -35,7 +35,7 @@ description: "Wir freuen uns über jedes Feedback."
   </div>
 
   <!-- EINTRÄGE GENERIEREN -->
-  {% for item in site.gaestebuch %}
+  {% for item in site.gaestebuch reversed %}
   <div class="gaestebucheintrag" data-klinik="{{ item.ort | downcase }}">
     <div>
       <strong>

@@ -2,7 +2,7 @@
 layout: blogbeitrag
 title: "Mental-Load Online-Vortrag am 09.10.25"
 teaser: "Vortrag zum Thema „Mental Load“ mit der Psychologin Stefanie Mädel am Donnerstag"
-date: 2024-08-19
+date: 2025-08-19
 bild: "/assets/images/blogposts/2024-08-19-metanl-load.jpg"
 alt: ""
 quelle: "Pexels.com"

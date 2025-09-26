@@ -81,8 +81,9 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
 
   <div class="kurtermine-filter">
     <button data-filter="alle">
-      Alle anzeigen ({{ site.kurtermine_lossburg | size | plus:
-      site.kurtermine_scheidegg | plus: site.kurtermine_badwurzach }})
+      Alle anzeigen ( {{ site.kurtermine_lossburg | size | plus:
+      site.kurtermine_scheidegg | plus: site.kurtermine_badwurzach | append: ""
+      }} )
     </button>
     <button data-filter="loßburg">
       Loßburg ({{ site.kurtermine_lossburg | size }})
@@ -163,6 +164,7 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
         >
           Jetzt anfragen&nbsp;&rarr;
         </a>
+        <p style="font-size: 0.85rem">{{ termin.hinweis }}</p>
         {% else %}
         <p class="button text disabled">
           Dieser Kurtermin ist bereits ausgebucht.
@@ -201,6 +203,7 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
           Bitte beachten: Es handelt sich um eine Frauen- und Mütterkur. Kinder
           können nicht mitkommen.
         </p>
+        <p style="font-size: 0.85rem">{{ termin.hinweis }}</p>
         {% else %}
         <p class="button text disabled">
           Dieser Kurtermin ist bereits ausgebucht.

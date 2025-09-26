@@ -3,7 +3,7 @@ layout: blogbeitrag
 title: "Schluss damit!"
 teaser: "Schluss mit unsanierten Schulen, erschöpften Erzieher:innen und verkürzten KiTa-Öffnungszeiten "
 date: 2025-06-27
-bild: "/assets/images/blogposts/2024-06-27-unsanierte-schulens.jpg"
+bild: "/assets/images/blogposts/2024-06-27-unsanierte-schulen.jpg"
 alt: ""
 quelle: "Pexels.com"
 ---

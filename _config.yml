@@ -11,11 +11,12 @@ collections:
     output: true
     permalink: /kurklinik/:name/
 
-  kurtermine_badwurzach: {}
-
-  kurtermine_lossburg: {}
-
-  kurtermine_scheidegg: {}
+  kurtermine_lossburg:
+    output: true
+  kurtermine_scheidegg:
+    output: true
+  kurtermine_badwurzach:
+    output: true
 
   gaestebuch:
     output: false

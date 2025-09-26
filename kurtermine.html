@@ -81,9 +81,9 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
 
   <div class="kurtermine-filter">
     <button data-filter="alle">
-      Alle anzeigen ( {{ site.kurtermine_lossburg | size | plus:
-      site.kurtermine_scheidegg | plus: site.kurtermine_badwurzach | append: ""
-      }} )
+      {% assign total = site.kurtermine_lossburg | size | plus:
+      site.kurtermine_scheidegg | plus: site.kurtermine_badwurzach %} Alle
+      anzeigen ({{ total }})
     </button>
     <button data-filter="loßburg">
       Loßburg ({{ site.kurtermine_lossburg | size }})

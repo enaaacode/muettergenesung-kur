@@ -19,8 +19,6 @@ E-Mail: <a href="mailto:info@muettergenesung-kur.de" class="button text">info@mu
 **Gestaltung und Technische Umsetzung:**
 <a href="https://studio-feiler.com/" target="_blank" rel="noopener" class="button text">studio feiler</a>
 
-Die Illustrationen stammen von <a href="http://www.freepik.com " target="_blank" rel="noopener" class="button text">Freepik</a>
-
 ## Haftungshinweis
 
 Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.

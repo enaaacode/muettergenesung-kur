@@ -47,3 +47,41 @@ filterButtons.forEach(function (btn) {
     });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const filterButtons = document.querySelectorAll(".kurtermine-filter button");
+  const kurtermineElements = document.querySelectorAll(
+    ".kurtermine-section-grid-container--element"
+  );
+
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+      // Active State
+      filterButtons.forEach((btn) => btn.classList.remove("active"));
+      this.classList.add("active");
+
+      const filter = this.getAttribute("data-filter");
+
+      kurtermineElements.forEach((element) => {
+        const klinik = element.getAttribute("data-klinik");
+        const verfuegbar = element.getAttribute("data-verfuegbar");
+
+        let showElement = false;
+
+        if (filter === "alle") {
+          showElement = true;
+        } else if (filter === "verfuegbar") {
+          showElement = verfuegbar === "ja";
+        } else {
+          showElement = klinik === filter;
+        }
+
+        if (showElement) {
+          element.style.display = "block";
+        } else {
+          element.style.display = "none";
+        }
+      });
+    });
+  });
+});

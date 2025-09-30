@@ -633,9 +633,7 @@ body {
   max-width: 800px;
 }
 
-/* GÄSTEBUCH & ANMELDEFORMULAR - OPTIMIERT FÜR BARRIEREFREIHEIT
-======================================================================= */
-/* GÄSTEBUCH & ANMELDEFORMULAR - OPTIMIERT FÜR BARRIEREFREIHEIT
+/* GÄSTEBUCH & ANMELDEFORMULAR 
 ======================================================================= */
 
 #gaestebucheintrag-section {
@@ -656,6 +654,25 @@ body {
   width: 800px;
   margin: 0 auto;
   box-shadow: var(--box-shadow);
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .gaestebucheintrag-container,
+  .form-container {
+    width: 90%;
+    padding: 1.5rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .gaestebucheintrag-container,
+  .form-container {
+    width: 95%;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
 }
 
 form {

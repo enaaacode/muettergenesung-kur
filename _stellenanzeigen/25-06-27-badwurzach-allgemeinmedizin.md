@@ -1,6 +1,6 @@
 ---
 layout: job
-titel: "Fachärztin für Allgemeinmedizin, <br> Psychiatrie oder Psychosomatik"
+titel: "Fachärztin für Allgemeinmedizin"
 klinik: "Bad Wurzach"
 zeitpunkt: "Ab sofort"
 umfang: "in Vollzeit oder Teilzeit"

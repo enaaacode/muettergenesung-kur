@@ -9,14 +9,6 @@ collections:
 
   landingpage-einrichtung:
     output: true
-    permalink: /kurklinik/:name/
-
-  kurtermine_lossburg:
-    output: true
-  kurtermine_scheidegg:
-    output: true
-  kurtermine_badwurzach:
-    output: true
 
   gaestebuch:
     output: false
@@ -26,6 +18,27 @@ collections:
 
   kommen_sie_in_unser_team:
     output: false
+
+  # Kurtermine
+
+  kurtermine_lossburg:
+    output: true
+    permalink: /kurtermine/lossburg/:name/
+
+  kurtermine_scheidegg:
+    output: true
+    permalink: /kurtermine/scheidegg/:name/
+
+  kurtermine_badwurzach:
+    output: true
+    permalink: /kurtermine/badwurzach/:name/
+
+defaults:
+  - scope:
+      path: "_kurtermine_*"
+    values:
+      layout: "kurtermin_anmeldung"
+      title: "Kuranmeldung"
 
 exclude:
   - netlify/functions

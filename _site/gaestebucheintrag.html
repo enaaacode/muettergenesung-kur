@@ -49,6 +49,10 @@
 <script src="/assets/js/form-handler.js" defer></script>
 <script src="/assets/js/scrollup.js" defer></script>
 <script
+  src="/assets/js/formular-kind-abfrage.js"
+  defer
+></script>
+<script
   data-goatcounter="https://mgw.goatcounter.com/count"
   async
   src="//gc.zgo.at/count.js"
@@ -275,10 +279,22 @@
 </div>
 
     <main aria-label="Seiteninhalt">
-      <div class="headline-wrapper">
+      <!-- Hauptcontainer für die Gästebuchseite -->
+<div class="headline-wrapper">
   <div class="headline_eyebrow centered">
-    <a href="/gaestebuch" class="button text">&larr; Zurück zum Gästebuch</a>
+    <!-- Navigationslink zurück zum Gästebuch -->
+    <a
+      href="/gaestebuch"
+      class="button text"
+      aria-label="Zurück zur Gästebuch-Übersicht"
+    >
+      &larr; Zurück zum Gästebuch
+    </a>
+
+    <!-- Hauptüberschrift der Seite -->
     <h1>Gästebucheintrag</h1>
+
+    <!-- Einleitungstext -->
     <p>
       Wir freuen uns über jedes Feedback, das wir von unseren Patientinnen
       erhalten.
@@ -286,82 +302,175 @@
   </div>
 </div>
 
+<!-- Formularbereich für Gästebucheintrag -->
 <div class="outter-wrapper" id="gaestebucheintrag-section">
-  <!-- modify this form HTML and place wherever you want your form -->
   <div class="gaestebucheintrag-container">
-    <form action="https://formspree.io/f/xkgbzdop" method="POST">
-      <!-- Honeypot für Spam-Schutz -->
-      <input
-        type="text"
-        name="_gotcha"
-        style="display: none"
-        tabindex="-1"
-        autocomplete="off"
-      />
+    <!-- 
+      Formular für Gästebucheintrag
+      Verwendet Formspree für Formularverarbeitung
+    -->
+    <form
+      action="https://formspree.io/f/xkgbzdop"
+      method="POST"
+      aria-labelledby="form-heading"
+    >
+      <!-- Versteckte Überschrift für Screenreader -->
+      <h2 id="form-heading" class="visually-hidden">
+        Formular für Gästebucheintrag
+      </h2>
+
+      <!-- Honeypot-Feld für Spam-Schutz - für Screenreader versteckt -->
+      <div class="visually-hidden" aria-hidden="true">
+        <label for="gotcha">Bitte dieses Feld leer lassen</label>
+        <input
+          type="text"
+          id="gotcha"
+          name="_gotcha"
+          tabindex="-1"
+          autocomplete="off"
+        />
+      </div>
 
       <!-- Name-Feld -->
-      <p>
-        <label for="name">Ihr Name:</label><br />
-        <input type="text" id="name" name="name" required />
-      </p>
+      <div class="form-field">
+        <label for="name">
+          Ihr Name
+          <span class="visually-hidden">(Pflichtfeld)</span>
+        </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          aria-required="true"
+          autocomplete="name"
+        />
+      </div>
 
       <!-- E-Mail-Feld -->
-      <p>
-        <label for="email">Ihre E-Mail:</label><br />
-        <input type="email" id="email" name="email" required />
-      </p>
+      <div class="form-field">
+        <label for="email">
+          Ihre E-Mail-Adresse
+          <span class="visually-hidden">Pflichtfeld</span>
+        </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          aria-required="true"
+          autocomplete="email"
+          aria-describedby="email-hint"
+        />
+      </div>
 
-      <!-- Kurklinik - In welcher Einrichtung waren Sie? -->
+      <!-- Fieldset für Kurklinik-Auswahl -->
       <fieldset class="form--einrichtungsabfrage-container">
-        <legend>In welcher Einrichtung waren Sie?</legend>
-        <p class="datenschutz-checkbox">
-          <label>
-            <input type="radio" name="kurklinik" value="lossburg" required />
-            Ev. Mutter-Kind-Kurklinik Loßburg
-          </label>
-        </p>
+        <legend>
+          In welcher Einrichtung waren Sie?
+          <span class="visually-hidden">Pflichtfeld</span>
+        </legend>
 
-        <p class="datenschutz-checkbox">
-          <label>
-            <input type="radio" name="kurklinik" value="scheidegg" />
-            Ev. Mutter-Kind-Kurklinik Scheidegg
-          </label>
-        </p>
+        <!-- Option: Loßburg -->
+        <div class="radio-option">
+          <input
+            type="radio"
+            id="kurklinik-lossburg"
+            name="kurklinik"
+            value="lossburg"
+            required
+            aria-required="true"
+          />
+          <label for="kurklinik-lossburg"
+            >Ev. Mutter-Kind-Kurklinik Loßburg</label
+          >
+        </div>
 
-        <p class="datenschutz-checkbox">
-          <label>
-            <input type="radio" name="kurklinik" value="badwurzach" />
-            Ev. Mutter-Kind-Kurklinik Bad Wurzach
-          </label>
-        </p>
+        <!-- Option: Scheidegg -->
+        <div class="radio-option">
+          <input
+            type="radio"
+            id="kurklinik-scheidegg"
+            name="kurklinik"
+            value="scheidegg"
+          />
+          <label for="kurklinik-scheidegg"
+            >Ev. Mutter-Kind-Kurklinik Scheidegg</label
+          >
+        </div>
+
+        <!-- Option: Bad Wurzach -->
+        <div class="radio-option">
+          <input
+            type="radio"
+            id="kurklinik-badwurzach"
+            name="kurklinik"
+            value="badwurzach"
+          />
+          <label for="kurklinik-badwurzach"
+            >Ev. Mutter-Kind-Kurklinik Bad Wurzach</label
+          >
+        </div>
       </fieldset>
 
       <!-- Nachrichtenfeld -->
-      <p>
-        <label for="message">Ihre Nachricht:</label><br />
-        <textarea id="message" name="message" rows="5" required></textarea>
-      </p>
+      <div class="form-field">
+        <label for="message">
+          Ihre Nachricht
+          <span class="visually-hidden">Pflichtfeld</span>
+        </label>
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          required
+          aria-required="true"
+          aria-describedby="message-hint"
+        ></textarea>
+      </div>
 
       <!-- Datenschutz-Checkbox -->
-      <a href="/datenschutz" target="_blank"
-        >Hinweis zum Datenschutz</a
-      >
-      <p class="datenschutz-checkbox">
-        <label>
-          <input type="checkbox" name="datenschutz" required />
-          Ich habe die Datenschutzerklärung gelesen und akzeptiere.
-        </label>
-      </p>
+<div class="form-field">
+  <fieldset class="fieldset-datenschutz">
+    <legend class="visually-hidden">Datenschutzbestimmungen</legend>
+    <div class="checkbox-option">
+      <input
+        type="checkbox"
+        id="datenschutz"
+        name="datenschutz"
+        required
+        aria-required="true"
+      />
+      <label class="datenschutzlabel" for="datenschutz">
+        Ich habe die
+        <a
+          href="/datenschutz"
+          target="_blank"
+          rel="noopener"
+        >
+          Datenschutzerklärung<span class="visually-hidden"
+            >(wird in neuem Tab geöffnet)</span
+          >
+        </a>
+        gelesen und akzeptiere.
+        <span class="visually-hidden">Pflichtfeld</span>
+      </label>
+    </div>
+  </fieldset>
+</div>
 
-      <!-- Absende-Button -->
+
+      <!-- Verstecktes Redirect-Feld -->
       <input
         type="hidden"
         name="_redirect"
         value="https://astounding-blancmange-bbba79.netlify.app/danke"
       />
-      <p>
-        <button type="submit" class="button primary">Eintragen</button>
-      </p>
+
+      <!-- Absende-Button -->
+      <div class="form-actions">
+        <button type="submit" class="button primary">Eintrag absenden</button>
+      </div>
     </form>
   </div>
 </div>

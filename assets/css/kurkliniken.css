@@ -15,12 +15,12 @@ Scheidegg => color-blue: #586eb0;
 }
 .lossburg {
   color: var(--color-green);
-  background-image: url("/assets/images/titelbild_lossburg.png");
+  background-image: url("/assets/images/titelbild_lossburg.jpg");
 }
 
 .scheidegg {
   color: var(--color-blue);
-  background-image: url("/assets/images/titelbild_scheidegg.png");
+  background-image: url("/assets/images/titelbild_scheidegg.jpg");
 }
 
 .bad-wurzach {

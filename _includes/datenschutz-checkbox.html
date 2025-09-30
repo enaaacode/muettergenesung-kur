@@ -1,0 +1,29 @@
+<!-- Datenschutz-Checkbox -->
+<div class="form-field">
+  <fieldset class="fieldset-datenschutz">
+    <legend class="visually-hidden">Datenschutzbestimmungen</legend>
+    <div class="checkbox-option">
+      <input
+        type="checkbox"
+        id="datenschutz"
+        name="datenschutz"
+        required
+        aria-required="true"
+      />
+      <label class="datenschutzlabel" for="datenschutz">
+        Ich habe die
+        <a
+          href="{{ 'datenschutz' | relative_url }}"
+          target="_blank"
+          rel="noopener"
+        >
+          Datenschutzerklärung<span class="visually-hidden"
+            >(wird in neuem Tab geöffnet)</span
+          >
+        </a>
+        gelesen und akzeptiere.
+        <span class="visually-hidden">Pflichtfeld</span>
+      </label>
+    </div>
+  </fieldset>
+</div>

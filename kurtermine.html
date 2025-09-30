@@ -118,6 +118,15 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
         <p>{{ termin.datum }}</p>
 
         {% if termin.ausgebucht == "Nein" %}
+
+        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        HTML Formular 
+        <a href="{{ termin.url }}" class="button text">
+          Jetzt anfragen&nbsp;&rarr;
+        </a>-->
+
+        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        Microsoft forms Formular -->
         <a
           href="https://forms.office.com/Pages/ResponsePage.aspx?id=rqPQV3ZzQ0SioQaP2vvPdeh-tbw5oB1LhDfHOutAtCpUNjBVM0s5SFlSR0FSSkFROE5DUUtNSFNGUC4u"
           target="_blank"
@@ -126,6 +135,7 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
         >
           Jetzt anfragen&nbsp;&rarr;
         </a>
+
         <p style="font-size: 0.85rem">{{ termin.hinweis }}</p>
         {% else %}
         <p class="button text disabled">

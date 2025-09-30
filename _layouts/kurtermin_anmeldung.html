@@ -1,0 +1,377 @@
+---
+layout: default
+title: "Kuranmeldung – Evangelische Müttergenesung in Württemberg"
+description: "Wir freuen uns über Ihre Anmeldung."
+---
+
+<!-- Hauptcontainer für die Anmeldeseite -->
+<div class="headline-wrapper">
+  <div class="headline_eyebrow centered">
+    <!-- Navigationslink zurück zu den Kurterminen -->
+    <a
+      href="/kurtermine.html"
+      class="button text"
+      aria-label="Zurück zur Übersicht der Kurtermine"
+    >
+      &larr; Zurück zu den Kurterminen
+    </a>
+
+    <h1>Kuranfrage</h1>
+    <p>Anfrage für den Kurtermin vom <strong>{{ page.datum }}</strong></p>
+  </div>
+</div>
+
+<!-- Formularbereich -->
+<div class="outter-wrapper" id="form-section">
+  <form
+    action="mailto:info@muettergenesung-kur.de"
+    method="post"
+    enctype="text/plain"
+    class="kurtermin-anfrage-formular"
+    aria-labelledby="form-heading"
+  >
+    <div class="form-container">
+      <p><strong>Hinweis:</strong> {{ page.hinweis }}</p>
+    </div>
+    <!-- Versteckte Überschrift für Screenreader, die das Formular beschreibt -->
+    <h2 id="form-heading" class="visually-hidden">Formular für Kuranfrage</h2>
+
+    <!-- Container für persönliche Daten -->
+    <div class="form-container">
+      <h3>Persönliche Daten</h3>
+
+      <!-- Vorname Eingabefeld -->
+      <div class="form-field">
+        <label for="vorname">
+          Vorname
+          <span class="visually-hidden">Pflichtfeld</span>
+        </label>
+        <input
+          type="text"
+          id="vorname"
+          name="Vorname"
+          required
+          aria-required="true"
+          autocomplete="given-name"
+        />
+      </div>
+
+      <!-- Nachname Eingabefeld -->
+      <div class="form-field">
+        <label for="nachname">
+          Nachname
+          <span class="visually-hidden">Pflichtfeld</span>
+        </label>
+        <input
+          type="text"
+          id="nachname"
+          name="Nachname"
+          required
+          aria-required="true"
+          autocomplete="family-name"
+        />
+      </div>
+
+      <!-- Familienstand Eingabefeld -->
+      <div class="form-field">
+        <label for="familienstand">
+          Familienstand
+          <span class="visually-hidden">Pflichtfeld</span>
+        </label>
+        <select id="familienstand" name="Familienstand" required>
+          <option value="">Bitte wählen</option>
+          <option value="ledig">Ledig</option>
+          <option value="verheiratet">Verheiratet</option>
+          <option value="geschieden">Geschieden</option>
+          <option value="verwitwet">Verwitwet</option>
+        </select>
+      </div>
+
+      <!-- Geburtsdatum Eingabefeld -->
+      <div class="form-field">
+        <label for="geburtsdatum">
+          Geburtsdatum
+          <span class="visually-hidden">Pflichtfeld</span>
+        </label>
+        <input
+          type="date"
+          id="geburtsdatum"
+          name="Geburtsdatum"
+          required
+          aria-required="true"
+          autocomplete="bday"
+        />
+      </div>
+
+      <!-- E-Mail Eingabefeld -->
+      <div class="form-field">
+        <label for="email">
+          E-Mail-Adresse
+          <span class="visually-hidden">Pflichtfeld</span>
+        </label>
+        <input
+          type="email"
+          id="email"
+          name="E-Mail"
+          required
+          aria-required="true"
+          autocomplete="email"
+        />
+      </div>
+
+      <!-- Telefonnummer Eingabefeld -->
+      <div class="form-field">
+        <label for="telefon">
+          Telefonnummer
+          <span class="visually-hidden">Pflichtfeld</span>
+        </label>
+        <input
+          type="tel"
+          id="telefon"
+          name="Telefon"
+          required
+          aria-required="true"
+          autocomplete="tel"
+        />
+      </div>
+    </div>
+
+    <!-- - - - - - - - - - - - - - - - - - - - -
+     Container für Versicherungsinformationen 
+     - - - - - - - - - - - - - - - - - - - - -->
+
+    <div class="form-container">
+      <h3>Versicherungsinformationen</h3>
+
+      <!-- Krankenkasse Eingabefeld -->
+      <div class="form-field">
+        <label for="krankenkasse">
+          Krankenkasse
+          <span class="visually-hidden">Pflichtfeld</span>
+        </label>
+        <input
+          type="text"
+          id="krankenkasse"
+          name="Krankenkasse"
+          required
+          aria-required="true"
+        />
+      </div>
+
+      <!-- Fieldset für Bewilligungsabfrage -->
+      <fieldset class="form--einrichtungsabfrage-container">
+        <legend>
+          Haben Sie bereits eine Bewilligung von Ihrer Krankenkasse?
+          <span class="visually-hidden">Pflichtfeld</span>
+        </legend>
+
+        <!-- Option "Ja" -->
+        <div class="radio-option">
+          <input
+            type="radio"
+            id="bewilligung-ja"
+            name="bewilligung"
+            value="ja"
+            required
+            aria-required="true"
+          />
+          <label for="bewilligung-ja">Ja</label>
+        </div>
+
+        <!-- Option "Nein" -->
+        <div class="radio-option">
+          <input
+            type="radio"
+            id="bewilligung-nein"
+            name="bewilligung"
+            value="nein"
+          />
+          <label for="bewilligung-nein">Nein</label>
+        </div>
+      </fieldset>
+    </div>
+
+    <!-- - - - - - - - - - - - - - - - - - - - -
+     Container für Adressdaten
+     - - - - - - - - - - - - - - - - - - - - -->
+
+    <div class="form-container">
+      <h3>Ihre Anschrift</h3>
+
+      <!-- Straße und Hausnummer Eingabefeld -->
+      <div class="form-field">
+        <label for="anschrift">
+          Straße und Hausnummer
+          <span class="visually-hidden">Pflichtfeld</span>
+        </label>
+        <input
+          type="text"
+          id="anschrift"
+          name="Anschrift"
+          required
+          aria-required="true"
+          autocomplete="street-address"
+        />
+      </div>
+
+      <!-- Postleitzahl Eingabefeld -->
+      <div class="form-field">
+        <label for="plz">
+          Postleitzahl
+          <span class="visually-hidden">Pflichtfeld</span>
+        </label>
+        <input
+          type="text"
+          id="plz"
+          name="plz"
+          inputmode="numeric"
+          pattern="\d{5}"
+          maxlength="5"
+          required
+          aria-required="true"
+          autocomplete="postal-code"
+        />
+      </div>
+
+      <!-- Ort Eingabefeld -->
+      <div class="form-field">
+        <label for="ort">
+          Ort
+          <span class="visually-hidden">Pflichtfeld</span>
+        </label>
+        <input
+          type="text"
+          id="ort"
+          name="Ort"
+          required
+          aria-required="true"
+          autocomplete="address-level2"
+        />
+      </div>
+    </div>
+
+    <!-- - - - - - - - - - - - - - - - - - - - -
+     Container für Gesundheitsdaten
+     - - - - - - - - - - - - - - - - - - - - -->
+    <div class="form-container">
+      <h3>Gesundheitsdaten</h3>
+
+      <!-- Körpergröße und Gewicht in einer Zeile -->
+      <div class="form-row">
+        <div class="form-field">
+          <label for="koerpergroesse"> Körpergröße (cm) </label>
+          <input
+            type="number"
+            id="koerpergroesse"
+            name="Körpergröße"
+            min="100"
+            max="250"
+            step="1"
+            inputmode="numeric"
+          />
+        </div>
+
+        <div class="form-field">
+          <label for="gewicht"> Gewicht (kg) </label>
+          <input
+            type="number"
+            id="gewicht"
+            name="Gewicht"
+            min="30"
+            max="200"
+            step="0.1"
+            inputmode="decimal"
+          />
+        </div>
+      </div>
+
+      <!-- Psychosoziale Belastungen -->
+      <div class="form-field">
+        <label for="belastungen">
+          Welche besonderen psychosozialen Belastungen bringen Sie mit?
+        </label>
+        <textarea
+          id="belastungen"
+          name="Psychosoziale Belastungen"
+          rows="4"
+          placeholder="Bitte beschreiben Sie Ihre aktuelle Situation..."
+        ></textarea>
+      </div>
+
+      <!-- Besonderheiten und Risiken -->
+      <div class="form-field">
+        <label for="risiken">
+          Besonderheiten und Risiken, die wir bei Ihnen und Ihrem Kind oder
+          Ihren Kindern beachten müssen
+        </label>
+        <textarea
+          id="risiken"
+          name="Besonderheiten und Risiken"
+          rows="4"
+          placeholder="z.B. gesundheitliche Einschränkungen, besondere Bedürfnisse..."
+        ></textarea>
+      </div>
+
+      <!-- Allergien -->
+      <div class="form-field">
+        <label for="allergien"> Allergien </label>
+        <textarea
+          id="allergien"
+          name="Allergien"
+          rows="3"
+          placeholder="z.B. Pollen, Hausstaub, Tierhaare..."
+        ></textarea>
+      </div>
+
+      <!-- Nahrungsmittelunverträglichkeiten -->
+      <div class="form-field">
+        <label for="nahrungsmittelunvertraeglichkeit">
+          Nahrungsmittelunverträglichkeiten
+        </label>
+        <textarea
+          id="nahrungsmittelunvertraeglichkeit"
+          name="Nahrungsmittelunverträglichkeiten"
+          rows="3"
+          placeholder="z.B. Laktose, Gluten, Nüsse..."
+        ></textarea>
+      </div>
+    </div>
+    <!-- - - - - - - - - - - - - - - - - - - - -
+     Container für Kinderinformationen
+     - - - - - - - - - - - - - - - - - - - - -->
+    <div class="form-container">
+      <h3>Kinder</h3>
+
+      <!-- Anzahl der Kinder Eingabefeld -->
+      <div class="form-field">
+        <label for="kinder">
+          Mit wie vielen Kindern kommen Sie zur Kur?
+          <span class="visually-hidden">Pflichtfeld</span>
+        </label>
+        <input
+          type="number"
+          id="kinder"
+          name="Kinder"
+          min="0"
+          max="5"
+          required
+          aria-required="true"
+          onchange="showKinderFelder(this.value)"
+        />
+      </div>
+    </div>
+
+    <!-- Dynamischer Bereich für Kinderdetails -->
+    <div id="kinder-felder" aria-live="polite"></div>
+
+    <div class="form-container">{% include datenschutz-checkbox.html %}</div>
+    <!-- Versteckte Felder für Kurtermin-Daten -->
+    <input type="hidden" name="Kurtermin" value="{{ page.datum }}" />
+    <input type="hidden" name="Hinweis" value="{{ page.hinweis }}" />
+
+    <!-- Submit-Button -->
+    <div class="form-actions kuranfrage">
+      <button type="submit" class="button primary">Anfrage absenden</button>
+    </div>
+  </form>
+</div>

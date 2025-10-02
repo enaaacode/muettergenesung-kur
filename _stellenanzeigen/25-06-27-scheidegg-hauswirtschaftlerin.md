@@ -1,20 +1,22 @@
 ---
 layout: job
 titel: "Hauswirtschafterin"
-klinik: "Scheidegg"
+klinik: "Loßburg"
 zeitpunkt: "Ab sofort"
-umfang: "in Teilzeit (50 %)"
-bild: "/assets/images/team/scheidegg/Angela_Finkenberger.png"
-ansprechpartnerin: "Angela Finkenberger"
-position: "Einrichtungsleitung"
-mail: "Angela.Finkenberger@muettergenesung-kur.de"
+umfang: "in Teilzeit (85 %)"
+bild: "/assets/images/team/lossburg/Inge_Seifert.png"
+ansprechpartnerin: "Inge Seifert"
+position: "Einrichtungsleitung für den Hauswirtschaftlichen Bereich"
+mail: "inge.seifert@muettergenesung-kur.de"
 ---
 
 ## Aufgaben:
 
-- Zubereitung von Speisen unter Berücksichtigung von Lebensmittelunverträglichkeiten und verschiedenen Diätformen
-- Mitwirkung bei der Bestellung der Lebensmittel
+- Zubereitung von Speisen mit Diätküche unter Berücksichtigung von Lebensmittelunverträglichkeiten und deren Verteilung
+- Herstellung der Backwaren
+- Bestellung und Einkauf der Lebensmittel
 - Warenannahme und Warenkontrolle
+- Speisesaal- und Servicedienst
 - Durchführung und Überwachung der Dokumentation nach HACCP (Hazard Analysis Critical Control Points)
 - Teilnahme an Teambesprechungen
-- Praktische Mitarbeit in der Hausreinigung am Ab-/Anreisetag
+- Praktische Mitarbeit in der Hausreinigung am An- und Abreisetag

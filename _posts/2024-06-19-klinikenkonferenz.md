@@ -3,7 +3,7 @@ layout: blogbeitrag
 title: "Konferenz der Kliniken 2024"
 teaser: "Verbund des Müttergenesungswerks fordert dringend die Förderung und den Ausbau der Kurplätze."
 date: 2024-06-19
-bild: "/assets/images/blogposts/2024-06-19-klinikenkonferenz.png"
+bild: "/assets/images/blogposts/2024-06-19-klinikenkonferenz.jpg"
 alt: ""
 quelle: "Gruppenbild der Konferenzteilnehmenden"
 ---

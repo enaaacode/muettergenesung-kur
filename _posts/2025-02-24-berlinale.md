@@ -3,7 +3,7 @@ layout: blogbeitrag
 title: "Berlinale zeigt Mütter in der Krise"
 teaser: "Auf der Berlinale zeichnen gleich mehrere Wettbewerbsfilme ein düsteres Bild von gegenwärtiger Mutterschaft."
 date: 2025-02-24
-bild: "/assets/images/blogposts/2025-02-24-berlinale.png"
+bild: "/assets/images/blogposts/2025-02-24-berlinale.jpg"
 alt: ""
 quelle: "Pexels.com"
 ---

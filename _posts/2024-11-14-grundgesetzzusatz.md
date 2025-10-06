@@ -3,7 +3,7 @@ layout: blogbeitrag
 title: "30 Jahre Grundgesetzzusatz"
 teaser: "Ökonomische Eigenständigkeit von Frauen ist überfällig."
 date: 2024-11-14
-bild: "/assets/images/blogposts/2024-11-14-grundgesetzzusatz.png"
+bild: "/assets/images/blogposts/2024-11-14-grundgesetzzusatz.jpg"
 alt: ""
 quelle: "Bündnis Sorgearbeit"
 ---

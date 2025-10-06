@@ -3,7 +3,7 @@ layout: blogbeitrag
 title: "Familienreport des Landes Baden-Württemberg"
 teaser: "Familien als starke Mitte."
 date: 2025-01-14
-bild: "/assets/images/blogposts/2025-01-14-familienreport.png"
+bild: "/assets/images/blogposts/2025-01-14-familienreport.jpg"
 alt: ""
 quelle: "Pexels.com"
 ---

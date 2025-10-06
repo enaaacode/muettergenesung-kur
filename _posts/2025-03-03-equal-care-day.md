@@ -3,7 +3,7 @@ layout: blogbeitrag
 title: "Equal Care Day"
 teaser: "Sorgearbeit muss als Wirtschaftsfaktor gewürdigt werden, spürbar für alle!"
 date: 2025-03-03
-bild: "/assets/images/blogposts/2025-03-03-equal-care-day.png"
+bild: "/assets/images/blogposts/2025-03-03-equal-care-day.jpg"
 alt: ""
 quelle: "Pexels.com"
 ---

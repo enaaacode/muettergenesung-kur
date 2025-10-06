@@ -1,16 +1,15 @@
 ---
 layout: job
 titel: "FSJ im hauseigenen Kindertreff"
-klinik: "Loßburg"
+klinik: "Scheidegg"
 zeitpunkt: "Ab sofort"
 umfang: "in Vollzeit"
-bild: "/assets/images/team/lossburg/Inge_Seifert.png"
-ansprechpartnerin: "Inge Seifert"
-position: "Einrichtungsleitung für den Hauswirtschaftlichen Bereich"
-mail: "inge.seifert@muettergenesung-kur.de"
+bild: "/assets/images/team/scheidegg/Angela_Finkenberger.png"
+ansprechpartnerin: "Angela Finkenberger"
+position: "Einrichtungsleitung"
+mail: "Angela.Finkenberger@muettergenesung-kur.de"
 ---
 
 ## Aufgaben:
 
-Betreuung und Versorgung der Kinder im Alter von 3 bis 12 Jahren
-Montag bis Freitag von 8.30 - 17.00 Uhr
+Deine Chance, mit Herz und Engagement etwas zu bewegen! Du bist mit der Schule fertig und willst etwas Sinnvolles tun? Dann starte dein Freiwilliges Soziales Jahr bei uns in der Mutter-Kind-Kurklinik in Scheidegg, einem Ort, an dem du gebraucht wirst, mitgestalten kannst und wertvolle Erfahrungen für dein Leben sammelst!

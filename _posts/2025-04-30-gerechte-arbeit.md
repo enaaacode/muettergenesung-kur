@@ -3,7 +3,7 @@ layout: blogbeitrag
 title: "Forderung einer gerechteren Arbeitswelt "
 teaser: "Der Landesfrauenrat Baden-Württemberg fordert eine gerechtere Arbeitswelt."
 date: 2025-04-30
-bild: "/assets/images/blogposts/2025-04-30-gerechte-arbeit.png"
+bild: "/assets/images/blogposts/2025-04-30-gerechte-arbeit.jpg"
 alt: ""
 quelle: "Pexels.com"
 ---

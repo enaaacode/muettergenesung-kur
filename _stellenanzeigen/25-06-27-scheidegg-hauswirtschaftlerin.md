@@ -1,13 +1,13 @@
 ---
 layout: job
 titel: "Hauswirtschafterin"
-klinik: "Loßburg"
+klinik: "Scheidegg"
 zeitpunkt: "Ab sofort"
-umfang: "in Teilzeit (85 %)"
-bild: "/assets/images/team/lossburg/Inge_Seifert.png"
-ansprechpartnerin: "Inge Seifert"
-position: "Einrichtungsleitung für den Hauswirtschaftlichen Bereich"
-mail: "inge.seifert@muettergenesung-kur.de"
+umfang: "in Teilzeit (50 %)"
+bild: "/assets/images/team/scheidegg/Angela_Finkenberger.png"
+ansprechpartnerin: "Angela Finkenberger"
+position: "Einrichtungsleitung"
+mail: "Angela.Finkenberger@muettergenesung-kur.de"
 ---
 
 ## Aufgaben:

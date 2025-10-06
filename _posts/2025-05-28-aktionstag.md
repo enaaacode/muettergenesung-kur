@@ -3,7 +3,7 @@ layout: blogbeitrag
 title: "Internationaler Aktionstag für Frauengesundheit"
 teaser: "Gesundheit von Frauen und Mädchen als zentrales Menschenrecht."
 date: 2025-05-28
-bild: "/assets/images/blogposts/2025-05-28-aktionstag.png"
+bild: "/assets/images/blogposts/2025-05-28-aktionstag.jpg"
 alt: ""
 quelle: "Pexels.com"
 ---

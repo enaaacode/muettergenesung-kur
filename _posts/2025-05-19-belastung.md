@@ -3,7 +3,7 @@ layout: blogbeitrag
 title: "Belastung ernstnehmen"
 teaser: "Anlässlich des Internationalen Tages der Familie fordert der Landesfrauenrat die Belastung von Frauen ernstzunehmen."
 date: 2025-05-19
-bild: "/assets/images/blogposts/2025-05-19-belastung.png"
+bild: "/assets/images/blogposts/2025-05-19-belastung.jpg"
 alt: ""
 quelle: "Pexels.com"
 ---

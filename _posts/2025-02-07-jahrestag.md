@@ -3,7 +3,7 @@ layout: blogbeitrag
 title: "75. Jahrestag der Gründung des Deutschen Müttergenesungswerks"
 teaser: "Seit dem 31. Januar 1950."
 date: 2025-02-07
-bild: "/assets/images/blogposts/2025-02-07-jahrestag.png"
+bild: "/assets/images/blogposts/2025-02-07-jahrestag.jpg"
 alt: ""
 quelle: "Müttergenesungswerk"
 ---

@@ -3,7 +3,7 @@ layout: blogbeitrag
 title: "Internationaler Tag gegen Gewalt an Frauen"
 teaser: "Häusliche Gewalt ist keine Privatsache."
 date: 2024-11-26
-bild: "/assets/images/blogposts/2024-11-26-tag-gegen-gewalt.png"
+bild: "/assets/images/blogposts/2024-11-26-tag-gegen-gewalt.jpg"
 alt: ""
 quelle: "Pexels.com"
 ---

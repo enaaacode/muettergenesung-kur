@@ -3,7 +3,7 @@ layout: blogbeitrag
 title: "70 Jahre gelebte Fürsorge"
 teaser: "Die Mutter-Kind-Kurklinik in Loßburg feiert Jubiläum."
 date: 2025-06-23
-bild: "/assets/images/blogposts/2025-06-23-70-Jahre-Lossburg.png"
+bild: "/assets/images/blogposts/2025-06-23-70-Jahre-Lossburg.jpg"
 alt: ""
 quelle: "Mutter-Kind-Kurklinik in Loßburg"
 ---

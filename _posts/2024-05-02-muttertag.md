@@ -3,7 +3,7 @@ layout: blogbeitrag
 title: "Pressemitteilung zum Muttertag"
 teaser: ""
 date: 2024-05-02
-bild: "/assets/images/blogposts/2024-05-02-muttertag-post.png"
+bild: "/assets/images/blogposts/2024-05-02-muttertag-post.jpg"
 alt: ""
 quelle: "www.muettergenesungswerk.de"
 ---

@@ -42,7 +42,7 @@ description: "Erfahren Sie welche Stellenanzeigen zur Verfügung stehen."
   <div class="kurtermine-section-grid-container">
     {% for post in site.stellenanzeigen %}
     <a
-      href="{{ post.url }}"
+      href="{{ post.url | relative_url }}"
       class="kurtermine-section-grid-container--element"
       data-klinik="{{ post.klinik | downcase }}"
       style="text-decoration: none; color: inherit"

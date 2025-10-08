@@ -80,7 +80,7 @@ description: "Alles zur Müttergenesungskur: Voraussetzungen, Kliniken, Kurtermi
       {% for item in site.data.kurkliniken-grid %}
 
       <div class="kurkliniken-section-grid-container--element">
-        <a href="{{ item.linkurl }}">
+        <a href="{{ item.linkurl | relative_url}}">
           <div
             class="kurkliniken-section-grid-container--element--img {{ item.css-klasse }}"
           ></div>
@@ -108,7 +108,7 @@ description: "Alles zur Müttergenesungskur: Voraussetzungen, Kliniken, Kurtermi
     <div class="kurtermine-section-grid-container">
       {% for post in site.posts limit:3 %}
       <div class="kurtermine-section-grid-container--element">
-        <a href="{{ post.url }}">
+        <a href="{{ post.url | relative_url }}">
           <div class="kurkliniken-section-grid-container--element--blog-img">
             <img src="{{post.bild | relative_url }}" alt="" loading="lazy" />
           </div>

@@ -23,7 +23,7 @@ description: "Erfahren Sie was es Neues in der Evangelischen Müttergenesung in 
   <section class="kurtermine-section-grid-container">
     {% for post in site.posts %}
     <div class="kurtermine-section-grid-container--element">
-      <a href="{{ post.url }}">
+      <a href="{{ post.url | relative_url }}">
         <div class="kurkliniken-section-grid-container--element--blog-img">
           <img src="{{post.bild | relative_url }}" alt="" loading="lazy" />
         </div>

@@ -229,7 +229,7 @@ body {
 
 #usp-section {
   margin-top: var(--section-gap);
-  background-image: url("/assets/images/hintergrundbild_usp.jpg");
+  background-image: url("assets/images/hintergrundbild_usp.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -357,11 +357,11 @@ body {
 }
 
 #zertifizierungen {
-  background-image: url("/assets/images/hintergrundbild_zertifizierung.jpg");
+  background-image: url("assets/images/hintergrundbild_zertifizierung.jpg");
 }
 
 #christliches-profil {
-  background-image: url("/assets/images/hintergrundbild_christlichesprofil.jpg");
+  background-image: url("assets/images/hintergrundbild_christlichesprofil.jpg");
 }
 
 @media (max-width: 700px) {
@@ -561,7 +561,7 @@ body {
   gap: 2rem;
 }
 #vom-verein-zur-ggmbh {
-  background-image: url("/assets/images/hintergrundbild_zertifizierung.jpg");
+  background-image: url("assets/images/hintergrundbild_zertifizierung.jpg");
   padding: var(--section-gap) 0;
   margin: var(--padding) 0;
   background-size: cover;
@@ -637,7 +637,7 @@ body {
 ======================================================================= */
 
 #gaestebucheintrag-section {
-  background-image: url(/assets/images/illustration_gb_background.svg);
+  background-image: url(assets/images/illustration_gb_background.svg);
   background-repeat: no-repeat;
   background-position: bottom;
 }

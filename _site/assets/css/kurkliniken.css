@@ -15,17 +15,17 @@ Scheidegg => color-blue: #586eb0;
 }
 .lossburg {
   color: var(--color-green);
-  background-image: url("/assets/images/titelbild_lossburg.jpg");
+  background-image: url("../images/titelbild_lossburg.jpg");
 }
 
 .scheidegg {
   color: var(--color-blue);
-  background-image: url("/assets/images/titelbild_scheidegg.jpg");
+  background-image: url("../images/titelbild_scheidegg.jpg");
 }
 
 .bad-wurzach {
   color: var(--color-orange);
-  background-image: url("/assets/images/titelbild_badwurzach.jpg");
+  background-image: url("../images/titelbild_badwurzach.jpg");
 }
 
 .mutter-kind-icon.icon-lossburg {
@@ -42,32 +42,8 @@ Scheidegg => color-blue: #586eb0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/assets/images/00_testbilder/pexels-dmitry-demidov-515774-3852577.jpg");
+  background-image: url("../images/00_testbilder/pexels-dmitry-demidov-515774-3852577.jpg");
 }
-
-/* 
-.lossburg-job-bild {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("/assets/images/titelbild_lossburg2.jpg");
-}
-
-.scheidegg-job-bild {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("/assets/images/titelbild_scheidegg.jpg");
-}
-
-.bad-wurzach-job-bild {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("/assets/images/titelbild_badwurzach.jpg");
-}
-/* 
-
 
 /* LANDINGPAGEES der einzelnen Kurkliniken 
 ======================================================================= */
@@ -100,7 +76,7 @@ Scheidegg => color-blue: #586eb0;
 }
 
 .download-flyer-container {
-  background-image: url("/assets/images/hintergrundbild_christlichesprofil.jpg");
+  background-image: url("../images/hintergrundbild_christlichesprofil.jpg");
   padding: var(--section-gap) 2rem;
   margin-top: var(--section-gap);
   background-size: cover;

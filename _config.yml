@@ -1,6 +1,6 @@
-url: "https://enaaacode.github.io/muettergenesung-kur/" #
+url: "https://www.muettergenesung-kur.de/" #
 baseurl: "/"
-title: "" # the name of your site, e.g. ACME Corp.
+title: ""
 
 collections:
   stellenanzeigen:

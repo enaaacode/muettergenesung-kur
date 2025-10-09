@@ -111,13 +111,13 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
   <div class="kurtermine-filter">
     <button data-filter="alle" class="active">Alle anzeigen ({{ total }})</button>
     <button data-filter="loßburg">
-      Loßburg ({{ site.kurtermine_lossburg | size }})
+      Loßburg ({{ site.data.kurtermine_lossburg | size }})
     </button>
     <button data-filter="scheidegg">
-      Scheidegg ({{ site.kurtermine_scheidegg | size }})
+      Scheidegg ({{ site.data.kurtermine_scheidegg | size }})
     </button>
     <button data-filter="bad wurzach">
-      Bad Wurzach ({{ site.kurtermine_badwurzach | size }})
+      Bad Wurzach ({{ site.data.kurtermine_badwurzach | size }})
     </button>
     <button data-filter="verfuegbar" class="availability-filter">
       Verfügbare Termine ({{ total_available }})
@@ -134,7 +134,7 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
           Jetzt anfragen&nbsp;&rarr;
         </a>-->
 
-    {% for termin in site.kurtermine_lossburg %}
+    {% for termin in site.data.kurtermine_lossburg %}
       {% if termin.sichtbar == "Ja" %}
         <div class="kurtermine-section-grid-container--element" 
              data-klinik="loßburg" 
@@ -170,7 +170,7 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
    KURTERMINE für Scheidegg 
   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
-    {% for termin in site.kurtermine_scheidegg %}
+    {% for termin in site.data.kurtermine_scheidegg %}
       {% if termin.sichtbar == "Ja" %}
         <div class="kurtermine-section-grid-container--element" 
              data-klinik="scheidegg" 
@@ -204,7 +204,7 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
    KURTERMINE für Bad Wurzach 
   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
-    {% for termin in site.kurtermine_badwurzach %}
+    {% for termin in site.data.kurtermine_badwurzach %}
       {% if termin.sichtbar == "Ja" %}
         <div class="kurtermine-section-grid-container--element" 
              data-klinik="bad wurzach" 

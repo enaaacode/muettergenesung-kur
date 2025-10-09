@@ -1,6 +1,6 @@
 <div class="outter-wrapper">
   <header>
-    <a href="{{ '/index.html' | relative_url }}" class="logo">
+    <a href="{{ '/' | relative_url }}" class="logo">
       <img
         src="{{ '/assets/logo/Muettergenesung_logo.svg' | relative_url }}"
         alt="Logo der Evangelischen Müttergenesung Württemberg"
@@ -13,12 +13,16 @@
         <li>
           <a
             href="{{ item.url | relative_url}}"
-            {% if page.url == item.url or page.url == '/' and item.url == 'index.html' %}
-            class="active"
-            aria-current="page"
+
+            {% assign current = page.url | remove: '.html' %}
+            {% assign link = item.url  %}
+            {% if current == link %}
+              class="active" aria-current="page"
             {% endif %}
+
           >
             {{ item.title }}
+
           </a>
         </li>
         {% endfor %}

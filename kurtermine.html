@@ -79,9 +79,9 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
     <h2>Verfügbare Kurtermine</h2>
   </div>
 
- {% assign lossburg_size = site.kurtermine_lossburg | size %}
-  {% assign scheidegg_size = site.kurtermine_scheidegg | size %}
-  {% assign badwurzach_size = site.kurtermine_badwurzach | size %}
+ {% assign lossburg_size = site.data.kurtermine_lossburg | size %}
+  {% assign scheidegg_size = site.data.kurtermine_scheidegg | size %}
+  {% assign badwurzach_size = site.data.kurtermine_badwurzach | size %}
   {% assign total = lossburg_size | plus: scheidegg_size | plus: badwurzach_size %}
   
   <!-- Verfügbare Termine zählen -->

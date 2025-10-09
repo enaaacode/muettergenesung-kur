@@ -86,21 +86,21 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
   
   <!-- Verfügbare Termine zählen -->
   {% assign available_lossburg = 0 %}
-  {% for termin in site.kurtermine_lossburg %}
+  {% for termin in site.data.kurtermine_lossburg %}
     {% if termin.sichtbar == "Ja" and termin.ausgebucht == "Nein" %}
       {% assign available_lossburg = available_lossburg | plus: 1 %}
     {% endif %}
   {% endfor %}
   
   {% assign available_scheidegg = 0 %}
-  {% for termin in site.kurtermine_scheidegg %}
+  {% for termin in site.data.kurtermine_scheidegg %}
     {% if termin.sichtbar == "Ja" and termin.ausgebucht == "Nein" %}
       {% assign available_scheidegg = available_scheidegg | plus: 1 %}
     {% endif %}
   {% endfor %}
   
   {% assign available_badwurzach = 0 %}
-  {% for termin in site.kurtermine_badwurzach %}
+  {% for termin in site.data.kurtermine_badwurzach %}
     {% if termin.sichtbar == "Ja" and termin.ausgebucht == "Nein" %}
       {% assign available_badwurzach = available_badwurzach | plus: 1 %}
     {% endif %}

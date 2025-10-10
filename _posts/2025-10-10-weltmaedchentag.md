@@ -2,7 +2,7 @@
 layout: blogbeitrag
 title: "Internationaler Mädchentag am 11.10.2025"
 teaser: "Der Weltmädchentag ist ein wichtiger Tag, um auf die Rechte und Chancen von Mädchen aufmerksam zu machen."
-date: 2025-08-19
+date: 2025-10-10
 bild: "/assets/images/blogposts/2025-10-10-weltmaedchentag.jpg"
 alt: ""
 quelle: "Pexels.com"

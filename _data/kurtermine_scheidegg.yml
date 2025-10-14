@@ -74,6 +74,6 @@
   sichtbar: "Ja"
 
 - datum: "9. September 2026 bis 30. September 2026"
-  hinweis: "In diesem Kurgang haben wir noch Zimmer für Mütter mit mehreren Kindern frei. Die Zimmer für Mütter mit einem Kind sind bereits belegt."
-  ausgebucht: "Nein"
+  hinweis: 
+  ausgebucht: "Ja"
   sichtbar: "Ja"

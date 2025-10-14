@@ -1,6 +1,6 @@
 - datum: "22. Oktober 2025 bis 12. November 2025"
-  hinweis: "Anmeldung nur für eine Mutter mit drei Kindern möglich"
-  ausgebucht: "Nein"
+  hinweis: 
+  ausgebucht: "Ja"
   sichtbar: "Ja"
 
 - datum: "12. November 2025 bis 3. Dezember 2025"
@@ -39,7 +39,7 @@
   sichtbar: "Ja"
 
 - datum: "15. April 2026 bis 6. Mai 2026"
-  hinweis: "Schwerpunktkur für Frauen mit erwachsenen psychisch kranken Angehörigen"
+  hinweis: 
   ausgebucht: "Ja"
   sichtbar: "Ja"
 

@@ -130,11 +130,6 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
    KURTERMINE für Loßburg 
   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
-        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-        HTML Formular 
-        <a href="{{ termin.url }}" class="button text">
-          Jetzt anfragen&nbsp;&rarr;
-        </a>-->
 
     {% for termin in site.data.kurtermine_lossburg %}
       {% if termin.sichtbar == "Ja" %}
@@ -162,6 +157,7 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
               <p class="button text disabled">
                 Dieser Kurtermin ist bereits ausgebucht.
               </p>
+
             {% endif %}
           </div>
         </div>

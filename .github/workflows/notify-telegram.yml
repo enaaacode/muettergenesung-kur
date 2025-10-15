@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Send Telegram notification
         run: |
-          MESSAGE="Neuer Commit von ${{ github.actor }}\n${{ github.event.head_commit.message }}"
+          MESSAGE="Neuer Commit von ${{ github.actor }}<br>${{ github.event.head_commit.message }}"
 
           curl -s -X POST https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendMessage \
             -d chat_id=${{ secrets.TELEGRAM_CHAT_ID }} \

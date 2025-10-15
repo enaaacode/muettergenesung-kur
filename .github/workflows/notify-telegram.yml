@@ -1,4 +1,4 @@
-name: Notify via Telegram on new commit
+name: Notify via Telegram on new commit # Name of Action
 
 on:
   push:

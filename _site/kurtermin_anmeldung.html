@@ -47,14 +47,23 @@
 <script src="/assets/js/klinikfilter.js" defer></script>
 <script src="/assets/js/scrollup.js" defer></script>
 <script
+  src="/assets/js/formular-kind-abfrage.js"
+  defer
+></script>
+<script
   src="/assets/js/formular-query-parameter.js"
+  defer
+></script>
+<script
+  src="/assets/js/formular-krankenkasse-sonstige.js"
   defer
 ></script>
 
 <script
   data-goatcounter="https://mgw.goatcounter.com/count"
   async
-  src="//gc.zgo.at/count.js"
+  src="https://gc.zgo.at/count.js"
+  defer
 ></script>
 
 <!-- Für Kuranmeldung
@@ -341,7 +350,7 @@
     <h1>Kuranfrage</h1>
     <p>
       Anfrage für den Kurtermin vom
-      <strong id="datum-query"></strong>
+      <strong id="datum-query"></strong> in <span id="ort-query"></span>
     </p>
   </div>
 </div>
@@ -355,8 +364,11 @@
     class="kurtermin-anfrage-formular"
     aria-labelledby="form-heading"
   >
-    <div class="form-container">
-      <p><strong>Hinweis:</strong> </p>
+    <div class="form-container" id="hinweis-form-container">
+      <p>
+        <strong>Hinweis:</strong>
+        <span id="hinweis-query"></span>
+      </p>
     </div>
     <!-- Versteckte Überschrift für Screenreader, die das Formular beschreibt -->
     <h2 id="form-heading" class="visually-hidden">Formular für Kuranfrage</h2>
@@ -397,21 +409,6 @@
         />
       </div>
 
-      <!-- Familienstand Eingabefeld -->
-      <div class="form-field">
-        <label for="familienstand">
-          Familienstand
-          <span class="visually-hidden">Pflichtfeld</span>
-        </label>
-        <select id="familienstand" name="Familienstand" required>
-          <option value="">Bitte wählen</option>
-          <option value="ledig">Ledig</option>
-          <option value="verheiratet">Verheiratet</option>
-          <option value="geschieden">Geschieden</option>
-          <option value="verwitwet">Verwitwet</option>
-        </select>
-      </div>
-
       <!-- Geburtsdatum Eingabefeld -->
       <div class="form-field">
         <label for="geburtsdatum">
@@ -426,6 +423,34 @@
           aria-required="true"
           autocomplete="bday"
         />
+      </div>
+
+      <!-- Geschlecht Eingabefeld -->
+      <div class="form-field">
+        <label for="geschlecht">
+          Geschlecht
+          <span class="visually-hidden">Pflichtfeld</span>
+        </label>
+        <select id="geschlecht" name="Geschlecht" required>
+          <option value="w">Weiblich</option>
+          <option value="m">Männlich</option>
+          <option value="d">Divers</option>
+        </select>
+      </div>
+
+      <!-- Familienstand Eingabefeld -->
+      <div class="form-field">
+        <label for="familienstand">
+          Familienstand
+          <span class="visually-hidden">Pflichtfeld</span>
+        </label>
+        <select id="familienstand" name="Familienstand" required>
+          <option value="">Bitte wählen</option>
+          <option value="ledig">Ledig</option>
+          <option value="verheiratet">Verheiratet</option>
+          <option value="geschieden">Geschieden</option>
+          <option value="verwitwet">Verwitwet</option>
+        </select>
       </div>
 
       <!-- E-Mail Eingabefeld -->
@@ -468,18 +493,38 @@
     <div class="form-container">
       <h3>Versicherungsinformationen</h3>
 
-      <!-- Krankenkasse Eingabefeld -->
+      <!-- Krankenkasse Auswahlfeld -->
       <div class="form-field">
         <label for="krankenkasse">
           Krankenkasse
           <span class="visually-hidden">Pflichtfeld</span>
         </label>
-        <input
-          type="text"
+
+        <select
           id="krankenkasse"
           name="Krankenkasse"
           required
           aria-required="true"
+          onchange="toggleOtherKasse()"
+        >
+          <option value="" disabled selected>Bitte auswählen</option>
+          <option value="AOK">AOK</option>
+          <option value="TK">Techniker Krankenkasse (TK)</option>
+          <option value="Barmer">Barmer</option>
+          <option value="DAK">DAK-Gesundheit</option>
+          <option value="IKK">IKK</option>
+          <option value="BKK">BKK</option>
+          <option value="KKH">KKH</option>
+          <option value="Sonstige">Sonstige</option>
+        </select>
+
+        <!-- Freitextfeld, erscheint nur bei "Sonstige" // wird mit JS eingeblendet -->
+        <input
+          type="text"
+          id="krankenkasse_sonstige"
+          name="Krankenkasse_Sonstige"
+          placeholder="Bitte Krankenkasse eintragen"
+          style="display: none; margin-top: 0.5em"
         />
       </div>
 
@@ -584,7 +629,7 @@
       <!-- Körpergröße und Gewicht in einer Zeile -->
       <div class="form-row">
         <div class="form-field">
-          <label for="koerpergroesse"> Körpergröße (cm) </label>
+          <label for="koerpergroesse"> Ihre Körpergröße (cm) </label>
           <input
             type="number"
             id="koerpergroesse"
@@ -597,7 +642,7 @@
         </div>
 
         <div class="form-field">
-          <label for="gewicht"> Gewicht (kg) </label>
+          <label for="gewicht"> Ihr Gewicht (kg) </label>
           <input
             type="number"
             id="gewicht"
@@ -636,36 +681,21 @@
           placeholder="z.B. gesundheitliche Einschränkungen, besondere Bedürfnisse..."
         ></textarea>
       </div>
-
-      <!-- Allergien -->
-      <div class="form-field">
-        <label for="allergien"> Allergien </label>
-        <textarea
-          id="allergien"
-          name="Allergien"
-          rows="3"
-          placeholder="z.B. Pollen, Hausstaub, Tierhaare..."
-        ></textarea>
-      </div>
-
-      <!-- Nahrungsmittelunverträglichkeiten -->
-      <div class="form-field">
-        <label for="nahrungsmittelunvertraeglichkeit">
-          Nahrungsmittelunverträglichkeiten
-        </label>
-        <textarea
-          id="nahrungsmittelunvertraeglichkeit"
-          name="Nahrungsmittelunverträglichkeiten"
-          rows="3"
-          placeholder="z.B. Laktose, Gluten, Nüsse..."
-        ></textarea>
-      </div>
     </div>
     <!-- - - - - - - - - - - - - - - - - - - - -
      Container für Kinderinformationen
      - - - - - - - - - - - - - - - - - - - - -->
     <div class="form-container">
       <h3>Kinder</h3>
+
+      <small
+        id="hinweis-query-zwei"
+        style="
+          color: var(--color-pink);
+          margin-top: -1rem;
+          margin-bottom: -1rem;
+        "
+      ></small>
 
       <!-- Anzahl der Kinder Eingabefeld -->
       <div class="form-field">
@@ -674,6 +704,7 @@
           <span class="visually-hidden">Pflichtfeld</span>
         </label>
         <input
+          value="0"
           type="number"
           id="kinder"
           name="Kinder"

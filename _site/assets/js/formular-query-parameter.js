@@ -5,7 +5,13 @@ const myDatum = urlParams.get("datum");
 const myHinweis = urlParams.get("hinweis");
 
 const ortAnzeige = document.getElementById("ort-query");
-ortAnzeige.textContent = myOrt;
+if (ortAnzeige) {
+  if (myOrt == "BadWurzach") {
+    ortAnzeige.textContent = "Bad Wurzach";
+  } else {
+    ortAnzeige.textContent = myOrt;
+  }
+}
 
 const datumAnzeige = document.getElementById("datum-query");
 datumAnzeige.textContent = myDatum;

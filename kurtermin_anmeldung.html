@@ -390,6 +390,26 @@ permalink: /kurtermin_anmeldung/
     <!-- Dynamischer Bereich für Kinderdetails -->
     <div id="kinder-felder" aria-live="polite"></div>
 
+    <!-- - - - - - - - - - - - - - - - - - - - -
+     Container für Alternativtermin
+     - - - - - - - - - - - - - - - - - - - - -->
+    <div class="form-container">
+      <h3>Alternativtermin</h3>
+
+      <div class="form-field">
+        <label for="alternativtermin">
+          Alternativtermine (falls es mit Ihrem Wunschtermin nicht klappen
+          sollte)
+        </label>
+        <textarea
+          id="alternativtermin"
+          name="Alternativtermin"
+          rows="4"
+          placeholder="Hier können Sie uns Ihre Alternativtermine mitteilen"
+        ></textarea>
+      </div>
+    </div>
+
     <div class="form-container">{% include datenschutz-checkbox.html %}</div>
     <!-- Versteckte Felder für Kurtermin-Daten -->
     <input type="hidden" name="Kurtermin" value="{{ page.datum }}" />

@@ -781,6 +781,26 @@ fieldset {
   flex-direction: column;
   gap: 2rem;
 }
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  color: #222;
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 0.6rem 3rem 0.6rem 1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='none' stroke='%23e91e63' stroke-width='1.5' d='M1 1l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 0.8rem;
+}
+
 /* GÄSTEBUCH 
 ======================================================================= */
 .outter-wrapper.gaestebucheintraege {

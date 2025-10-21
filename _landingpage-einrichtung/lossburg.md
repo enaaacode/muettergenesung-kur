@@ -11,6 +11,7 @@ farbe: "#a1c049"
 title: "Evangelische Mutter-Kind-Kurklinik in Loßburg"
 discription: ""
 ort: "Loßburg"
+zimmer: "Gemeinsam mit Ihrem Kind oder Ihren Kindern wohnen Sie in einem unserer 24 Appartements – ausgestattet mit Dusche, WC, Telefon und Babyphone."
 ---
 
 Unsere Klinik liegt ruhig auf 740 Metern Höhe im schönen Loßburger Ferienland. Mitten im Herzen des nördlichen Schwarzwalds. Direkt hinter dem Haus beginnt der Wald. Typisch für die Region lädt er ein zu Spaziergängen, zum Walken, Joggen oder zum heilsamen Waldbaden.

@@ -1126,3 +1126,77 @@ details[open] > summary.fragen-kategorie::after {
 .dot:hover {
   background: white;
 }
+
+/* Zimmer Gallery Slider - Mobile Optimierungen
+======================================================================= */
+
+@media (max-width: 768px) {
+  .gallery-wrapper {
+    aspect-ratio: 1 / 1; /* Bleibt quadratisch */
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .gallery-btn {
+    width: 35px;
+    height: 35px;
+    font-size: 1.3rem;
+  }
+
+  .prev-btn {
+    left: 5px;
+  }
+
+  .next-btn {
+    right: 5px;
+  }
+
+  .gallery-dots {
+    bottom: 10px;
+    gap: 6px;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-wrapper {
+    aspect-ratio: 1 / 1; /* Auch hier quadratisch lassen */
+    width: 100%;
+    height: auto;
+  }
+
+  /* Stelle sicher, dass der Container den vollen Platz nutzt */
+  .intro-section-container--image.gallery-container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .gallery-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 1.1rem;
+  }
+
+  .gallery-dots {
+    bottom: 8px;
+    gap: 4px;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+/* Mobile: Gallery Container soll vollen Platz nutzen */
+@media (max-width: 768px) {
+  .intro-section-container--image {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+}

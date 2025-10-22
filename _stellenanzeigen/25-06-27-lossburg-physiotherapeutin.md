@@ -4,14 +4,16 @@ titel: "Physiotherapeutin"
 klinik: "Loßburg"
 zeitpunkt: "Ab sofort"
 umfang: "in Teilzeit (40 %)"
-bild: "/assets/images/team/lossburg/Michaela_Kratzenstein-Koch.png"
-ansprechpartnerin: "Michaela Kratzenstein-Koch"
-position: "Einrichtungsleitung"
-mail: "michaela.kratzenstein@muettergenesung-kur.de"
+bild: "/assets/images/team/geschaeftsstelle/Andrea_Boyer.jpg"
+ansprechpartnerin: "Andrea Boyer"
+mail: "andrea.boyer@muettergenesung-kur.de"
 ---
 
 ## Aufgaben:
 
-Fühl den Muskelkater – und mach ihn weg!
-Du liebst es, anderen den Rücken zu stärken – im wahrsten Sinne des Wortes?
-Dann bist du bei uns genau richtig!
+- Durchführung physiotherapeutischer Behandlungen nach ärztlicher Verordnung
+- Erstellung individueller Therapiepläne und Übungsprogramme
+- Dokumentation des Therapieverlaufs und der Behandlungsergebnisse
+- Beratung und Anleitung von Patient:innen zu Eigenübungen und Prävention
+- Anwendung manueller Therapie, Krankengymnastik und Massagetechniken
+- Teilnahme an Teambesprechungen und Fortbildungen

@@ -4,10 +4,9 @@ titel: "Ärztliche Leitung"
 klinik: "Loßburg"
 zeitpunkt: "Ab sofort"
 umfang: "30 Stunden pro Woche"
-bild: "/assets/images/team/lossburg/Michaela_Kratzenstein-Koch.png"
-ansprechpartnerin: "Michaela Kratzenstein-Koch"
-position: "Einrichtungsleitung"
-mail: "michaela.kratzenstein@muettergenesung-kur.de"
+bild: "/assets/images/team/geschaeftsstelle/Andrea_Boyer.jpg"
+ansprechpartnerin: "Andrea Boyer"
+mail: "andrea.boyer@muettergenesung-kur.de"
 ---
 
 ## Aufgaben:

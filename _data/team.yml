@@ -5,8 +5,8 @@
 
 - ort: "Geschäftsstelle"
   name: "Andrea Boyer"
-  beschreibung: "Geschäftsführerin"
-  bild: "assets/images/team/geschaeftsstelle/Andrea_Boyer.png"
+  beschreibung: "Geschäftsführerin und Einrichtungsleitung psychosoziale Therapie in Loßburg"
+  bild: "assets/images/team/geschaeftsstelle/Andrea_Boyer.jpg"
 
 - ort: "Geschäftsstelle"
   name: "Diana Schrade- Geckeler"
@@ -70,11 +70,6 @@
 
 # Loßburg
 # ======================================================
-
-- ort: "Loßburg"
-  name: "Michaela Kratzenstein-Koch"
-  beschreibung: "Einrichtungsleitung"
-  bild: "assets/images/team/lossburg/Michaela_Kratzenstein-Koch.png"
 
 - ort: "Loßburg"
   name: "Inge Seifert"

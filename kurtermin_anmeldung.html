@@ -4,6 +4,19 @@ title: "Kuranmeldung – Evangelische Müttergenesung in Württemberg"
 description: "Wir freuen uns über Ihre Anmeldung."
 ---
 
+<script
+  src="{{ 'assets/js/formular-kind-abfrage.js' | relative_url }}"
+  defer
+></script>
+<script
+  src="{{ 'assets/js/formular-query-parameter.js' | relative_url }}"
+  defer
+></script>
+<script
+  src="{{ 'assets/js/formular-krankenkasse-sonstige.js' | relative_url }}"
+  defer
+></script>
+
 <!-- Hauptcontainer für die Anmeldeseite -->
 <div class="headline-wrapper">
   <div class="headline_eyebrow centered">
@@ -102,7 +115,6 @@ description: "Wir freuen uns über Ihre Anmeldung."
         </label>
         <select id="geschlecht" name="Geschlecht" required>
           <option value="w">Weiblich</option>
-          <option value="m">Männlich</option>
           <option value="d">Divers</option>
         </select>
       </div>

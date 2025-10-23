@@ -46,18 +46,6 @@
 <script src="/assets/js/script.js" defer></script>
 <script src="/assets/js/klinikfilter.js" defer></script>
 <script src="/assets/js/scrollup.js" defer></script>
-<script
-  src="/assets/js/formular-kind-abfrage.js"
-  defer
-></script>
-<script
-  src="/assets/js/formular-query-parameter.js"
-  defer
-></script>
-<script
-  src="/assets/js/formular-krankenkasse-sonstige.js"
-  defer
-></script>
 
 <script
   data-goatcounter="https://mgw.goatcounter.com/count"
@@ -335,7 +323,20 @@
 </div>
 
     <main aria-label="Seiteninhalt">
-      <!-- Hauptcontainer für die Anmeldeseite -->
+      <script
+  src="/assets/js/formular-kind-abfrage.js"
+  defer
+></script>
+<script
+  src="/assets/js/formular-query-parameter.js"
+  defer
+></script>
+<script
+  src="/assets/js/formular-krankenkasse-sonstige.js"
+  defer
+></script>
+
+<!-- Hauptcontainer für die Anmeldeseite -->
 <div class="headline-wrapper">
   <div class="headline_eyebrow centered">
     <!-- Navigationslink zurück zu den Kurterminen -->
@@ -433,7 +434,6 @@
         </label>
         <select id="geschlecht" name="Geschlecht" required>
           <option value="w">Weiblich</option>
-          <option value="m">Männlich</option>
           <option value="d">Divers</option>
         </select>
       </div>

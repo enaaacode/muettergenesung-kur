@@ -110,11 +110,6 @@
   bild: "assets/images/team/scheidegg/Manuela_Morgen.png"
 
 - ort: "Scheidegg"
-  name: "Dr. med. Wolfgang Häussler"
-  beschreibung: "Stellvertretender leitender Klinikarzt"
-  bild: "assets/images/team/scheidegg/Wolfgang_Haeussler.png"
-
-- ort: "Scheidegg"
   name: "Evelyn Morent"
   beschreibung: "Psychologin i.A. zur Psychologische Psychotherapeutin"
   bild: ""

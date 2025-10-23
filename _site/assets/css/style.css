@@ -326,6 +326,12 @@ body {
   padding: 2rem;
 }
 
+.packliste {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+
 .less-padding {
   padding: 1rem;
 }
@@ -1026,26 +1032,38 @@ details[open] > summary.fragen-kategorie::after {
   flex-direction: column;
   gap: var(--padding);
   text-align: center;
-  padding-top: var(--section-gap);
 }
 
 .fuenf-schritte-container--reihe {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--padding);
 }
 
 .fuenf-schritte-container--reihe-element {
-  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
   align-items: center;
+  aspect-ratio: 1/1;
   border-radius: var(--border-radius-default);
   padding: var(--padding);
   background-color: var(--color-bg-cards);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.02);
 }
 
+/* Mobile Anpassungen */
+@media (max-width: 900px) {
+  .fuenf-schritte-container--reihe {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .fuenf-schritte-container--reihe {
+    grid-template-columns: 1fr;
+  }
+}
 /* Zimmer Gallery Slider
 ======================================================================= */
 
@@ -1198,5 +1216,95 @@ details[open] > summary.fragen-kategorie::after {
     width: 100%;
     max-width: 100%;
     min-width: 100%;
+  }
+}
+
+/* Interaktive Checkliste
+======================================================================= */
+.checklist-group {
+  margin-bottom: 2rem;
+}
+
+.checklist-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.checklist-item:hover {
+  background-color: rgba(255, 107, 157, 0.05);
+}
+
+.checklist-checkbox {
+  display: none;
+}
+
+.checkmark {
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--color-pink);
+  border-radius: 50%;
+  margin-right: 1rem;
+  position: relative;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.checkmark::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.checklist-checkbox:checked + .checkmark {
+  background-color: var(--color-pink);
+  border-color: var(--color-pink);
+}
+
+.checklist-checkbox:checked + .checkmark::after {
+  opacity: 1;
+}
+
+.checklist-text {
+  font-size: 1rem;
+  line-height: 1.4;
+  transition: all 0.3s ease;
+}
+
+.checklist-checkbox:checked + .checkmark + .checklist-text {
+  text-decoration: line-through;
+  opacity: 0.6;
+  color: #666;
+}
+
+/* Mobile Anpassung */
+@media (max-width: 768px) {
+  .checklist-item {
+    padding: 0.3rem;
+  }
+
+  .checkmark {
+    width: 18px;
+    height: 18px;
+    margin-right: 0.8rem;
+  }
+
+  .checkmark::after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 8px;
   }
 }

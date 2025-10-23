@@ -70,21 +70,21 @@ function showKinderFelder(anzahl) {
             style="display: none; margin-top: 0.5em"
           />
         </div> 
-        <fieldset>
-          <legend>Geschlecht</legend>
-          <div class="radio-option">
-            <input type="radio" id="kind${i}-geschlecht-weiblich" name="Kind${i} Geschlecht" value="weiblich" required />
-            <label for="kind${i}-geschlecht-weiblich">Weiblich</label>
-          </div>
-          <div class="radio-option">
-            <input type="radio" id="kind${i}-geschlecht-maennlich" name="Kind${i} Geschlecht" value="männlich" />
-            <label for="kind${i}-geschlecht-maennlich">Männlich</label>
-          </div>
-          <div class="radio-option">
-            <input type="radio" id="kind${i}-geschlecht-divers" name="Kind${i} Geschlecht" value="divers" />
-            <label for="kind${i}-geschlecht-divers">Divers</label>
-          </div>
-        </fieldset> 
+
+        <div class="form-field">
+          <label for="kind${i}-geschlecht">Geschlecht</label>
+          <select
+            id="kind${i}-geschlecht"
+            name="Kind${i} Geschlecht"
+            required
+            aria-required="true"
+          >
+            <option value="" disabled selected>Bitte auswählen</option>
+            <option value="weiblich">Weiblich</option>
+            <option value="männlich">Männlich</option>
+            <option value="divers">Divers</option>
+          </select>
+        </div>
       </fieldset>
     `;
   }

@@ -46,11 +46,13 @@ description: "Erfahren Sie mehr über uns."
           <img
             src="{{ item.bild | relative_url }}"
             alt="Portraitbild von {{ item.name }}"
+            loading="lazy"
           />
           {% else %}
           <img
             src="assets/images/team/leeres_profilbild.jpg"
             alt="Platzhalterbild für {{ item.name }}"
+            loading="lazy"
           />
           {% endif %}
         </div>

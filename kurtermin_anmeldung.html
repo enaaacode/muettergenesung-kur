@@ -427,6 +427,135 @@ description: "Wir freuen uns über Ihre Anmeldung."
     <input type="hidden" name="Kurtermin" value="{{ page.datum }}" />
     <input type="hidden" name="Hinweis" value="{{ page.hinweis }}" />
 
+    <div id="cap-container">
+      <cap-widget
+        id="cap"
+        data-cap-i18n-verifying-label="Wird Verifiziert..."
+        data-cap-i18n-initial-state="Ich bin ein Mensch"
+        data-cap-i18n-solved-label="Ich bin ein Mensch"
+        data-cap-api-endpoint="http://localhost:3000/capture/"
+      ></cap-widget>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@cap.js/widget"></script>
+    <script>
+      // an das Hauptformular binden
+      const form = document.querySelector(".kurtermin-anfrage-formular");
+      form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        // FormData vom echten Formular lesen (inkl. cap-widget token)
+        const formData = new FormData(form);
+
+        const data = {
+          // Beispiel: mappe Felder aus dem großen Formular
+          name: formData.get("Vorname") + " " + formData.get("Nachname"),
+          captureToken: formData.get("cap-token"),
+          // ...weitere Felder nach Bedarf...
+        };
+
+        const response = await fetch("http://localhost:3000/kuranmeldung", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        });
+
+        if (response.ok) {
+          alert("Form submitted successfully!");
+        } else {
+          alert("Form submission failed.");
+        }
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const form = document.querySelector(".kurtermin-anfrage-formular");
+        if (!form) return;
+
+        const submitBtn = form.querySelector('button[type="submit"]');
+        if (!submitBtn) return;
+        submitBtn.disabled = true;
+
+        const requiredFields = Array.from(form.querySelectorAll("[required]"));
+
+        // Prüft ob Captcha-Token vorhanden ist
+        function hasCaptchaToken() {
+          const tokenInput = form.querySelector('input[name="cap-token"]');
+          return Boolean(
+            tokenInput && tokenInput.value && tokenInput.value.trim().length
+          );
+        }
+
+        // zentrale Validierungsfunktion
+        function updateSubmitState() {
+          // native validity check + captcha
+          const formValid = form.checkValidity();
+          submitBtn.disabled = !(formValid && hasCaptchaToken());
+        }
+
+        // Listener für alle required-Felder
+        requiredFields.forEach((el) => {
+          el.addEventListener("input", updateSubmitState, { passive: true });
+          el.addEventListener("change", updateSubmitState, { passive: true });
+        });
+
+        // Beobachter: wenn das Cap-Widget ein hidden input einfügt / ändert
+        const capContainer = document.getElementById("cap-container");
+        if (capContainer) {
+          const mutationObserver = new MutationObserver(() => {
+            // falls token-input gerade angelegt wurde, lauschen wir auf input-events
+            const tokenInput = form.querySelector('input[name="cap-token"]');
+            if (tokenInput) {
+              tokenInput.addEventListener("input", updateSubmitState, {
+                passive: true,
+              });
+            }
+            updateSubmitState();
+          });
+          mutationObserver.observe(capContainer, {
+            childList: true,
+            subtree: true,
+            attributes: true,
+            attributeFilter: ["value"],
+          });
+        }
+
+        // Fallback: kurze Polling-Phase für den Fall, dass Widget Token später schreibt
+        const pollingInterval = setInterval(() => {
+          updateSubmitState();
+        }, 500);
+        // nach 60s Polling stoppen
+        setTimeout(() => clearInterval(pollingInterval), 60000);
+
+        // Schutz im Submit-Handler: nochmals prüfen und sinnvolle Fehlermeldung
+        form.addEventListener("submit", async (e) => {
+          if (!form.checkValidity() || !hasCaptchaToken()) {
+            e.preventDefault();
+            updateSubmitState();
+            // Nutzerfreundliche Hinweise
+            if (!form.checkValidity()) {
+              // Fokus auf erstes invalide Feld
+              const firstInvalid = form.querySelector(":invalid");
+              if (firstInvalid) firstInvalid.focus();
+              alert("Bitte füllen Sie alle Pflichtfelder korrekt aus.");
+            } else {
+              alert(
+                "Bitte lösen Sie das Captcha, bevor Sie die Anfrage absenden."
+              );
+            }
+            return;
+          }
+
+          // Falls du einen eigenen Fetch-Submit verwendest: disable button und prevent double-submit
+          submitBtn.disabled = true;
+          submitBtn.setAttribute("aria-busy", "true");
+
+          // Wenn dein bestehender submit-Handler per JS fetch nutzt, belasse hier die Logik.
+          // Bei mailto-Formaction wird das native Verhalten weiter ausgeführt.
+        });
+      });
+    </script>
+
     <!-- Submit-Button -->
     <div class="form-actions kuranfrage">
       <button type="submit" class="button primary">Anfrage absenden</button>

@@ -68,6 +68,30 @@ small {
   --min-width: 300px;
 }
 
+cap-widget {
+  --cap-background: white;
+  --cap-border-color: #dddddd8f;
+  --cap-border-radius: 12px;
+  --cap-widget-height: 50px;
+  --cap-widget-width: 230px;
+  --cap-widget-padding: 14px;
+  --cap-gap: 12px;
+  --cap-color: var(--color-text);
+  --cap-checkbox-size: 20px;
+  --cap-checkbox-border: 1px solid var(--color-text);
+  --cap-checkbox-border-radius: 2px;
+  --cap-checkbox-background: #fafafa91;
+  --cap-checkbox-margin: 2px;
+  --cap-font: var(--font-body);
+  --cap-spinner-color: var(--color-pink);
+  --cap-spinner-background-color: #eee;
+  --cap-spinner-thickness: 5px;
+}
+
+#cap-container {
+  margin: 0 auto;
+}
+
 html {
   scroll-behavior: smooth; /* Sanftes Scrollen für Ankerlinks */
 }

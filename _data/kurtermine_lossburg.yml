@@ -30,11 +30,11 @@
   kindermax: "5"
 
 - datum: "21. Januar 2026 bis 11. Februar 2026"
-  hinweis: ""
-  ausgebucht: "Ja"
+  hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter mit drei Kindern frei."
+  ausgebucht: "Nein"
   sichtbar: "Ja"
-  kindermin: "1"
-  kindermax: "5"
+  kindermin: "3"
+  kindermax: "3"
 
 - datum: "11. Februar 2026 bis 4. März 2026"
   hinweis: ""
@@ -89,8 +89,8 @@
   hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter mit drei Kindern frei."
   ausgebucht: "Nein"
   sichtbar: "Ja"
-  kindermin: "2"
-  kindermax: "5"
+  kindermin: "3"
+  kindermax: "3"
 
 - datum: "29. Juli 2026 bis 19. August 2026"
   hinweis: ""

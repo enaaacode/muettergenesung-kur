@@ -80,9 +80,9 @@ function showKinderFelder(anzahl) {
             aria-required="true"
           >
             <option value="" disabled selected>Bitte auswählen</option>
-            <option value="weiblich">Weiblich</option>
-            <option value="männlich">Männlich</option>
-            <option value="divers">Divers</option>
+            <option value="w">Weiblich</option>
+            <option value="m">Männlich</option>
+            <option value="d">Divers</option>
           </select>
         </div>
       </fieldset>

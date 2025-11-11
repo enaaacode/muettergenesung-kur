@@ -13,7 +13,7 @@
   ausgebucht: "Ja"
   sichtbar: "Ja"
   kindermin: "1"
-  kindermax: "5"
+  kindermax: "1"
 
 - datum: "3. Dezember 2025 bis 23. Dezember 2025"
   hinweis: ""
@@ -30,11 +30,11 @@
   kindermax: "5"
 
 - datum: "21. Januar 2026 bis 11. Februar 2026"
-  hinweis: ""
-  ausgebucht: "Ja"
+  hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter mit drei Kindern frei."
+  ausgebucht: "Nein"
   sichtbar: "Ja"
-  kindermin: "1"
-  kindermax: "5"
+  kindermin: "3"
+  kindermax: "3"
 
 - datum: "11. Februar 2026 bis 4. März 2026"
   hinweis: ""
@@ -86,11 +86,11 @@
   kindermax: "5"
 
 - datum: "8. Juli 2026 bis 29. Juli 2026"
-  hinweis: ""
-  ausgebucht: "Ja"
+  hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter mit drei Kindern frei."
+  ausgebucht: "Nein"
   sichtbar: "Ja"
-  kindermin: "2"
-  kindermax: "5"
+  kindermin: "3"
+  kindermax: "3"
 
 - datum: "29. Juli 2026 bis 19. August 2026"
   hinweis: ""
@@ -110,5 +110,5 @@
   hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter mit mehreren Kindern frei."
   ausgebucht: "Nein"
   sichtbar: "Ja"
-  kindermin: "1"
+  kindermin: "2"
   kindermax: "5"

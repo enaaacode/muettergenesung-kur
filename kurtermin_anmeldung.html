@@ -421,14 +421,11 @@ description: "Wir freuen uns über Ihre Anmeldung."
     </div>
 
     <div class="form-container">{% include datenschutz-checkbox.html %}</div>
-    <!-- Versteckte Felder für Kurtermin-Daten -->
-    <input type="hidden" name="Kurtermin" value="{{ page.datum }}" />
-    <input type="hidden" name="Hinweis" value="{{ page.hinweis }}" />
-    <input type="hidden" name="Startdate" value="{{ page.startdate }}" />
-    <input type="hidden" name="Enddate" value="{{ page.enddate }}" />
 
-    <!-- Hidden input für die Einrichtung (Bad Wurzach / Loßburg / Scheidegg) -->
-    <input type="hidden" name="Einrichtung" value="{{ site.title }}" />
+    <!-- Versteckte Felder für Kurtermin-Daten -->
+    <input type="hidden" name="Startdate" id="startdate-query" />
+    <input type="hidden" name="Enddate" id="end-query" />
+    <input type="hidden" name="Einrichtung" id="einrichtung-query" />
 
     <div id="cap-container">
       <cap-widget

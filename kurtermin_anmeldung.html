@@ -427,14 +427,8 @@ description: "Wir freuen uns über Ihre Anmeldung."
     <input type="hidden" name="Startdate" value="{{ page.startdate }}" />
     <input type="hidden" name="Enddate" value="{{ page.enddate }}" />
 
-    {
     <!-- Hidden input für die Einrichtung (Bad Wurzach / Loßburg / Scheidegg) -->
-    <input
-      type="hidden"
-      name="Einrichtung"
-      value="{{ page.klinik | default: page.einrichtung | default: site.title | escape }}"
-    />
-    }
+    <input type="hidden" name="Einrichtung" value="{{ site.title }}" />
 
     <div id="cap-container">
       <cap-widget

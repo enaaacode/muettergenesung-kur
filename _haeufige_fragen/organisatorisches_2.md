@@ -3,4 +3,4 @@ kategorie: "Organisatorisches"
 frage: "Bekomme ich eine Bescheinigung für meine Arbeitsstelle, dass ich in Kur bin?"
 ---
 
-Sie erhalten vor der Anreise mit der Einladung eine Bescheinigung, welche Sie bei Ihrer Arbeitsstelle abgeben können.
+Sie erhalten mit der Platzzusage eine Bescheinigung, welche Sie bei Ihrer Arbeitsstelle abgeben können.

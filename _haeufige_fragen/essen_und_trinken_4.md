@@ -3,10 +3,8 @@ kategorie: "Essen und Trinken"
 frage: "Ich habe Nahrungsunverträglichkeiten"
 ---
 
-Für Unverträglichkeiten bitten wir um ein Attest Ihrer Arztpraxis.
+Bei Lebensmittel- Unverträglichkeiten (Lactose, Gluten), die unsere Küche berücksichtigen sollte, benötigen wir vorab ein Attest Ihres Arztes. Eine entsprechende Kost bei Histamin- Unverträglichkeit bieten wir nicht an.
 
-Sie werden selbstverständlich im Rahmen unserer Möglichkeiten berücksichtigt.
+Bei Lebensmittel-Allergien benötigen wir Ihren Allergiepass, bitte bringen Sie diesen zur Kur mit.
 
-Für die Planung unserer Hauswirtschaft ist es notwendig, dass Sie die Atteste vorab an uns senden, damit wir wichtige Absprachen treffen können.
-
-Natürlich berücksichtigen wir auch Unverträglichkeiten Ihrer Kinder. Dafür muss Ihr Kind nicht behandlungsbedürftig sein. Auch hier ist ein Attest notwendig.
+Wir berücksichtigen auch Unverträglichkeiten Ihrer Kinder. Dafür muss Ihr Kind nicht behandlungsbedürftig sein. Auch hier ist vorab ein Attest notwendig.

@@ -12,4 +12,4 @@ Pro Kurtag (in der Regel 22) fällt für sie ein Eigenanteil von 10 Euro pro Tag
 Die Fahrtkosten werden bis auf einen Eigenanteil (max.10€ pro Fahrt) von der Krankenkasse auf Nachweis übernommen.
 Bei geringem Einkommen ist eine Befreiung durch Beantragung bei der Krankenkasse möglich.
 
-Für die Kur müssen Sie keinen Urlaub nehmen.
+

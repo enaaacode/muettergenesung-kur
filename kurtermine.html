@@ -6,79 +6,14 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
 
 <div class="headline-wrapper">
   <div class="headline_eyebrow centered">
-    <h1>Kurtermine</h1>
+    <h1>Verfügbare Kurtermine</h1>
   </div>
-</div>
-
-<!-- INTRO Section mit Illustration und Bitte -->
-<div class="outter-wrapper">
-  <section id="behandlungsschwerpunkt-section">
-    <div class="intro-section-container">
-      <div class="intro-section-container--image">
-        <img
-          src="{{'assets/images/illustration_geduld.svg' | relative_url}}"
-          alt="Illustration: Eine Frau meditiert im Schneidersitz."
-        />
-      </div>
-      <div class="intro-section-container--text">
-        <div class="headline_eyebrow">
-          <p class="eyebrow">Eine Bitte an Sie</p>
-          <h2>Wir bitten um etwas Geduld</h2>
-        </div>
-        <p>
-          Wir werden Ihre Anfrage innerhalb einer Frist von 4 Wochen bearbeiten.
-          Bitte sehen Sie in dieser Zeit von einer Nachfrage bei uns ab, da wir
-          sonst aufgrund der Masse der Anfragen bei den Bearbeitungen in Verzug
-          geraten. <strong>Vielen Dank.</strong>
-        </p>
-
-        <p style="color: var(--color-pink)">
-          <strong>Unser Tipp:</strong> Wir empfehlen Ihnen sich für die
-          Kuranfrage an eine Beratungsstelle zu wenden. Anfragen welche über die
-          Beratungsstelle erfolgen werden priorisiert.
-        </p>
-        <div class="button-wrapper">
-          <a
-            href="https://www.muettergenesungswerk.de/kur-fuer-mich/beratung#c73"
-            target="_blank"
-            title="Öffnet in neuem Tab"
-            rel="noopener noreferrer"
-            aria-label="Zur externen Seite – öffnet in neuem Tab"
-            class="instagram-link"
-          >
-            Zu den Beratungsstellen
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-              focusable="false"
-            >
-              <path
-                d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-              />
-              <polyline points="15 3 21 3 21 9" />
-              <line x1="10" y1="14" x2="21" y2="3" />
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
 </div>
 
 <!-- Kurtermine -->
 
 <section id="kurtermine" class="outter-wrapper">
-  <div class="headline_eyebrow centered">
-    <p class="eyebrow">Gesundheit, Prävention und Rehabilitation</p>
-    <h2>Verfügbare Kurtermine</h2>
-  </div>
-
+       
  {% assign lossburg_size = site.data.kurtermine_lossburg | size %}
   {% assign scheidegg_size = site.data.kurtermine_scheidegg | size %}
   {% assign badwurzach_size = site.data.kurtermine_badwurzach | size %}
@@ -124,7 +59,8 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
     </button>
   </div>
 
-  <p style="text-align: center;">Die neuen Kurgänge vom <strong>30. September bis 2. Dezember 2026</strong> werden voraussichtlich ab dem <strong>12. Januar 2026</strong> hier veröffentlicht.</p>
+  <p style="text-align: center;">Die neuen Kurgänge vom <strong>30. September bis 2. Dezember 2026</strong> werden voraussichtlich ab dem <strong>12. Januar 2026</strong> hier veröffentlicht. </p>
+ 
 
   <div class="kurtermine-section-grid-container">
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -232,4 +168,5 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
       {% endif %}
     {% endfor %}
   </div>
+
 </section>

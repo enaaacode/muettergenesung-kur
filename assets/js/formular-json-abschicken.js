@@ -65,7 +65,7 @@ form.addEventListener("submit", async (event) => {
   );
 
   if (response.ok) {
-    navigate("/formular-gesendet");
+    window.location.href = "/formular-gesendet";
   } else {
     alert("Es gab ein technisches Problem. Versuchen Sie es später erneut.");
   }

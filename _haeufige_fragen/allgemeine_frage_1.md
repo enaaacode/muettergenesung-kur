@@ -1,5 +1,5 @@
 ---
-kategorie: "Allgemeine Fragen"
+kategorie: "Allgemeine Frage"
 frage: "Was muss ich tun, um eine Kur zu beantragen?"
 ---
 

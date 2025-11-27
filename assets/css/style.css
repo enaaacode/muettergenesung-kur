@@ -1243,3 +1243,31 @@ details[open] > summary.fragen-kategorie::after {
     min-width: 100%;
   }
 }
+
+/* FORMULAR VALIDIERUNG
+======================================================================= */
+
+/* kleine Fehlermeldung unter dem Feld (wird vom JS eingefügt) */
+.form-field .field-error {
+  display: block;
+  color: var(--color-pink);
+  font-size: 0.9rem;
+  margin-top: 0.35rem;
+  line-height: 1.2;
+}
+
+/* KEINE rote Umrandung nur wegen :invalid/was-validated — erst bei show-invalid */
+.kurtermin-anfrage-formular.show-invalid
+  .form-field[data-invalid="true"]
+  :is(input, select, textarea) {
+  border-color: var(--color-pink);
+  box-shadow: 0 0 0 4px rgba(204, 53, 119, 0.06);
+}
+
+/* Fokus-Rand nur wenn show-invalid aktiv ist */
+.kurtermin-anfrage-formular.show-invalid
+  .form-field[data-invalid="true"]
+  :is(input:focus, select:focus, textarea:focus) {
+  outline: none;
+  box-shadow: 0 0 0 6px rgba(204, 53, 119, 0.12);
+}

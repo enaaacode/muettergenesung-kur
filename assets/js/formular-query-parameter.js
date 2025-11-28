@@ -31,3 +31,6 @@ hinweisAnzeigeZwei.textContent = myHinweis;
 
 const einrichtungAnzeige = document.getElementById("einrichtung-query");
 einrichtungAnzeige.value = myOrt;
+
+const zeitraumAnzeige = document.getElementById("zeitraum-query");
+zeitraumAnzeige.value = myDatum;

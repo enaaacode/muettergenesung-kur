@@ -43,8 +43,8 @@
   hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter mit zwei Kindern frei."
   ausgebucht: "Nein"
   sichtbar: "Ja"
-  kindermin: "3"
-  kindermax: "3"
+  kindermin: "2"
+  kindermax: "2"
 
 - datum: "11. Februar 2026 bis 4. März 2026"
   startdate: "2026-02-11"

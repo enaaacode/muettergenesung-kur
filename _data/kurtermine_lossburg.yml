@@ -107,7 +107,7 @@
   ausgebucht: "Nein"
   sichtbar: "Ja"
   kindermin: "2"
-  kindermax: "5"
+  kindermax: "2"
 
 - datum: "8. Juli 2026 bis 29. Juli 2026"
   startdate: "2026-07-08"

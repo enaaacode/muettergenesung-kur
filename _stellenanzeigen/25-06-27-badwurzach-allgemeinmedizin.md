@@ -17,3 +17,11 @@ mail: "Rebekka.Mueller@muettergenesung-kur.de"
 - Beratung in Gesundheitsfragen
 - Durchführung von ärztlichen Sprechzeiten und ggf. Gesundheitsvorträgen
 - Mitarbeit im interdisziplinären Team und im Qualitätsmanagement
+
+## Wir bieten:
+
+- Flexible und familienfreundliche Arbeitszeiten: überwiegendvormittags, keine Nacht- und Wochenenddienste
+- Mehr Freizeit: 30 + 1,5 Tage Urlaub (lt. KAO)
+- Tarifsicherheit: Vergütung nach KAO/TVöD + betriebliche Altersvorsorge
+- Wertschätzende Zusammenarbeit in einem erfahrenenund sehr motivierten Team
+- Interessanter Standort im idyllischen Allgäuer Voralpenlandnahe Bodensee, Schweiz und Österreich

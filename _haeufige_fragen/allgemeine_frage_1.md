@@ -11,3 +11,6 @@ Dort beraten Sie erfahrene Sozialarbeiter*innen und helfen Ihnen, eine passende 
 
 Ihre Krankenkasse entscheidet über die Bewilligung.
 Wird die Kur abgelehnt, können Sie einen Widerspruch stellen. Auch dabei kann Sie eine Kurberatungsstelle unterstützen.
+
+Kinder können in der Regel bis zu einem Alter von 12 Jahren als Begleitkinder zur Kur mitgehen. Wenn sie einen Behandlungsbedarf haben, ist eine ärztliche Verordnung notwendig. 
+Die Kosten übernimmt die Krankenkasse.

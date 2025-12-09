@@ -50,7 +50,7 @@ form.addEventListener("submit", async (event) => {
     psychosocialRisks: formData.get("Besonderheiten und Risiken"),
     alternativeDate: formData.get("Alternativtermin"),
     captureToken: formData.get("cap-token"),
-    date: formData.get("datum"),
+    date: formData.get("Startdate"),
     location: formData.get("Einrichtung"),
     companions: children,
   };

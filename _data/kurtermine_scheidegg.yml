@@ -149,7 +149,7 @@
   startdate: "2027-01-20"
   enddate: "2027-02-10"
   hinweis: ""
-  ausgebucht: "nein"
+  ausgebucht: "Nein"
   sichtbar: "Ja"
   kindermin: "1"
   kindermax: "5"

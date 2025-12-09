@@ -18,7 +18,7 @@ Auf dieser Website betrifft die Datenverarbeitung vor allem:
 
 **Evangelische Müttergenesung Württemberg gGmbH**  
 Frau Andrea Boyer, Geschäftsführerin  
-Büchsenstraße 33  
+Büchsenstr. 35
 70174 Stuttgart
 
 Telefon: 0711 / 76 977 401  

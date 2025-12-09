@@ -3,6 +3,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const myOrt = urlParams.get("ort");
 const myDatum = urlParams.get("datum");
 const myHinweis = urlParams.get("hinweis");
+const startDate = urlParams.get("startdate");
 
 const ortAnzeige = document.getElementById("ort-query");
 if (ortAnzeige) {
@@ -34,3 +35,6 @@ einrichtungAnzeige.value = myOrt;
 
 const zeitraumAnzeige = document.getElementById("zeitraum-query");
 zeitraumAnzeige.value = myDatum;
+
+const formStartdate = document.getElementById("startdate-query");
+formStartdate.value = startDate;

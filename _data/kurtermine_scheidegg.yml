@@ -144,3 +144,12 @@
   sichtbar: "Ja"
   kindermin: "2"
   kindermax: "5"
+
+- datum: "20. Januar 2027 bis 10. Februar 2027"
+  startdate: "2027-01-20"
+  enddate: "2027-02-10"
+  hinweis: ""
+  ausgebucht: "nein"
+  sichtbar: "Ja"
+  kindermin: "1"
+  kindermax: "5"

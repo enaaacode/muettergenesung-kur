@@ -136,11 +136,14 @@ description: "Wir freuen uns über Ihre Anmeldung."
           <span class="visually-hidden">Pflichtfeld</span>
         </label>
         <select id="familienstand" name="Familienstand" required>
-          <option value="">Bitte wählen</option>
-          <option value="ledig">Ledig</option>
-          <option value="verheiratet">Verheiratet</option>
-          <option value="geschieden">Geschieden</option>
-          <option value="verwitwet">Verwitwet</option>
+          <option value="KA">Keine Angabe</option>
+          <option value="LE">Ledig</option>
+          <option value="VH">Verheiratet</option>
+          <option value="GE">Geschieden</option>
+          <option value="VW">verwitwet</option>
+          <option value="GL">Getrennt lebend</option>
+          <option value="LG">Lebensgemeinschaft</option>
+          <option value="PA">Partnerschaft</option>
         </select>
       </div>
 
@@ -434,7 +437,6 @@ description: "Wir freuen uns über Ihre Anmeldung."
 
     <!-- Versteckte Felder für Kurtermin-Daten -->
     <input type="hidden" name="Startdate" id="startdate-query" />
-    <input type="hidden" name="Enddate" id="end-query" />
     <input type="hidden" name="Einrichtung" id="einrichtung-query" />
     <input type="hidden" name="datum" id="zeitraum-query" />
 

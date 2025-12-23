@@ -52,7 +52,7 @@ form.addEventListener("submit", async (event) => {
     captureToken: formData.get("cap-token"),
     date: formData.get("Startdate"),
     location: formData.get("Einrichtung"),
-    companions: children,
+    children: children,
   };
 
   const response = await fetch(

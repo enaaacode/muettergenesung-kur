@@ -21,7 +21,7 @@ jobs:
 
       - name: Check if only allowed kurtermine files were changed
         run: |
-          ALLOWED_FILES="kurtermine_badwurzach.yml kurtermine_lossburg.yml kurtermine_scheidegg.yml"
+          ALLOWED_FILES="_data/kurtermine_badwurzach.yml _data/kurtermine_lossburg.yml _data/kurtermine_scheidegg.yml"
           CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD)
 
           for file in $CHANGED_FILES; do

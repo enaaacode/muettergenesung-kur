@@ -48,7 +48,7 @@ form.addEventListener("submit", async (event) => {
     weight: formData.get("Gewicht"),
     psychosocialStress: formData.get("Psychosoziale Belastungen"),
     psychosocialRisks: formData.get("Besonderheiten und Risiken"),
-    alternativeDate: formData.get("Alternativtermin"),
+    alternatives: formData.get("Alternativtermin"),
     captureToken: formData.get("cap-token"),
     date: formData.get("Startdate"),
     location: formData.get("Einrichtung"),

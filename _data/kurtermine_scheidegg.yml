@@ -150,7 +150,7 @@
   enddate: "2026-10-21"
   hinweis: ""
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "1"
   kindermax: "5"
 

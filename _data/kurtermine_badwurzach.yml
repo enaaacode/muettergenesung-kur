@@ -5,7 +5,7 @@
   startdate: "2025-10-22"
   enddate: "2025-11-12"
   hinweis: "Diese Kur richtet sich an Frauen und Mütter. Eine Kinderbegleitung ist nicht möglich."
-  ausgebucht: "Ja"
+  ausgebucht: "Nein"
   sichtbar: "Nein"
   kindermin: "0"
   kindermax: "0"

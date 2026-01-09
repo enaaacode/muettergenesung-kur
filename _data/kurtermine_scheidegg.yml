@@ -177,6 +177,6 @@
   enddate: "2026-12-22"
   hinweis: ""
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "1"
   kindermax: "5"

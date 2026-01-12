@@ -150,7 +150,7 @@
   enddate: "2026-10-21"
   hinweis: "Schwerpunktkur für pflegende Angehörige. Eine Kinderbegleitung ist nicht möglich."
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "0"
   kindermax: "0"
 
@@ -159,7 +159,7 @@
   enddate: "2026-11-11"
   hinweis: "Diese Kur richtet sich an Frauen und Mütter. Eine Kinderbegleitung ist nicht möglich."
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "0"
   kindermax: "0"
 
@@ -168,7 +168,7 @@
   enddate: "2026-12-02"
   hinweis: "Diese Kur richtet sich an Frauen und Mütter. Eine Kinderbegleitung ist nicht möglich."
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "0"
   kindermax: "0"
 
@@ -177,6 +177,6 @@
   enddate: "2026-12-22"
   hinweis: "Diese Kur richtet sich an Frauen und Mütter. Eine Kinderbegleitung ist nicht möglich."
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "0"
   kindermax: "0"

@@ -6,20 +6,26 @@ function showKinderFelder(anzahl) {
   if (anzahl < 1) return;
   anzahl = Math.min(5, anzahl);
 
+  const urlParams = new URLSearchParams(window.location.search);
+  const startDate = urlParams.get("startdate");
+
+  // Referenzdatum: startdate oder heute als Fallback
+  const referenzDatum =
+    startDate && !isNaN(new Date(startDate)) ? new Date(startDate) : new Date();
+
   for (let i = 1; i <= anzahl; i++) {
-    // Heute
-    const heute = new Date();
     // min: 12 Jahre alt (frühestes Datum)
     const minDate = new Date(
-      heute.getFullYear() - 12,
-      heute.getMonth(),
-      heute.getDate()
+      referenzDatum.getFullYear() - 12,
+      referenzDatum.getMonth(),
+      referenzDatum.getDate()
     );
+
     // max: 3 Jahre alt (spätestes Datum)
     const maxDate = new Date(
-      heute.getFullYear() - 3,
-      heute.getMonth(),
-      heute.getDate()
+      referenzDatum.getFullYear() - 3,
+      referenzDatum.getMonth(),
+      referenzDatum.getDate()
     );
 
     // Format yyyy-mm-dd

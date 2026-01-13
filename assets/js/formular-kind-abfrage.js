@@ -94,34 +94,6 @@ function showKinderFelder(anzahl) {
       </fieldset>
     `;
   }
-
-  // EventListener für jedes Geburtsdatum-Feld nach dem Generieren
-  for (let i = 1; i <= anzahl; i++) {
-    const geburtsdatumInput = document.getElementById(`kind${i}-geburtsdatum`);
-    const hinweisDiv = document.getElementById(`kind${i}-hinweis`);
-    if (geburtsdatumInput && hinweisDiv) {
-      geburtsdatumInput.addEventListener("change", function () {
-        const geburtsdatum = new Date(this.value);
-        if (isNaN(geburtsdatum)) {
-          hinweisDiv.style.display = "none";
-          return;
-        }
-        const heute = new Date();
-        let alter = heute.getFullYear() - geburtsdatum.getFullYear();
-        const m = heute.getMonth() - geburtsdatum.getMonth();
-        if (m < 0 || (m === 0 && heute.getDate() < geburtsdatum.getDate())) {
-          alter--;
-        }
-        if (alter < 3 || alter > 12) {
-          hinweisDiv.innerHTML =
-            "Leider haben wir kein Angebot für Mütter mit Kindern, die unter 3 oder über 12 Jahre alt sind.";
-          hinweisDiv.style.display = "block";
-        } else {
-          hinweisDiv.style.display = "none";
-        }
-      });
-    }
-  }
 }
 
 document.addEventListener("DOMContentLoaded", function () {

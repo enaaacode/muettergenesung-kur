@@ -33,7 +33,7 @@
   enddate: "2026-01-21"
   hinweis: ""
   ausgebucht: "Ja"
-  sichtbar: "Ja"
+  sichtbar: "Nein"
   kindermin: "2"
   kindermax: "2"
 
@@ -42,7 +42,7 @@
   enddate: "2026-02-11"
   hinweis: ""
   ausgebucht: "Ja"
-  sichtbar: "Ja"
+  sichtbar: "Nein"
   kindermin: "2"
   kindermax: "2"
 

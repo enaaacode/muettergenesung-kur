@@ -12,10 +12,10 @@ mail: "wurzach@muettergenesung-kur.de"
 
 ## Aufgaben:
 
-- Vielfältige Aufgaben im Bereich Hauswirtschaft, Haustechnik, EDV
+- Vielfältige Aufgaben im Bereich Hauswirtschaft, Haustechnik und EDV
 - Personalführung in diesen Bereichen
 - Sicherstellen der hauswirtschaftlichen Versorgung der Patientinnen
 - Mitarbeit bei der Konzeptionsentwicklung und des Qualitätsmanagements
 - Fortführung der Digitalisierung
-- Verantwortung für das Wartungs- und Kontrollsystem
+- Verantwortung für Gebäude und Infrastrukrur
 - Zusammenarbeit mit den anderen Bereichen der Klinik

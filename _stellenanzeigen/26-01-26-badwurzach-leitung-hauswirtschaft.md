@@ -7,7 +7,7 @@ umfang: "mit bis zu 90 % Stellenumfang"
 bild: "/assets/images/team/badwurzach/Marianne_Wiest.png"
 ansprechpartnerin: "Marianne Wiest"
 position: "Einrichtungsleitung hauswirtschaftlicher Bereich"
-mail: "wurzach@muettergenesung-kur.de"
+mail: "marianne.wiest@muettergenesung-kur.de"
 ---
 
 ## Aufgaben:

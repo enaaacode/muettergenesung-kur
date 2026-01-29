@@ -16,6 +16,6 @@ mail: "marianne.wiest@muettergenesung-kur.de"
 - Personalführung in diesen Bereichen
 - Sicherstellen der hauswirtschaftlichen Versorgung der Patientinnen
 - Mitarbeit bei der Konzeptionsentwicklung und des Qualitätsmanagements
-- Fortführung der Digitalisierung
+- Mitwirkung an Fortführung der Digitalisierung
 - Verantwortung für Gebäude und Infrastrukrur
 - Zusammenarbeit mit den anderen Bereichen der Klinik

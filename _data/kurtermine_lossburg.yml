@@ -148,11 +148,11 @@
 - datum: "30. September 2026 bis 21. Oktober 2026"
   startdate: "2026-09-30"
   enddate: "2026-10-21"
-  hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter mit mehreren Kindern frei."
+  hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter die mit 2 Kindern anreisen frei."
   ausgebucht: "Nein"
   sichtbar: "Ja"
   kindermin: "2"
-  kindermax: "5"
+  kindermax: "2"
 
 - datum: "21. Oktober 2026 bis 11. November 2026"
   startdate: "2026-10-21"

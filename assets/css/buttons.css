@@ -70,6 +70,19 @@ button,
   text-underline-offset: 3px;
 }
 
+.kurtermin-ausgebucht {
+  color: red;
+  font-size: 0.85rem;
+  cursor: not-allowed;
+  border: solid 1.5px red;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius-btn);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25em;
+}
+
 /* :HOOVER
 ======================================================================= */
 

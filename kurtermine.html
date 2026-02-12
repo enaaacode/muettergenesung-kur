@@ -93,9 +93,9 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
 
         <p style="font-size: 0.85rem">{{ termin.hinweis }}</p>
         {% else %}
-        <small class="kurtermin-ausgebucht">
+        <p class="kurtermin-ausgebucht">
           Ausgebucht
-        </small>
+        </p>
 
         {% endif %}
       </div>
@@ -132,8 +132,8 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
         </a>
         <p style="font-size: 0.85rem">{{ termin.hinweis }}</p>
         {% else %}
-        <p class="button text disabled">
-          Dieser Kurtermin ist bereits ausgebucht.
+        <p class="kurtermin-ausgebucht">
+          Ausgebucht
         </p>
         {% endif %}
       </div>
@@ -166,8 +166,8 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
         </a>
         <p style="font-size: 0.85rem">{{ termin.hinweis }}</p>
         {% else %}
-        <p class="button text disabled">
-          Dieser Kurtermin ist bereits ausgebucht.
+        <p class="kurtermin-ausgebucht">
+          Ausgebucht
         </p>
         {% endif %}
       </div>

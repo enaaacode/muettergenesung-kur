@@ -3,7 +3,7 @@ kategorie: "Kurablauf"
 frage: "Meine Wochenenden in der Kur"
 ---
 
-Die behandlungsfreien Zeiten sind als Ruhezeiten ein wichtiger Bestandteil des Gesamtkonzepts. Sie sollen Ihnen die Freiräume geben, die Ihnen zuhause so oft fehlen.
+Die behandlungsfreien Zeiten sind als Ruhezeiten ein wichtiger Bestandteil des Gesamtkonzepts. Sie sollen Ihnen die Freiräume geben, die Ihnen zuhause oft fehlen.
 
 - um unbeschwerte Zeit mit Ihren Kindern zu verbringen
 - um einfach mal Zeit für sich selbst zu haben

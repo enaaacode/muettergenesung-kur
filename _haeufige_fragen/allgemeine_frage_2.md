@@ -10,6 +10,6 @@ In Notsituationen können kirchliche Stellen einen Zuschuss im Sinne eines Tasch
 
 Pro Kurtag (in der Regel 22) fällt für Sie ein Eigenanteil von 10 Euro pro Tag an (laut § 61 SGB V). Kinder sind davon ausgenommen.
 Die Fahrtkosten werden bis auf einen Eigenanteil (max.10€ pro Fahrt) von der Krankenkasse auf Nachweis übernommen.
-Bei geringem Einkommen ist eine Befreiung durch Beantragung bei der Krankenkasse möglich.
+Bei geringem Einkommen ist eine Befreiung von den Zuzahlungen durch Beantragung bei der Krankenkasse möglich.
 
 

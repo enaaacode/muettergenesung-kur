@@ -1,6 +1,6 @@
 ---
 kategorie: "Allgemeine Frage"
-frage: "Warum eine Evangelische Kureinrichtung?"
+frage: "Warum eine evangelische Kureinrichtung?"
 ---
 
 Unsere Kureinrichtungen bieten eine individuelle Behandlung, die Körper, Seele und die Belastungssituation berücksichtigt.

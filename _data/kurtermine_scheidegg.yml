@@ -169,7 +169,7 @@
   hinweis: ""
   ausgebucht: "Nein"
   sichtbar: "Ja"
-  kindermin: "2"
+  kindermin: "1"
   kindermax: "5"
 
 - datum: "02. Dezember 2026 bis 22. Dezember 2026"

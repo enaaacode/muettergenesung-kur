@@ -4,7 +4,7 @@ titel: "FSJ-Mitarbeiterin"
 klinik: "Loßburg"
 zeitpunkt: "Ab 01.09.2026"
 umfang: "in Vollzeit"
-bild: "assets/images/team/leeres_profilbild.jpg"
+bild: "/assets/images/team/leeres_profilbild.jpg"
 ansprechpartnerin: "Ulrike Gausepohl"
 mail: "ulrike.gausepohl@muettergenesung-kur.de"
 ---

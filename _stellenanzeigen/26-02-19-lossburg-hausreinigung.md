@@ -4,9 +4,9 @@ titel: "Mitarbeiterin in der Hausreinigung"
 klinik: "Loßburg"
 zeitpunkt: "Ab sofort"
 umfang: "in Teilzeit 30 % von Mo-Fr"
-bild: "/assets/images/team/geschaeftsstelle/Andrea_Boyer.jpg"
-ansprechpartnerin: "Andrea Boyer"
-mail: "andrea.boyer@muettergenesung-kur.de"
+bild: "/assets/images/team/lossburg/Inge_Seifert.png"
+ansprechpartnerin: "Inge Seifert"
+mail: "inge.seifert@muettergenesung-kur.de"
 ---
 
 ## Aufgaben:

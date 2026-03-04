@@ -16,7 +16,7 @@ function showKinderFelder(anzahl) {
   for (let i = 1; i <= anzahl; i++) {
     // min: 12 Jahre alt (frühestes Datum)
     const minDate = new Date(
-      referenzDatum.getFullYear() - 13,
+      referenzDatum.getFullYear() - 12,
       referenzDatum.getMonth(),
       referenzDatum.getDate(),
     );
@@ -28,9 +28,16 @@ function showKinderFelder(anzahl) {
       referenzDatum.getDate(),
     );
 
-    // Format yyyy-mm-dd
-    const minDateStr = minDate.toISOString().split("T")[0];
-    const maxDateStr = maxDate.toISOString().split("T")[0];
+    // Format yyyy-mm-dd (OHNE toISOString wegen Zeitzone!)
+    function formatDate(date) {
+      const year = date.getFullYear();
+      const month = String(date.getMonth() + 1).padStart(2, "0");
+      const day = String(date.getDate()).padStart(2, "0");
+      return `${year}-${month}-${day}`;
+    }
+
+    const minDateStr = formatDate(minDate);
+    const maxDateStr = formatDate(maxDate);
 
     container.innerHTML += `
     <fieldset class="form-container">

@@ -14,18 +14,12 @@ ort: "Loßburg"
 zimmer: "Gemeinsam mit Ihrem Kind oder Ihren Kindern wohnen Sie in einem unserer 25 Appartements – ausgestattet mit Dusche, WC, Telefon und Babyphone."
 ---
 
-Unsere Klinik liegt ruhig auf 740 Metern Höhe im schönen Loßburger Ferienland. Mitten im Herzen des nördlichen Schwarzwalds. Direkt hinter dem Haus beginnt der Wald. Typisch für die Region lädt er ein zu Spaziergängen, zum Walken, Joggen oder zum heilsamen Waldbaden.
+Unsere Klinik liegt ruhig auf 740 Metern Höhe im schönen Loßburger Ferienland, eingebettet in das malerische Loßburger Ferienland im Herzen des nördlichen Schwarzwalds. Direkt hinter unserem Haus beginnt die unberührte Natur, die als staatlich anerkannter Luftkurort mit ihrem idealen Bioklima beste Voraussetzungen für eine heilende Klimatherapie bietet. Unter Anleitung erfahrener Therapeut\*innen können Mütter und Kinder den Wald bei unseren begleiteten Angeboten als Kraftort entdecken.
 
-Loßburg ist ein staatlich anerkannter Luftkurort mit idealem Bioklima, das heißt: Die gute Luft und die besondere Lage unterstützen Heilung und Erholung. Das macht den Ort besonders geeignet für eine Klimatherapie.
+Im Innenbereich wird Kreativität großgeschrieben. Wir arbeiten passend zu den Jahreszeiten mit Papier, Holz und Naturmaterialien. Ein besonderes Highlight jeder Kur ist zudem das gemeinsame Nass- und Trockenfilzen. Für die Kinder bietet unser hauseigener Bolzplatz den perfekten Raum, um sich richtig auszupowern.
 
-Nur wenige Minuten von der Klinik entfernt gibt es viele Freizeitangebote:  
-– ein beheiztes Freibad mit Riesenrutsche  
-– ein großer Spielbereich für Kinder  
-– der fantasievolle Wasser- und Kreativ-Erlebnispfad „Zauberwald“  
-– ein Hallenbad mit Blockhaussauna und Solarium
+Die nähere Umgebung von Loßburg hält unzählige Schätze für Abenteuer bereit. Das beliebte „Zauberland“ liegt fast vor der Haustür und begeistert mit Flößen, Bachspielen und den faszinierenden Biberburgen. Wer das Wasser liebt, hat die Wahl zwischen dem örtlichen Freibad mit Riesenrutsche, dem Hallenbad inklusive Blockhaussauna oder dem nahegelegenen Panoramabad in Freudenstadt. Wanderlustige können direkt vom Haus zum Vogteiturm spazieren oder zur gemütlichen Tannenstube im Ortsteil Ödenwald wandern.
 
-Im Winter können Sie Langlaufloipen oder die Rodelbahn nutzen und dabei die klare Winterluft genießen.
+Für Ausflüge in die Region ist unsere Klinik der ideale Ausgangspunkt. Erleben Sie die Allerheiligen-Wasserfälle bei Oppenau, besuchen Sie die majestätische Burg Hohenzollern oder entdecken Sie den Wolf- und Bärenpark in Bad Ripoldsau-Schapbach. Der Bio-Hofbauernhof in Schömberg bietet authentische Bauernhoferlebnisse, während der Holzweg in Baiersbronn oder das Naturparkzentrum Ruhestein mit seinen Ranger-Angeboten die Neugier der Kinder wecken. Im Winter können Sie Langlaufloipen oder die Rodelbahn nutzen und dabei die klare Winterluft genießen.
 
-Besonders wertvoll für viele Mütter: unsere begleiteten Waldangebote. Unter Anleitung einer erfahrenen Therapeutin können Sie den Wald als Kraftort entdecken, zur Ruhe kommen und neue Energie tanken.
-
-Als Gast unserer Klinik erhalten Sie die KONUS-Karte. Damit können Sie Busse und Bahnen im gesamten Schwarzwald kostenlos nutzen – umweltfreundlich und bequem.
+Dank der KONUS-Gästekarte, die Sie als unser Gast erhalten, erreichen Sie viele dieser Ziele sowie das gesamte Schwarzwälder Schienen- und Busnetz völlig kostenlos und umweltfreundlich.

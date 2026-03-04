@@ -16,16 +16,16 @@ function showKinderFelder(anzahl) {
   for (let i = 1; i <= anzahl; i++) {
     // min: 12 Jahre alt (frühestes Datum)
     const minDate = new Date(
-      referenzDatum.getFullYear() - 12,
+      referenzDatum.getFullYear() - 13,
       referenzDatum.getMonth(),
-      referenzDatum.getDate()
+      referenzDatum.getDate(),
     );
 
     // max: 3 Jahre alt (spätestes Datum)
     const maxDate = new Date(
       referenzDatum.getFullYear() - 3,
       referenzDatum.getMonth(),
-      referenzDatum.getDate()
+      referenzDatum.getDate(),
     );
 
     // Format yyyy-mm-dd

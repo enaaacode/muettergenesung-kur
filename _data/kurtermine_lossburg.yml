@@ -60,7 +60,7 @@
   enddate: "2026-03-25"
   hinweis: ""
   ausgebucht: "Ja"
-  sichtbar: "Ja"
+  sichtbar: "Nein"
   kindermin: "3"
   kindermax: "3"
 

@@ -3,33 +3,31 @@ name: Deploy + Telegram Alert
 on:
   push:
     branches:
-      - main # Workflow läuft bei Push auf main
+      - main # läuft bei Push auf main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # optional: Repo auschecken
-      - name: Checkout
-        uses: actions/checkout@v4
+      # Repo auschecken (optional)
+      - uses: actions/checkout@v4
 
       # dein Production Deploy
-      - name: Deploy to production
+      - name: Deploy
+        id: deploy
         run: |
-          ./deploy.sh
+          ./deploy.sh   # dein deploy script
 
-      # dieser Step läuft NUR wenn vorher etwas fehlschlägt
+      # läuft nur wenn der Deploy Step fehlschlägt
       - name: Telegram Nachricht bei Fehler
-        if: ${{ failure() }}
+        if: ${{ steps.deploy.outcome == 'failure' }}
         run: |
-          # Nachricht zusammenbauen
           MESSAGE="❌ Production Deploy fehlgeschlagen
           Repo: ${{ github.repository }}
           Commit: ${{ github.event.head_commit.message }}
           Author: ${{ github.actor }}"
 
-          # Nachricht an Telegram senden
           curl -s -X POST https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendMessage \
             -d chat_id=${{ secrets.TELEGRAM_CHAT_ID }} \
             -d text="$MESSAGE"

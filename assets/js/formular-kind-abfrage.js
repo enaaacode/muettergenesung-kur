@@ -8,10 +8,11 @@ function showKinderFelder(anzahl) {
 
   const urlParams = new URLSearchParams(window.location.search);
   const startDate = urlParams.get("startdate");
+  const endDate = urlParams.get("enddate");
 
   // Referenzdatum: startdate oder heute als Fallback
   const referenzDatum =
-    startDate && !isNaN(new Date(startDate)) ? new Date(startDate) : new Date();
+    endDate && !isNaN(new Date(endDate)) ? new Date(endDate) : new Date();
 
   for (let i = 1; i <= anzahl; i++) {
     // min: 12 Jahre alt (frühestes Datum)

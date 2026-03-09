@@ -85,7 +85,7 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
 
         {% if termin.ausgebucht == "Nein" %}
         <a
-          href="/kurtermin_anmeldung?ort=Loßburg&datum={{ termin.datum | uri_escape }}&hinweis={{ termin.hinweis}}&min={{ termin.kindermin}}&max={{ termin.kindermax}}&startdate={{ termin.startdate }}"
+          href="/kurtermin_anmeldung?ort=Loßburg&datum={{ termin.datum | uri_escape }}&hinweis={{ termin.hinweis}}&min={{ termin.kindermin}}&max={{ termin.kindermax}}&startdate={{ termin.startdate }}&enddate={{ termin.enddate }}"
           class="button text"
         >
           Jetzt anfragen&nbsp;&rarr;

@@ -4,6 +4,7 @@ const myOrt = urlParams.get("ort");
 const myDatum = urlParams.get("datum");
 const myHinweis = urlParams.get("hinweis");
 const startDate = urlParams.get("startdate");
+const endDate = urlParams.get("enddate");
 
 const ortAnzeige = document.getElementById("ort-query");
 if (ortAnzeige) {
@@ -38,3 +39,6 @@ zeitraumAnzeige.value = myDatum;
 
 const formStartdate = document.getElementById("startdate-query");
 formStartdate.value = startDate;
+
+const formEnddate = document.getElementById("enddate-query");
+formEnddate.value = endDate;

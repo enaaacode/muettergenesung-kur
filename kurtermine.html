@@ -124,18 +124,21 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
         <p>{{ termin.datum }}</p>
 
         {% if termin.ausgebucht == "Nein" %}
-        <a
-          href="/kurtermin_anmeldung?ort=Scheidegg&datum={{ termin.datum | uri_escape }}&hinweis={{ termin.hinweis}}&min={{ termin.kindermin}}&max={{ termin.kindermax}}&startdate={{ termin.startdate }}}&enddate={{ termin.enddate }}"
-          class="button text"
-        >
-          Jetzt anfragen&nbsp;&rarr;
-        </a>
-        <p style="font-size: 0.85rem">{{ termin.hinweis }}</p>
-        {% else %}
-        <p class="kurtermin-ausgebucht">
-          Ausgebucht
-        </p>
+
+          <a
+            href="/kurtermin_anmeldung?ort=Scheidegg&datum={{ termin.datum | uri_escape }}&hinweis={{ termin.hinweis}}&min={{ termin.kindermin}}&max={{ termin.kindermax}}&startdate={{ termin.startdate }}}&enddate={{ termin.enddate }}"
+            class="button text"
+          >
+            Jetzt anfragen&nbsp;&rarr;
+          </a>
+          <p style="font-size: 0.85rem">{{ termin.hinweis }}</p>
+          {% else %}
+          <p class="kurtermin-ausgebucht">
+            Ausgebucht
+          </p>
+
         {% endif %}
+        
       </div>
     </div>
     {% endif %} {% endfor %}
@@ -143,35 +146,51 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
    KURTERMINE für Bad Wurzach 
   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --->
-    {% for termin in site.data.kurtermine_badwurzach %} {% if termin.sichtbar ==
-    "Ja" %}
-    <div
-      class="kurtermine-section-grid-container--element"
-      data-klinik="bad wurzach"
-      data-verfuegbar="{% if termin.ausgebucht == 'Nein' %}ja{% else %}nein{% endif %}"
-    >
-      <div class="mutter-kind-icons-container centered">
-        <img src="assets/icons/material_icons/face_3_bad-wurzach.svg" alt="" />
-      </div>
-      <div class="kurkliniken-section-grid-container--element--text centered">
-        <h3>Frauen- und Mütterkur<br />Bad Wurzach</h3>
-        <p>{{ termin.datum }}</p>
+    {% for termin in site.data.kurtermine_badwurzach %} 
+{% if termin.sichtbar == "Ja" %}
+<div
+  class="kurtermine-section-grid-container--element"
+  data-klinik="bad wurzach"
+  data-verfuegbar="{% if termin.ausgebucht == 'Nein' %}ja{% else %}nein{% endif %}"
+>
+  <div class="mutter-kind-icons-container centered">
+    <img src="assets/icons/material_icons/face_3_bad-wurzach.svg" alt="" />
+  </div>
+  <div class="kurkliniken-section-grid-container--element--text centered">
+    <h3>Frauen- und Mütterkur<br />Bad Wurzach</h3>
+    <p>{{ termin.datum }}</p>
 
-        {% if termin.ausgebucht == "Nein" %}
+    {% if termin.ausgebucht == "Nein" %}
+
         <a
-          href="/kurtermin_anmeldung?ort=BadWurzach&datum={{ termin.datum | uri_escape }}&hinweis={{ termin.hinweis}}&min={{ termin.kindermin}}&max={{ termin.kindermax}}&startdate={{ termin.startdate }}}&enddate={{ termin.enddate }}"
+          href="mailto:info@muettergenesung-kur.de?subject=Homepageanmeldung%20Schwerpunktkur"
           class="button text"
         >
-          Jetzt anfragen&nbsp;&rarr;
-        </a>
-        <p style="font-size: 0.85rem">{{ termin.hinweis }}</p>
+        {% if termin.schwerpunktkur == "Ja" %}
+          Jetzt per Mail anfragen&nbsp;&rarr;
         {% else %}
-        <p class="kurtermin-ausgebucht">
-          Ausgebucht
-        </p>
+          Jetzt anfragen&nbsp;&rarr;
         {% endif %}
-      </div>
-    </div>
-    {% endif %} {% endfor %}
+      </a>
+
+      <p style="font-size: 0.85rem">{{ termin.hinweis }}</p>
+
+    {% else %}
+
+      <p class="kurtermin-ausgebucht">
+        Ausgebucht
+      </p>
+
+      {% if termin.schwerpunktkur == "Ja" %}
+        <p style="font-size: 0.85rem">{{ termin.hinweis }}</p>
+      {% endif %}
+
+    {% endif %}
+
+  </div>
+</div>
+
+{% endif %}
+{% endfor %}
   </div>
 </section>

@@ -185,7 +185,7 @@
 
 - datum: "30. Dezember 2026 bis 20. Januar 2027"
   startdate: "2026-12-30"
-  enddate: "2027-01-02"
+  enddate: "2027-01-20"
   hinweis: "Diese Kur richtet sich an Frauen und Mütter. Eine Kinderbegleitung ist nicht möglich."
   ausgebucht: "Nein"
   sichtbar: "Nein"
@@ -193,7 +193,7 @@
   kindermax: "0"
 
 - datum: "20. Januar 2027 bis 10. Februar 2027"
-  startdate: "2027-01-02"
+  startdate: "2027-01-20"
   enddate: "2027-02-10"
   hinweis: "Diese Kur richtet sich an Frauen und Mütter. Eine Kinderbegleitung ist nicht möglich."
   ausgebucht: "Nein"
@@ -220,8 +220,8 @@
   kindermax: "0"
 
 - datum: "24. März 2027 bis 14. April 2027"
-  startdate: "2027-03-03"
-  enddate: "2027-03-24"
+  startdate: "2027-03-24"
+  enddate: "2027-04-14"
   hinweis: "Diese Kur richtet sich an Frauen und Mütter. Eine Kinderbegleitung ist nicht möglich."
   ausgebucht: "Nein"
   sichtbar: "Nein"

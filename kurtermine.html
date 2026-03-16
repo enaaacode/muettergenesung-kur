@@ -162,13 +162,18 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
 
     {% if termin.ausgebucht == "Nein" %}
 
-        <a
+
+        {% if termin.schwerpunktkur == "Ja" %}
+                <a
           href="mailto:info@muettergenesung-kur.de?subject=Homepageanmeldung%20Schwerpunktkur"
           class="button text"
         >
-        {% if termin.schwerpunktkur == "Ja" %}
           Jetzt per Mail anfragen&nbsp;&rarr;
         {% else %}
+          <a
+          href="/kurtermin_anmeldung?ort=BadWurzach&datum={{ termin.datum | uri_escape }}&hinweis={{ termin.hinweis}}&min={{ termin.kindermin}}&max={{ termin.kindermax}}&startdate={{ termin.startdate }}}&enddate={{ termin.enddate }}"
+          class="button text"
+        >
           Jetzt anfragen&nbsp;&rarr;
         {% endif %}
       </a>

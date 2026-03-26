@@ -69,7 +69,7 @@
   enddate: "2026-04-15"
   hinweis: ""
   ausgebucht: "Ja"
-  sichtbar: "Ja"
+  sichtbar: "Nein"
   kindermin: "1"
   kindermax: "5"
 
@@ -85,11 +85,11 @@
 - datum: "6. Mai 2026 bis 27. Mai 2026"
   startdate: "2026-05-06"
   enddate: "2026-05-27"
-  hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter, die mit einem Kind anreisen, frei. Bewilligung muss vorliegen!"
+  hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter, die mit drei Kindern anreisen, frei. Bewilligung muss vorliegen!"
   ausgebucht: "Nein"
   sichtbar: "Ja"
-  kindermin: "1"
-  kindermax: "1"
+  kindermin: "3"
+  kindermax: "3"
 
 - datum: "27. Mai 2026 bis 17. Juni 2026"
   startdate: "2026-05-27"

@@ -86,7 +86,7 @@
   startdate: "2026-05-06"
   enddate: "2026-05-27"
   hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter, die mit einem Kind anreisen, frei. Bewilligung muss vorliegen!"
-  ausgebucht: "Nein"
+  ausgebucht: "Ja"
   sichtbar: "Ja"
   kindermin: "1"
   kindermax: "1"

@@ -184,10 +184,10 @@
 - datum: "30. Dezember 2026 bis 20. Januar 2027"
   startdate: "2026-12-30"
   enddate: "2027-01-20"
-  hinweis: ""
+  hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter, die mit einem Kind anreisen, frei."
   ausgebucht: "Nein"
   sichtbar: "Ja"
-  kindermin: "1"
+  kindermin: "2"
   kindermax: "5"
 
 - datum: "20. Januar 2027 bis 10. Februar 2027"

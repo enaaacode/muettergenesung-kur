@@ -221,7 +221,7 @@
   startdate: "2027-03-24"
   enddate: "2027-04-14"
   hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter, die mit 1 oder 2 Kindern anreisen, frei."
-  ausgebucht: "Nein"
+  ausgebucht: "Ja"
   sichtbar: "Ja"
   kindermin: "1"
   kindermax: "2"

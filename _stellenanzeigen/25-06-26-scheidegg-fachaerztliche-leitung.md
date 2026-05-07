@@ -12,6 +12,7 @@ mail: "Angela.Finkenberger@muettergenesung-kur.de"
 
 ## Aufgaben:
 
+- Tätigkeit als Fachärztin für Allgemeinmedizin, alternativ auch für Psychosomatische Medizin oder Psychiatrie und Psychotherapie
 - Medizinische Betreuung unserer Patientinnen im Rahmen der kurmedizinischen Versorgung
 - Führung des ärztlichen Teams – mit Weitblick, Wertschätzung und einem offenen Ohr
 - Interdisziplinäre Zusammenarbeit mit Psychologinnen, Therapeutinnen und Pflegekräften – Teamwork wird bei uns großgeschrieben

@@ -1,6 +1,6 @@
 ---
 layout: job
-titel: "Diätassistenz"
+titel: "Mitarbeit im Speisesaaldienst"
 klinik: "Loßburg"
 zeitpunkt: "Ab sofort"
 umfang: "in Teilzeit 5 % als geringfügige Kraft"

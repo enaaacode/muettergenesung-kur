@@ -7,7 +7,7 @@ class: "badwurzach"
 icon: "/assets/images/einrichtungen/icon_badwurzach.svg"
 download: "/assets/downloads/240930_Bad-Wurzach-Borschüre_WEB.pdf"
 download2: "/assets/downloads/200326_RZ_Flyer Schwerpunktkur_Pflegende Angehörige_web.pdf"
-download3: "/assets/downloads/200326_RZ_Flyer Schwerpunktkur_Pflegende Angehörige_web.pdf"
+download3: "assets/downloads/2003026_RZ_Flyer Schwerpunktkur_psychisch kranke Angehörige_web.pdf"
 farbe: "var(--color-orange)"
 ort: "Bad Wurzach"
 

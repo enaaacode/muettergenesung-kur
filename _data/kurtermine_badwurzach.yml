@@ -233,7 +233,7 @@
   enddate: "2027-05-05"
   hinweis: "Schwerpunktkur für Frauen mit psychisch kranken Angehörigen"
   ausgebucht: "Nein"
-  sichtbar: "Ja"
+  sichtbar: "Nein"
   kindermin: "0"
   kindermax: "0"
 

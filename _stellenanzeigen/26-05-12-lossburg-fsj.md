@@ -2,8 +2,8 @@
 layout: job
 titel: "FSJ"
 klinik: "Loßburg"
-zeitpunkt: "Ab 01.09.2026"
-umfang: ""
+zeitpunkt: "Ab 01.07. oder 01.09.2027"
+umfang: "für 12-15 Monate"
 bild: ""
 ansprechpartnerin: "Ulrike Gausepohl"
 mail: "ulrike.gausepohl@muettergenesung-kur.de"

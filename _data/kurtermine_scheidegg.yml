@@ -238,10 +238,10 @@
 - datum: "05. Mai 2027 bis 26. Mai 2027"
   startdate: "2027-05-05"
   enddate: "2027-05-26"
-  hinweis: ""
+  hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter mit mehreren Kindern frei."
   ausgebucht: "Nein"
   sichtbar: "Ja"
-  kindermin: "1"
+  kindermin: "2"
   kindermax: "5"
 
 - datum: "26. Mai 2027 bis 16. Juni 2027"

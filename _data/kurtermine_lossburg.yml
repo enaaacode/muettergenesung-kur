@@ -231,7 +231,7 @@
   enddate: "2027-05-05"
   hinweis: ""
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "1"
   kindermax: "5"
 
@@ -240,7 +240,7 @@
   enddate: "2027-05-26"
   hinweis: ""
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "1"
   kindermax: "5"  
 
@@ -249,7 +249,7 @@
   enddate: "2027-06-16"
   hinweis: ""
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "1"
   kindermax: "5"
 
@@ -258,6 +258,6 @@
   enddate: "2027-07-07"
   hinweis: ""
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "1"
   kindermax: "5"

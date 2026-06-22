@@ -232,8 +232,9 @@
   startdate: "2027-04-14"
   enddate: "2027-05-05"
   hinweis: "Schwerpunktkur für Frauen mit psychisch kranken Angehörigen"
+  schwerpunktkur: "Ja"
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "0"
   kindermax: "0"
 
@@ -242,7 +243,7 @@
   enddate: "2027-05-26"
   hinweis: "Diese Kur richtet sich an Frauen und Mütter. Eine Kinderbegleitung ist nicht möglich."
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "0"
   kindermax: "0"
 
@@ -251,7 +252,7 @@
   enddate: "2027-06-16"
   hinweis: "Diese Kur richtet sich an Frauen und Mütter. Eine Kinderbegleitung ist nicht möglich."
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "0"
   kindermax: "0"
 
@@ -260,6 +261,6 @@
   enddate: "2027-07-07"
   hinweis: "Diese Kur richtet sich an Frauen und Mütter. Eine Kinderbegleitung ist nicht möglich."
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "0"
   kindermax: "0"

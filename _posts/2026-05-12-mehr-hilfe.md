@@ -5,7 +5,7 @@ teaser: "Städte und Gemeinden müssen familienfreundlicher werden"
 date: 2026-05-12
 bild: "/assets/images/blogposts/2026-05-12-mehr-hilfe.jpg"
 alt: ""
-quelle: ""
+quelle: "Evangelische Müttergenesung Württemberg gGmbH"
 ---
 
 Städte und Gemeinden müssen familienfreundlicher werden uund Mütter und Väter stärker unterstützen. Das fordert Andrea Boyer, die Geschäftsführerin der Evangelischen Müttergenesung in Württemberg.

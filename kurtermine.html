@@ -6,7 +6,10 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
 
 <div class="headline-wrapper">
   <div class="headline_eyebrow centered">
-    <h1>Kurtermine</h1>
+    <h1>Kurtermine und Anmeldung</h1>
+<p>Bitte beachten Sie: Sie können sich nur für eine Klinik und nur für einen Termin anmelden. Wir können nur eine Anmeldung berücksichtigen und müssten weitere Anmeldungen löschen</p>
+
+
   </div>
 </div>
 
@@ -52,7 +55,7 @@ description: "Erfahren Sie welche Kurtermine zur Verfügung stehen."
     </button>
   </div>
 
-<p style="text-align: center">
+    <p style="text-align: center">
 Die neuen Kurgänge vom 
 <strong>{{ site.data.kurtermine_hinweis.zeitraum }}</strong>
 werden voraussichtlich ab dem
@@ -124,7 +127,7 @@ hier veröffentlicht.
         {% if termin.ausgebucht == "Nein" %}
 
           <a
-            href="/kurtermin_anmeldung?ort=Scheidegg&datum={{ termin.datum | uri_escape }}&hinweis={{ termin.hinweis}}&min={{ termin.kindermin}}&max={{ termin.kindermax}}&startdate={{ termin.startdate }}}&enddate={{ termin.enddate }}"
+            href="/kurtermin_anmeldung?ort=Scheidegg&datum={{ termin.datum | uri_escape }}&hinweis={{ termin.hinweis}}&min={{ termin.kindermin}}&max={{ termin.kindermax}}&startdate={{ termin.startdate }}&enddate={{ termin.enddate }}"
             class="button text"
           >
             Jetzt anfragen&nbsp;&rarr;
@@ -160,21 +163,21 @@ hier veröffentlicht.
 
     {% if termin.ausgebucht == "Nein" %}
 
-
-        {% if termin.schwerpunktkur == "Ja" %}
-                <a
+      {% if termin.schwerpunktkur == "Ja" %}
+        <a
           href="mailto:info@muettergenesung-kur.de?subject=Homepageanmeldung%20Schwerpunktkur"
           class="button text"
         >
           Jetzt per Mail anfragen&nbsp;&rarr;
-        {% else %}
-          <a
-          href="/kurtermin_anmeldung?ort=BadWurzach&datum={{ termin.datum | uri_escape }}&hinweis={{ termin.hinweis}}&min={{ termin.kindermin}}&max={{ termin.kindermax}}&startdate={{ termin.startdate }}}&enddate={{ termin.enddate }}"
+        </a>
+      {% else %}
+        <a
+          href="/kurtermin_anmeldung?ort=BadWurzach&datum={{ termin.datum | uri_escape }}&hinweis={{ termin.hinweis}}&min={{ termin.kindermin}}&max={{ termin.kindermax}}&startdate={{ termin.startdate }}&enddate={{ termin.enddate }}"
           class="button text"
         >
           Jetzt anfragen&nbsp;&rarr;
-        {% endif %}
-      </a>
+        </a>
+      {% endif %}
 
       <p style="font-size: 0.85rem">{{ termin.hinweis }}</p>
 

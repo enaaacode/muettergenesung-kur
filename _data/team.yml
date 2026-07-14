@@ -119,10 +119,15 @@
 
 - ort: "Bad Wurzach"
   name: "Marianne Wiest"
-  beschreibung: "Einrichtungsleitung hauswirtschaftlicher Bereich"
+  beschreibung: "Assistenz im hauswirtschaftlichen Bereich"
   bild: "assets/images/team/badwurzach/Marianne_Wiest.png"
 
 - ort: "Bad Wurzach"
   name: "Dr. Elisabeth Föll"
   beschreibung: "Ärztliche Leiterin"
   bild: "assets/images/team/badwurzach/Elisabeth_Foell.jpg"
+
+- ort: "Bad Wurzach"
+  name: "Tanja Müller"
+  beschreibung: "Einrichtungsleitung der Hauswirtschaft"
+  bild: "assets/images/team/badwurzach/Tanja_Mueller.jpg"

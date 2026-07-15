@@ -9,7 +9,7 @@
   bild: "assets/images/team/geschaeftsstelle/Andrea_Boyer.jpg"
 
 - ort: "Geschäftsstelle"
-  name: "Diana Schrade- Geckeler"
+  name: "Diana Schrade-Geckeler"
   beschreibung: "stellv. Geschäftsführung und Leitung Kurberatung und Kurbelegung"
   bild: "assets/images/team/geschaeftsstelle/Diana_Schrade-Geckeler.png"
 
@@ -116,11 +116,6 @@
   name: "Rebekka Müller"
   beschreibung: "Einrichtungsleitung Psychosozialer & Therapeutischer Bereich"
   bild: "assets/images/team/badwurzach/Rebekka_Mueller.png"
-
-- ort: "Bad Wurzach"
-  name: "Marianne Wiest"
-  beschreibung: "Assistenz im hauswirtschaftlichen Bereich"
-  bild: "assets/images/team/badwurzach/Marianne_Wiest.png"
 
 - ort: "Bad Wurzach"
   name: "Dr. Elisabeth Föll"

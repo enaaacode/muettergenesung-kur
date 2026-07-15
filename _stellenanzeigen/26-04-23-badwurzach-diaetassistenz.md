@@ -4,10 +4,10 @@ titel: "Diätassistentin"
 klinik: "Bad Wurzach"
 zeitpunkt: "Ab sofort"
 umfang: "in Teilzeit bis zu 50 %"
-bild: "/assets/images/team/badwurzach/Marianne_Wiest.png"
-ansprechpartnerin: "Marianne Wiest"
+bild: "/assets/images/team/badwurzach/Tanja_Mueller.jpg"
+ansprechpartnerin: "Tanja Müller"
 position: ""
-mail: "marianne.wiest@muettergenesung-kur.de"
+mail: "tanja.mueller@muettergenesung-kur.de "
 ---
 
 ## Aufgaben:

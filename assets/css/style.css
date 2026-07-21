@@ -548,15 +548,13 @@ body {
   border-radius: var(--border-radius-default);
 }
 
-/*
 .kurtermine-hinweis-box {
   background-color: #fff0f6;
   padding: 1rem;
   border-radius: var(--border-radius-default);
   text-align: center;
   color: var(--color-pink);
-} 
-*/
+}
 
 /* ÜBER UNS
 ======================================================================= */

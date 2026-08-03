@@ -17,4 +17,4 @@ mail: "Angela.Finkenberger@muettergenesung-kur.de"
 - Führung des ärztlichen Teams – mit Weitblick, Wertschätzung und einem offenen Ohr
 - Interdisziplinäre Zusammenarbeit mit Psychologinnen, Therapeutinnen und Pflegekräften – Teamwork wird bei uns großgeschrieben
 - Mitgestaltung und Weiterentwicklung unseres ganzheitlichen Behandlungskonzepts
-- Teilnahme an Qualitätszirkeln, Supervisionen und vielleicht auch mal an einer spontanen Teambesprechung mit Kuchen
+- Teilnahme an Qualitätszirkeln, Supervisionen und Teambesprechungen

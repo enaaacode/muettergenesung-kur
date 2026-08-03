@@ -1,13 +1,13 @@
 ---
 layout: job
 titel: "Ärztliche Leitung"
-klinik: "Scheidegg"
+klinik: "Bad Wurzach"
 zeitpunkt: "Ab sofort"
 umfang: "in Vollzeit oder Teilzeit"
-bild: "/assets/images/team/scheidegg/Angela_Finkenberger.png"
-ansprechpartnerin: "Angela Finkenberger"
-position: "Einrichtungsleitung"
-mail: "Angela.Finkenberger@muettergenesung-kur.de"
+bild: "/assets/images/team/badwurzach/Rebekka_Mueller.png"
+ansprechpartnerin: "Rebekka Müller"
+position: "Einrichtungsleitung Psychosozialer & Therapeutischer Bereich"
+mail: "rebekka.mueller@muettergenesung-kur.de"
 ---
 
 ## Aufgaben:

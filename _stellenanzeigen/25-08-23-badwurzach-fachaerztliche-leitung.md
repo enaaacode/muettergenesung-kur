@@ -3,7 +3,7 @@ layout: job
 titel: "Stellv. Ärztliche Leitung"
 klinik: "Bad Wurzach"
 zeitpunkt: "Ab sofort"
-umfang: "in Vollzeit oder Teilzeit"
+umfang: "in Teilzeit"
 bild: "/assets/images/team/badwurzach/Rebekka_Mueller.png"
 ansprechpartnerin: "Rebekka Müller"
 position: "Einrichtungsleitung Psychosozialer & Therapeutischer Bereich"

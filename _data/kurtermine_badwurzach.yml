@@ -178,7 +178,7 @@
   startdate: "2026-12-02"
   enddate: "2026-12-22"
   hinweis: "Diese Kur richtet sich an Frauen und Mütter. Eine Kinderbegleitung ist nicht möglich."
-  ausgebucht: "Ja"
+  ausgebucht: "Nein"
   sichtbar: "Ja"
   kindermin: "0"
   kindermax: "0"

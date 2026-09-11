@@ -141,7 +141,7 @@
   enddate: "2026-09-30"
   hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter mit mehreren Kindern frei. Bewilligung muss vorliegen!"
   ausgebucht: "Ja"
-  sichtbar: "Ja"
+  sichtbar: "Nein"
   kindermin: "2"
   kindermax: "5"
 

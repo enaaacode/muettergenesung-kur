@@ -166,11 +166,11 @@
 - datum: "11. November 2026 bis 02. Dezember 2026"
   startdate: "2026-11-11"
   enddate: "2026-12-02"
-  hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter frei, die mit 1 oder 2 Kindern anreisen. Bewilligung muss vorliegen!"
+  hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter frei, die mit 1 Kind anreisen. Bewilligung muss vorliegen!"
   ausgebucht: "Nein"
   sichtbar: "Ja"
   kindermin: "1"
-  kindermax: "2"
+  kindermax: "1"
 
 - datum: "02. Dezember 2026 bis 22. Dezember 2026"
   startdate: "2026-12-02"

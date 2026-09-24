@@ -1,7 +1,6 @@
 ---
 ort: "Scheidegg"
 datum: "August 2026"
-name: ""
 ---
 
 Vielen Dank für diese wertvolle, erholsame und schöne Zeit in Scheidegg.

@@ -202,11 +202,11 @@
 - datum: "10. Februar 2027 bis 03. März 2027"
   startdate: "2027-02-10"
   enddate: "2027-03-03"
-  hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter frei, die mit mehreren Kindern anreisen."
+  hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter frei, die mit 2 Kindern anreisen."
   ausgebucht: "Nein"
   sichtbar: "Ja"
   kindermin: "2"
-  kindermax: "5"
+  kindermax: "2"
 
 - datum: "03. März 2027 bis 24. März 2027"
   startdate: "2027-03-03"
@@ -267,7 +267,7 @@
   enddate: "2027-07-28"
   hinweis: ""
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "1"
   kindermax: "5"
 
@@ -276,7 +276,7 @@
   enddate: "2027-08-18"
   hinweis: ""
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "1"
   kindermax: "5"
 
@@ -285,7 +285,7 @@
   enddate: "2027-09-08"
   hinweis: ""
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "1"
   kindermax: "5"
 
@@ -294,6 +294,6 @@
   enddate: "2027-09-29"
   hinweis: ""
   ausgebucht: "Nein"
-  sichtbar: "Nein"
+  sichtbar: "Ja"
   kindermin: "1"
   kindermax: "5"

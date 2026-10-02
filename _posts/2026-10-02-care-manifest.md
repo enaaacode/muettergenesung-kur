@@ -6,8 +6,8 @@ Anerkennung von Sorgearbeit - und für eine langfristig zuverlässige gesundheit
 Unterstützung."
 date: 2026-10-02
 bild: "/assets/images/blogposts/2026-10-02-care-manifest.jpg"
-alt: "KI generiertes Bild"
-quelle: "Müttergenesungswerk"
+alt: ""
+quelle: "KI generiertes Bild"
 ---
 Stuttgart (epd). Zur "Woche der Gesundheit" vom 28. September bis 4. Oktober führt das Müttergenesungswerk die Jahreskampagne "Mütter auf die Eins" durch. "Wir möchten den gesellschaftlichen und politischen Blick auf die Sorgearbeit leistenden Mütter, Väter und Pflegenden Angehörigen lenken", sagte Andrea Boyer, Geschäftsführerin der Evangelischen Müttergenesung Württemberg, am Donnerstag in Stuttgart. "Die Belastung durch Carearbeit in den Familien ist enorm hoch." Die gesundheitlichen Folgen kenne sie aus den Kliniken und aus der Arbeit der kooperierenden Kurberatungsstellen.
 

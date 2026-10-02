@@ -1,7 +1,7 @@
 ---
 layout: blogbeitrag
 title: "Müttergenesung: Mehr Anerkennung für 117 Milliarden Stunden pro Jahr"
-teaser: "In der "Woche der Gesundheit" wirbt das Müttergenesungswerk für mehr
+teaser: "In der Woche der Gesundheit wirbt das Müttergenesungswerk für mehr
 Anerkennung von Sorgearbeit - und für eine langfristig zuverlässige gesundheitliche
 Unterstützung."
 date: 2026-10-02

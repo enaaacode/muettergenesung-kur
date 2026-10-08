@@ -160,8 +160,8 @@
   hinweis: "Die Bewilligung muss vorliegen!"
   ausgebucht: "Nein"
   sichtbar: "Ja"
-  kindermin: "2"
-  kindermax: "2"
+  kindermin: "1"
+  kindermax: "3"
 
 - datum: "11. November 2026 bis 02. Dezember 2026"
   startdate: "2026-11-11"

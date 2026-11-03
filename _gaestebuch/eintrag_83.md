@@ -1,9 +1,10 @@
 ---
 ort: "Scheidegg"
-datum: "September 2026"
+datum: "Oktober 2026"
 ---
 
-Ich kann die Einrichtung guten Gewissens weiterempfehlen.
-Ich hatte eine gute Zeit, durfte Kraft tanken und das wunderschöne Allgäu kennenlernen und genießen.
-Es gibt einen buten Strauß an Angeboten, wo jeder einiges finden kann.
-Mein Kind hat schnell Anschluss gefunden und ihm hat es auch sehr gut gefallen. Rundum war es prima, das Essen war lecker und gesund, die Mitarbeiter aus der Hauswirtschaft und drumherum hilfsbereit und engagiert.
+Ich war im September 2026 mit meinen beiden Kindern (3 & 5 Jahre) in Scheidegg und hatten eine erholsame und prägende Zeit. Wir haben die familiäre Atmosphäre, den herrlichen Weitblick auf die Berge und die sehr gute Organisation besonders geschätzt. Das Essen war frisch zubereitet, sehr abwechslungsreich und köstlich. Auch Wünsche (vegetarisch, laktosefrei) wurden berücksichtigt.
+
+Die Einrichtung war sauber, freundlich gestaltet und wunderbar ausgestattet.
+
+Wir kommen ganz bestimmt wieder! Vielen Dank für diese besondere Erfahrung.

@@ -1,9 +1,6 @@
 ---
 ort: "Scheidegg"
-datum: "September 2026"
+datum: "Oktober 2026"
 ---
 
-Ich kann die Einrichtung guten Gewissens weiterempfehlen.
-Ich hatte eine gute Zeit, durfte Kraft tanken und das wunderschöne Allgäu kennenlernen und genießen.
-Es gibt einen buten Strauß an Angeboten, wo jeder einiges finden kann.
-Mein Kind hat schnell Anschluss gefunden und ihm hat es auch sehr gut gefallen. Rundum war es prima, das Essen war lecker und gesund, die Mitarbeiter aus der Hauswirtschaft und drumherum hilfsbereit und engagiert.
+Mit der tiefsten Dankbarkeit schreibe ich diesen Beitrag. Ich war mit meinem Sohn im Oktober 2026 in Scheidegg. Es hat alles gepasst, die Lage, Ausstattung, Essen und besonders das sehr tolle Personal der Klinik. Vielen Dank für die tolle Zeit!

@@ -1,9 +1,6 @@
 ---
 ort: "Scheidegg"
-datum: "September 2026"
+datum: "Oktober 2026"
 ---
 
-Ich kann die Einrichtung guten Gewissens weiterempfehlen.
-Ich hatte eine gute Zeit, durfte Kraft tanken und das wunderschöne Allgäu kennenlernen und genießen.
-Es gibt einen buten Strauß an Angeboten, wo jeder einiges finden kann.
-Mein Kind hat schnell Anschluss gefunden und ihm hat es auch sehr gut gefallen. Rundum war es prima, das Essen war lecker und gesund, die Mitarbeiter aus der Hauswirtschaft und drumherum hilfsbereit und engagiert.
+Danke für die wunderbaren 3 Wochen, die ich mit meinem Kind im September hier verbringen durfte. Ich war zufrieden und schwärme jeden von der erholsamen Kur . Alles in Allem ist es eine prima Mischung aus verschiedensten Angeboten, welche ich sehr gerne angenommen habe. Auch die Einzelgespräche mit Frau Bach aus dem psychosozialen Bereich haben mir sehr gut getan und ich habe neue Impulse mitgenommen. Auch den Lobpreis mit Frau Bach habe ich sehr genossen. Vielen Dank für diese Zeit in Scheidegg.

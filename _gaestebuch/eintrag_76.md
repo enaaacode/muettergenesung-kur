@@ -3,4 +3,17 @@ ort: "Scheidegg"
 datum: "September 2026"
 ---
 
-Wir hatten eine wunderschöne und rundum positive Zeit während unserer Mutter-Kind-Kur hier in Scheidegg. Von der ersten bis zur letzten Minute haben wir uns sehr wohl und bestens aufgehoben gefühlt. Das gesamte Team war unglaublich freundlich, hilfsbereit und engagiert. Die Betreuung, Anwendungen und Angebote waren hervorragend organisiert und haben uns sowohl als Mutter als auch als Kind sehr gutgetan. Besonders schön war die herzliche Atmosphäre, durch die wir uns schnell willkommen und zuhause gefühlt haben. Wir konnten neue Kraft tanken, viele schöne Momente erleben und nehmen zahlreiche positive Erinnerungen mit nach Hause. Vielen Dank an das gesamte Team für diese wertvolle und erholsame Zeit! Wir würden die Einrichtung jederzeit weiterempfehlen und sehr gerne wiederkommen. ❤️
+Ich durfte mit meinen beiden Söhnen eine wunderschöne und sehr erholsame Mutter-Kind-Kur in Scheidegg verbringen – und kann die Klinik von Herzen weiterempfehlen.
+
+Von Anfang an haben wir uns rundum wohl und gut aufgehoben gefühlt. Besonders hervorheben möchte ich die Kinderbetreuung: Meine Söhne waren dort sehr gut betreut, haben sich schnell wohlgefühlt und konnten viele schöne Erfahrungen sammeln.
+Auch die sportlichen Angebote für mich und die Physiotherapie waren abwechslungsreich und haben mir dabei geholfen, wieder mehr Energie und Freude an Bewegung zu finden.
+
+Die Gespräche und Angebote im psychosozialen Bereich habe ich ebenfalls als sehr wertvoll und bereichernd empfunden. Es war wohltuend, Zeit für mich selbst zu haben, neue Impulse mitzunehmen und mich in einer angenehmen Atmosphäre mit meinen eigenen Bedürfnissen auseinanderzusetzen.
+
+Auch in allen anderen Bereichen wurden meine Erwartungen übertroffen. Die gesamte Einrichtung war sehr sauber und gepflegt, und das gesamte Personal begegnete uns jederzeit freundlich, herzlich und hilfsbereit. Ich hatte zu jeder Zeit das Gefühl, willkommen zu sein und mit meinen Anliegen ernst genommen zu werden. Dass Essen war sehr lecker und am Ende habe ich mir das hauseigene Rezeptbuch mitgenommen, um das ein oder andere Rezept nachzukochen!
+
+Ein weiterer Pluspunkt ist die wunderschöne Umgebung, die viele Möglichkeiten für Spaziergänge, Ausflüge und gemeinsame Zeit in der Natur bietet. Gerade die Kombination aus Erholung, Bewegung, Angeboten für die Kinder und Zeit für mich selbst hat die Kur für mich so besonders gemacht.
+
+Ich nehme viele schöne Erinnerungen, neue Kraft und wertvolle Impulse aus dieser Zeit mit nach Hause. Die gesamte Kur hat meine Erwartungen nicht nur erfüllt, sondern sogar übertroffen.
+
+Eine ganz klare Empfehlung für diese Einrichtung und für alle Mütter, die sich eine Auszeit wünschen, neue Kraft tanken möchten und dabei ihre Kinder gut aufgehoben wissen wollen. Vielen Dank für diese schöne und wertvolle Zeit! Wir kommen wieder!

@@ -2,7 +2,7 @@
 layout: job
 titel: "Diätassistentin"
 klinik: "Scheidegg"
-zeitpunkt: "01.01.2027"
+zeitpunkt: "Ab 01.01.2027"
 umfang: "in Teilzeit mit 50 %"
 bild: "/assets/images/team/scheidegg/Angela_Finkenberger.png"
 ansprechpartnerin: "Angela Finkenberger"

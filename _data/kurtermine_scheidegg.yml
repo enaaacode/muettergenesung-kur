@@ -168,7 +168,7 @@
   enddate: "2026-12-02"
   hinweis: "Bewilligung muss vorliegen!"
   ausgebucht: "Ja"
-  sichtbar: "Ja"
+  sichtbar: "Nein"
   kindermin: "1"
   kindermax: "5"
 

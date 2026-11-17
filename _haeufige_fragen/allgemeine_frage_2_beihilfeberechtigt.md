@@ -1,5 +1,5 @@
 ---
-kategorie: "Allgemeine Frage"
+kategorie: "Allgemeine Fragen"
 frage: "Ich bin beihilfeberechtigt – was muss ich beachten?"
 ---
 

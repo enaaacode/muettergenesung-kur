@@ -1,5 +1,5 @@
 ---
-kategorie: "Allgemeine Frage"
+kategorie: "Allgemeine Fragen"
 frage: "Wann ist eine Kurmaßnahme notwendig?"
 ---
 

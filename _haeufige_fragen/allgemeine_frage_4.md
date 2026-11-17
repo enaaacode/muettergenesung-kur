@@ -1,5 +1,5 @@
 ---
-kategorie: "Allgemeine Frage"
+kategorie: "Allgemeine Fragen"
 frage: "Muss ich für einen Kuraufenthalt Urlaub nehmen?"
 ---
 

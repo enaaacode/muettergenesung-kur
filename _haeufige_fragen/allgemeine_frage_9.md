@@ -1,5 +1,5 @@
 ---
-kategorie: "Allgemeine Frage"
+kategorie: "Allgemeine Fragen"
 frage: "Gibt es Vergünstigungen bei Bus, Bahn und Eintritten?"
 ---
 

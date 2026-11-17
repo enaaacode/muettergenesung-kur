@@ -1,5 +1,5 @@
 ---
-kategorie: "Allgemeine Frage"
+kategorie: "Allgemeine Fragen"
 frage: "Gibt es einen gesetzlichen Anspruch auf eine Kur?"
 ---
 

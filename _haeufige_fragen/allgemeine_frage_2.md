@@ -1,5 +1,5 @@
 ---
-kategorie: "Allgemeine Frage"
+kategorie: "Allgemeine Fragen"
 frage: "Was kostet eine Mütterkur oder Mutter-Kind-Kur?"
 ---
 
@@ -8,8 +8,7 @@ Die Kosten werden in der Regel von Ihrer Krankenkasse übernommen. Bitte spreche
 Unsere Kurkliniken sind als Sanatorium anerkannt und damit beihilfefähig.
 In Notsituationen können kirchliche Stellen einen Zuschuss im Sinne eines Taschengeldes geben.
 
-Pro Kurtag (in der Regel 22) fällt für Sie ein Eigenanteil von 10 Euro pro Tag an (laut § 61 SGB V). Kinder sind davon ausgenommen.
+Pro Kurtag (in der Regel 22) fällt für Sie ein Eigenanteil von 10 Euro, ab 01.01.2027 von 15 Euro pro Tag an (laut § 61 SGB V). Kinder sind davon ausgenommen.
 Die Fahrtkosten werden bis auf einen Eigenanteil (max.10€ pro Fahrt) von der Krankenkasse auf Nachweis übernommen.
 Bei geringem Einkommen ist eine Befreiung von den Zuzahlungen durch Beantragung bei der Krankenkasse möglich.
-
 

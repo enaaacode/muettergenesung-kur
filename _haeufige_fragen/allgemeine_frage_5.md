@@ -1,5 +1,5 @@
 ---
-kategorie: "Allgemeine Frage"
+kategorie: "Allgemeine Fragen"
 frage: "Wie lange dauert eine Mütter- oder Mutter-Kind-Kur?"
 ---
 

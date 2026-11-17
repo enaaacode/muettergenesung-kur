@@ -1,8 +1,7 @@
 ---
 kategorie: "Kurklinik und Ausstattung"
-frage: "Kann ein Fahrrad mitgebracht oder ausgeliehen werden?"
+frage: "Welche Vorkehrungen gibt es für den Hitzeschutz?"
 ---
 
-- In Scheidegg gibt es im Ort einen Verleih für Elektrofahrräder, zu finden unter https://www.scheidegg.de/sommer/radfahren-e-biken/. Für mitgebrachte Fahrräder gibt es einen Abstellraum. Bitte bringen Sie dann ein eigenes Schloss für die Fahrräder mit; wir übernehmen keine Haftung für Schäden oder Verlust.
-- In Bad Wurzach gibt es einen Fahrradverleih im Ort. Selbst mitgebrachte und ausgeliehene Fahrräder können im Fahrradraum abgestellt werden.
-- In Loßburg können bei der Tourist-Information E-Bikes ausgeliehen werden. Sie können auch Ihr eigenes Fahrrad mitbringen und im Fahrradschuppen unterstellen. Bitte bringen Sie dann ein eigenes Schloss für die Fahrräder mit; wir übernehmen keine Haftung für Schäden oder Verlust.
+Wir haben den Hitzeschutz im Blick und bereits Maßnahmen ergriffen, zum Beispiel mit dem Einbau von Rollladen und sonstigem Sonnenschutz.
+Wir passen den Speiseplan auf leicht sommerliche Kost an, stellen gekühltes Wasser zur Verfügung und es gibt vor Ort Informationen für die Patientinnen zum Verhalten bei starker Hitze.

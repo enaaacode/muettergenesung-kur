@@ -193,7 +193,7 @@
 - datum: "20. Januar 2027 bis 10. Februar 2027"
   startdate: "2027-01-20"
   enddate: "2027-02-10"
-  hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter frei, die mit 3 oder 4 Kindern anreisen. Bewilligung muß vorliegen."
+  hinweis: "Für diesen Kurgang sind nur noch Zimmer für Mütter frei, die mit 3 Kindern anreisen. Bewilligung muß vorliegen."
   ausgebucht: "Nein"
   sichtbar: "Ja"
   kindermin: "3"
